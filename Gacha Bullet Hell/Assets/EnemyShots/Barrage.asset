@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
-  m_Name: Scatter
+  m_Name: Barrage
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 0}
-  fireRate: 0.05
-  attackLength: 3
-  restPeriod: 2.5
-  spreadAngle: 0
-  bulletVelocity: 0.5
-  size: 0.15
-  drift: 5
+  fireRate: 0.18
+  attackLength: 4
+  restPeriod: 0.4
+  spreadAngle: 10
+  bulletVelocity: 2
+  size: 0.42
+  drift: 0
   tracking: 0
-  shotType: 4
+  shotType: 1

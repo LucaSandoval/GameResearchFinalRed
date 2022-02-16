@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class StandardBossAI : MonoBehaviour
 {
-    public float health;
-    public float reward;
-
-    //public float moveSpeed;
 
     public bossStates state;
 
@@ -39,9 +35,6 @@ public class StandardBossAI : MonoBehaviour
     private float firePauseMax;
     private float firePauseTimer;
 
-    private float damageFade;
-    private Color defColor;
-
     private GameObject shotPrefab;
 
     private bool coolDown;
@@ -70,7 +63,6 @@ public class StandardBossAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         ren = GetComponent<SpriteRenderer>();
         shotPrefab = Resources.Load<GameObject>("EnemyBullet");
-        defColor = ren.color;
 
         currentMovePos = movePoints[0].position;
         patternId = 0;
@@ -97,21 +89,6 @@ public class StandardBossAI : MonoBehaviour
         if (state != bossStates.entrance)
         {
             HandleCycles();
-        }
-
-        if (damageFade > 0)
-        {
-            ren.color = new Color(0.933f, 0.516f, 0.545f);
-            damageFade -= Time.deltaTime;
-        }
-        else
-        {
-            ren.color = defColor;
-        }
-
-        if (damageFade > 0.1f)
-        {
-            damageFade = 0.1f;
         }
     }
 
@@ -297,12 +274,6 @@ public class StandardBossAI : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "PlayerBullet")
-        {
-            damageFade += 0.1f;
-            health -= other.GetComponent<PlayerBullet>().damage;
-            Destroy(other.gameObject);
-        }
     }
 }
 

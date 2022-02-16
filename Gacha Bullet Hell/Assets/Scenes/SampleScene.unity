@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 448549607}
   - component: {fileID: 448549609}
   - component: {fileID: 448549608}
+  - component: {fileID: 448549610}
   m_Layer: 0
   m_Name: BossTest
   m_TagString: Untagged
@@ -280,24 +281,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca2a9b66536c88644a176d5793188973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 500
-  reward: 30
   state: 0
   patternId: 0
   patterns:
-  - duration: 5
+  - duration: 10
     speed: 1
     moveInterval: 3
     thisState: 1
     attacks:
     - {fileID: 11400000, guid: 2b6bf711ad7fcdc4bbdfce278aa35da6, type: 2}
     - {fileID: 11400000, guid: cf25ec1d0e9d6914c8c20e70a1a1fd39, type: 2}
-  - duration: 3
+    - {fileID: 11400000, guid: a155fc395f3fd224f9c225a6f1c662cb, type: 2}
+  - duration: 10
     speed: 5
     moveInterval: 1
     thisState: 2
     attacks:
     - {fileID: 11400000, guid: 63b3af8a74b9d92449d59f157027637f, type: 2}
+    - {fileID: 11400000, guid: f8571a562ae88d047b8c590858bb6bcb, type: 2}
   movePoints:
   - {fileID: 204659624}
   - {fileID: 434292032}
@@ -355,6 +356,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &448549610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448549604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 500
+  reward: 20
 --- !u!1 &465825274
 GameObject:
   m_ObjectHideFlags: 0

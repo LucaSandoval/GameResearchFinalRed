@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5743908680143113382}
   - component: {fileID: 5743908680143113383}
   - component: {fileID: 5743908680143113371}
+  - component: {fileID: 5790640850993332970}
   m_Layer: 0
   m_Name: BasicEnemy
   m_TagString: Enemy
@@ -147,9 +148,21 @@ MonoBehaviour:
   direction: 1
   trend: 0.85
   speed: 1
-  health: 20
-  reward: 5
   burstTimer: 0
   bulletPatterns:
   - {fileID: 11400000, guid: 2b6bf711ad7fcdc4bbdfce278aa35da6, type: 2}
   - {fileID: 11400000, guid: cf25ec1d0e9d6914c8c20e70a1a1fd39, type: 2}
+--- !u!114 &5790640850993332970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5743908680143113380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  reward: 2

@@ -9,8 +9,6 @@ public class StandardEnemyAI : MonoBehaviour
     private float enemyTrend;
 
     public float speed;
-    public float health;
-    public float reward;
 
     private Rigidbody2D rb;
 
@@ -28,8 +26,6 @@ public class StandardEnemyAI : MonoBehaviour
 
     private bool coolDown;
 
-    private float damageFade;
-    private Color defColor;
     private SpriteRenderer ren;
 
     private float firePauseMax;
@@ -41,7 +37,6 @@ public class StandardEnemyAI : MonoBehaviour
         shotPrefab = Resources.Load<GameObject>("EnemyBullet");
         rb = GetComponent<Rigidbody2D>();
         ren = GetComponent<SpriteRenderer>();
-        defColor = ren.color;
         maxShotTimer = shotPattern.fireRate;
         shotTimer = maxShotTimer;
 
@@ -109,26 +104,6 @@ public class StandardEnemyAI : MonoBehaviour
                 HandleBulletPulse();
             }
         }
-
-        if (health <= 0)
-        {
-            SpawnPickups(reward);
-            Destroy(gameObject);
-        }
-
-        if (damageFade > 0)
-        {
-            ren.color = new Color(0.933f, 0.516f, 0.545f);
-            damageFade -= Time.deltaTime;
-        } else
-        {
-            ren.color = defColor;
-        }
-
-        if (damageFade > 0.1f)
-        {
-            damageFade = 0.1f;
-        }
     }
 
     public void HandleBulletPulse()
@@ -177,25 +152,9 @@ public class StandardEnemyAI : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "PlayerBullet")
-        {
-            damageFade += 0.1f;
-            health -= other.GetComponent<PlayerBullet>().damage;
-            Destroy(other.gameObject);
-        } else if (other.tag == "DespawnZone")
+        if (other.tag == "DespawnZone")
         {
             Destroy(gameObject);
-        }
-    }
-
-    public void SpawnPickups(float ammount)
-    {
-        GameObject pickuprefrence = Resources.Load<GameObject>("Pickup");
-
-        for (int i = 0; i < ammount; i++)
-        {
-            GameObject newPickup = Instantiate(pickuprefrence);
-            newPickup.transform.position = transform.position;
         }
     }
 }
