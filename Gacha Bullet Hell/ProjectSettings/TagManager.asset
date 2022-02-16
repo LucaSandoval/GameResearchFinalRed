@@ -9,6 +9,7 @@ TagManager:
   - EnemyBullet
   - DespawnZone
   - PickupRange
+  - HealthBarParent
   layers:
   - Default
   - TransparentFX

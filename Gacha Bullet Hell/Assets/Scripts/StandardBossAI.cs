@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StandardBossAI : MonoBehaviour
 {
@@ -39,6 +40,11 @@ public class StandardBossAI : MonoBehaviour
 
     private bool coolDown;
 
+    private GameObject healthBar;
+    private Slider healthBarRefrence;
+
+    private EnemyHealth healthScript;
+
     [Header("Random Movement")]
     public float xMax;
     public float xMin;
@@ -63,6 +69,8 @@ public class StandardBossAI : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         ren = GetComponent<SpriteRenderer>();
         shotPrefab = Resources.Load<GameObject>("EnemyBullet");
+        healthBar = Resources.Load<GameObject>("BossHealthBar");
+        healthScript = GetComponent<EnemyHealth>();
 
         currentMovePos = movePoints[0].position;
         patternId = 0;
@@ -80,6 +88,14 @@ public class StandardBossAI : MonoBehaviour
 
         firePauseMax = patterns[patternId].attacks[patternAttackId].restPeriod;
         firePauseTimer = firePauseMax;
+
+
+        //Health bar
+        GameObject newHealthBar = Instantiate(healthBar);
+        newHealthBar.transform.SetParent(GameObject.Find("BossHealthParent").transform);
+        newHealthBar.GetComponent<RectTransform>().localPosition = new Vector3(0, 0, 0);
+        healthBarRefrence = newHealthBar.GetComponent<Slider>();
+        healthBarRefrence.maxValue = healthScript.health;
     }
 
     // Update is called once per frame
@@ -90,6 +106,8 @@ public class StandardBossAI : MonoBehaviour
         {
             HandleCycles();
         }
+
+        healthBarRefrence.value = healthScript.health;
     }
 
     public void StateMachine()
@@ -257,6 +275,11 @@ public class StandardBossAI : MonoBehaviour
                 FireBullet(transform.position, -225);
                 break;
         }
+    }
+
+    private void OnDestroy()
+    {
+        Destroy(healthBarRefrence.gameObject);
     }
 
     public void FireBullet(Vector3 pos, int rotation)
