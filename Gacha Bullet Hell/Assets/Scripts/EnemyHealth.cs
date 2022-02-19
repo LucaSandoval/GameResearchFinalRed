@@ -37,7 +37,7 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             SpawnPickups(reward);
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
     }
 
@@ -45,7 +45,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.tag == "PlayerBullet")
         {
-            damageFade += 0.1f;
+            damageFade += 0.02f;
             health -= other.GetComponent<PlayerBullet>().damage;
             Destroy(other.gameObject);
         }   
