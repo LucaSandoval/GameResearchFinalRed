@@ -17,10 +17,14 @@ public class EnemyBullet : MonoBehaviour
 
     private bool grazed;
 
+    private SpriteRenderer ren;
+    public Sprite icon;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        ren = GetComponent<SpriteRenderer>();
         Destroy(gameObject, 20);
 
         transform.localScale = new Vector3(size, size, size);
@@ -28,6 +32,8 @@ public class EnemyBullet : MonoBehaviour
         thisDrift = new Vector3(Random.Range(-drift, drift), 0, 0);
 
         lastPlayerPos = (GameObject.Find("Player").transform.position - transform.position).normalized;
+
+        ren.sprite = icon;
     }
 
     // Update is called once per frame

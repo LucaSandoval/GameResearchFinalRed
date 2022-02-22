@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
   m_Name: Barrage
   m_EditorClassIdentifier: 
-  bulletImage: {fileID: 0}
+  bulletImage: {fileID: 21300000, guid: d7130a31f4906124d9e6086d6edbd6ba, type: 3}
   fireRate: 0.18
   attackLength: 4
   restPeriod: 0.4

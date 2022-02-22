@@ -148,6 +148,7 @@ public class StandardEnemyAI : MonoBehaviour
         script.drift = shotPattern.drift;
         script.tracking = shotPattern.tracking;
         script.angle = rotation;
+        script.icon = shotPattern.bulletImage;
     }
 
     public void OnTriggerEnter2D(Collider2D other)

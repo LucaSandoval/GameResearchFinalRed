@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
   m_Name: Scatter
   m_EditorClassIdentifier: 
-  bulletImage: {fileID: 0}
+  bulletImage: {fileID: 21300000, guid: c538cb8d0dcc2e841b795e8a761b11c5, type: 3}
   fireRate: 0.05
   attackLength: 3
   restPeriod: 2.5
   spreadAngle: 0
   bulletVelocity: 0.5
-  size: 0.15
+  size: 0.2
   drift: 5
   tracking: 0
   shotType: 4

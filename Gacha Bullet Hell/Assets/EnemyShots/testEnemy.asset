@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
   m_Name: testEnemy
   m_EditorClassIdentifier: 
-  bulletImage: {fileID: 0}
+  bulletImage: {fileID: 21300000, guid: b8fb7c441c3d9df4683a4c337543bd2c, type: 3}
   fireRate: 0.2
   attackLength: 3
   restPeriod: 1

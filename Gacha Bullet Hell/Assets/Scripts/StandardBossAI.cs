@@ -293,6 +293,7 @@ public class StandardBossAI : MonoBehaviour
         script.drift = patterns[patternId].attacks[patternAttackId].drift;
         script.tracking = patterns[patternId].attacks[patternAttackId].tracking;
         script.angle = rotation;
+        script.icon = patterns[patternId].attacks[patternAttackId].bulletImage;
     }
 
     public void OnTriggerEnter2D(Collider2D other)

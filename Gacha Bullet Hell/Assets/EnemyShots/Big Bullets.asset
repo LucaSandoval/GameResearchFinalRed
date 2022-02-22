@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
   m_Name: Big Bullets
   m_EditorClassIdentifier: 
-  bulletImage: {fileID: 0}
+  bulletImage: {fileID: 21300000, guid: d3868dc3ec7e6ee4b893dec01cc4a8cc, type: 3}
   fireRate: 1
   attackLength: 3
   restPeriod: 3
