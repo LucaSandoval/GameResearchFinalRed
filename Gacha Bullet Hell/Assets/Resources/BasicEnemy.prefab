@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 1
-  trend: 0.85
+  trend: 0.2
   speed: 1
   burstTimer: 0
   bulletPatterns:

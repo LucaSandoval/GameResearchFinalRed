@@ -10,20 +10,34 @@ public class Pickup : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private float timer = 0.2f;
+    private float timer;
 
     private Vector3 playerPos;
+
+    public bool spawnedFromPlayer;
 
     public void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         state = pickupState.expell;
 
-        //Picks a random point on the circumferance of a circle around 
-        //spawn point. 
-        float xPos = 1.5f * Mathf.Cos(Random.Range(-360, 360));
-        float yPos = 1.5f * Mathf.Sin(Random.Range(-360, 360));
-        expellVector = new Vector3(xPos, yPos, 0);
+        if (spawnedFromPlayer == false)
+        {
+            timer = 0.2f;
+            //Picks a random point on the circumferance of a circle around 
+            //spawn point. 
+            float xPos = 1.5f * Mathf.Cos(Random.Range(-360, 360));
+            float yPos = 1.5f * Mathf.Sin(Random.Range(-360, 360));
+            expellVector = new Vector3(xPos, yPos, 0);
+        } else
+        {
+            float rand = Random.Range(0, 90);
+
+            timer = 0.6f;
+            float xPos = 1.5f * Mathf.Cos(rand);
+            float yPos = 1.5f * Mathf.Sin(90);
+            expellVector = new Vector3(xPos, yPos, 0);
+        }
 
         expellDir = expellVector;
         
@@ -54,16 +68,20 @@ public class Pickup : MonoBehaviour
                 rb.velocity = playerPos * 4;
                 break;
         }
+
+        if (Vector3.Distance(transform.position, PlayerController.globalPlayerPos) <= 1.5f &&
+            state != pickupState.expell)
+        {
+            state = pickupState.attract;
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
+            other.GetComponent<PlayerController>().statController.damageLevel += 1;
             Destroy(gameObject);
-        } else if (other.tag == "PickupRange")
-        {
-            state = pickupState.attract;
         }
     }
 }
