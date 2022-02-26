@@ -27,7 +27,10 @@ public class PlayerStatController : MonoBehaviour
 
     public void Update()
     {
-        powerText.text = "Power: " + damageLevel;
+
+        float dam = damageLevel;
+        dam = Mathf.Round(dam * 10.0f) * 0.1f;
+        powerText.text = "Power: " + dam;
     }
 
     public void GenerateLivesIcons()

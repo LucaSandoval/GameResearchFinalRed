@@ -80,7 +80,7 @@ public class Pickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerController>().statController.damageLevel += 1;
+            other.GetComponent<PlayerController>().statController.damageLevel += 0.1f;
             Destroy(gameObject);
         }
     }

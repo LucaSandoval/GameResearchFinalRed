@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
             flashTimer = 0.2f;
 
 
-            float penalty = 10;
+            float penalty = 1;
             float startingDamage = statController.damageLevel;
 
             float newDamage = statController.damageLevel - penalty;
@@ -155,7 +155,7 @@ public class PlayerController : MonoBehaviour
                 penalty = penalty + pickupsLost;
             }
 
-            SpawnPickups(penalty);
+            SpawnPickups(penalty * 10);
         }
     }
 
