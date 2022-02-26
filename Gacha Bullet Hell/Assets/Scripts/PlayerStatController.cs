@@ -7,8 +7,10 @@ public class PlayerStatController : MonoBehaviour
 {
     public float lives;
     public float damageLevel;
+    public float graze;
 
     public Text powerText;
+    public Text grazeText;
 
     public GameObject livesParent;
     private GameObject lifeIconRef;
@@ -24,13 +26,15 @@ public class PlayerStatController : MonoBehaviour
         lifeIconRef = Resources.Load<GameObject>("LifeIcon");
         GenerateLivesIcons();
     }
-
+    
     public void Update()
     {
 
         float dam = damageLevel;
         dam = Mathf.Round(dam * 10.0f) * 0.1f;
         powerText.text = "Power: " + dam;
+
+        grazeText.text = "Graze: " + graze;
     }
 
     public void GenerateLivesIcons()
