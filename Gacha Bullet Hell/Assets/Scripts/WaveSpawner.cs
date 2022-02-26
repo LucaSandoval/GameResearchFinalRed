@@ -6,6 +6,7 @@ public class WaveSpawner : MonoBehaviour
 {
     public int waveNumber;
     private float waveTimer;
+    public Transform bossSpawn;
     public Wave[] waves;
 
     private float pulseTimer;
@@ -14,10 +15,17 @@ public class WaveSpawner : MonoBehaviour
     public bool gameRunning;
 
     public Transform[] spawnZones;
+
+    private bool bossSpawned;
+
+    private SoundManager soundManager;
+
+
     [System.Serializable]
     public struct Wave
     {
         public bool bossWave;
+        public string bossTheme;
         public GameObject bossPrefab;
         public float waveTime;
         public float spawnRate;
@@ -36,6 +44,7 @@ public class WaveSpawner : MonoBehaviour
     void Start()
     {
         gameRunning = true;
+        soundManager = GetComponent<SoundManager>();
         waveNumber = 0;
         waveTimer = waves[waveNumber].waveTime;
         pulseMax = waves[waveNumber].spawnRate;
@@ -45,25 +54,40 @@ public class WaveSpawner : MonoBehaviour
     {
         if (gameRunning == true)
         {
-            if (waveTimer > 0)
+            if (waves[waveNumber].bossWave == true)
             {
-                waveTimer -= Time.deltaTime;
+                if (bossSpawned == false)
+                {
+                    bossSpawned = true;
+                    GameObject newBoss = Instantiate(waves[waveNumber].bossPrefab);
+                    newBoss.transform.position = bossSpawn.position;
+
+                    soundManager.Play(waves[waveNumber].bossTheme);
+                }
             }
             else
             {
-                waveNumber += 1;
-                waveTimer = waves[waveNumber].waveTime;
-                pulseMax = waves[waveNumber].spawnRate;
-            }
+                if (waveTimer > 0)
+                {
+                    waveTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    waveNumber += 1;
+                    waveTimer = waves[waveNumber].waveTime;
+                    pulseMax = waves[waveNumber].spawnRate;
+                }
 
-            if (pulseTimer > 0)
-            {
-                pulseTimer -= Time.deltaTime;
-            } else
-            {
-                SpawnEnemies();
-                pulseTimer = pulseMax;
-            }
+                if (pulseTimer > 0)
+                {
+                    pulseTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    SpawnEnemies();
+                    pulseTimer = pulseMax;
+                }
+            } 
         }
     }
 

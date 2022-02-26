@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StandardBossAI : MonoBehaviour
 {
-
+    public string bossName;
     public bossStates state;
 
     public int patternId;
@@ -15,7 +15,7 @@ public class StandardBossAI : MonoBehaviour
     private SpriteRenderer ren;
 
     private int movePointId;
-    public Transform[] movePoints;
+    public Vector3[] movePoints;
 
     private Vector3 currentMovePos;
     private Vector3 randomMovePos;
@@ -72,7 +72,7 @@ public class StandardBossAI : MonoBehaviour
         healthBar = Resources.Load<GameObject>("BossHealthBar");
         healthScript = GetComponent<EnemyHealth>();
 
-        currentMovePos = movePoints[0].position;
+        currentMovePos = movePoints[0];
         patternId = 0;
         movePointId = 0;
 
@@ -96,6 +96,7 @@ public class StandardBossAI : MonoBehaviour
         newHealthBar.GetComponent<RectTransform>().localPosition = new Vector3(0, 0, 0);
         healthBarRefrence = newHealthBar.GetComponent<Slider>();
         healthBarRefrence.maxValue = healthScript.health;
+        newHealthBar.transform.GetChild(0).GetComponent<Text>().text = bossName;
     }
 
     // Update is called once per frame
@@ -118,7 +119,7 @@ public class StandardBossAI : MonoBehaviour
 
                 if (transform.position.y > 0)
                 {
-                    rb.velocity = Vector2.down * patterns[patternId].speed;
+                    rb.velocity = Vector2.down * patterns[patternId].speed * 4;
                 } else
                 {
                     state = patterns[patternId].thisState; 
@@ -127,7 +128,7 @@ public class StandardBossAI : MonoBehaviour
             case bossStates.attack:
 
                 //Boss not yet at move point
-                if (transform.position != movePoints[movePointId].position)
+                if (transform.position != movePoints[movePointId])
                 {
                     rb.velocity = (currentMovePos - transform.position) * patterns[patternId].speed;
                 }
@@ -215,7 +216,7 @@ public class StandardBossAI : MonoBehaviour
                 movePointId = 0;
             }
 
-            currentMovePos = movePoints[movePointId].position;
+            currentMovePos = movePoints[movePointId];
             moveTimer = patterns[patternId].moveInterval;
         }
 
