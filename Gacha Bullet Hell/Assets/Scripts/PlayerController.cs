@@ -79,9 +79,6 @@ public class PlayerController : MonoBehaviour
             respawning = true;
             respawnTimer -= Time.deltaTime;
 
-            rb.velocity = Vector3.zero;
-            transform.position = new Vector3(0, -3, 0);
-
             if (flashTimer > 0)
             {
                 flashTimer -= Time.deltaTime;
@@ -103,27 +100,22 @@ public class PlayerController : MonoBehaviour
             ren.enabled = true;
         }
 
-        if (respawning == false)
-        {
-
-            rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
+        rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
                 currentSpeed, Input.GetAxisRaw("Vertical") * currentSpeed, 0);
 
-            if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.Z))
+        {
+            if (timer > 0)
             {
-                if (timer > 0)
-                {
-                    timer -= Time.deltaTime;
-                }
-                else
-                {
-                    HandleBulletPulse();
-                    timer = maxTimer;
-                }
+                timer -= Time.deltaTime;
+            }
+            else
+            {
+                HandleBulletPulse();
+                timer = maxTimer;
             }
         }
 
-        
     }
 
     public void Death()
@@ -141,21 +133,25 @@ public class PlayerController : MonoBehaviour
             float penalty = 1;
             float startingDamage = statController.damageLevel;
 
+            // new power level
             float newDamage = statController.damageLevel - penalty;
-            if (newDamage < 0)
+            if (newDamage < 1)
             {
-                newDamage = 0;
+                newDamage = 1;
             }
 
             statController.damageLevel = newDamage;
 
+            // power drops
             float pickupsLost = startingDamage - penalty;
-            if (pickupsLost < 0)
+            if (pickupsLost < 1)
             {
                 penalty = penalty + pickupsLost;
             }
 
-            SpawnPickups(penalty * 10);
+            penalty--;
+            SpawnPickups(Mathf.FloorToInt(penalty * 10));
+            transform.position = new Vector3(0, -3, 0);
         }
     }
 
