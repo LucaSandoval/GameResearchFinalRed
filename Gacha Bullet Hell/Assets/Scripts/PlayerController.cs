@@ -147,9 +147,10 @@ public class PlayerController : MonoBehaviour
             if (pickupsLost < 1)
             {
                 penalty = penalty + pickupsLost;
+                penalty--;
             }
 
-            penalty--;
+            
             SpawnPickups(Mathf.FloorToInt(penalty * 10));
             transform.position = new Vector3(0, -3, 0);
         }
