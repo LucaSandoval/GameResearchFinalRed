@@ -11,6 +11,8 @@ public class EnemyHealth : MonoBehaviour
     private float damageFade;
     private Color defColor;
 
+    private GameObject waveSpawner;
+
     private void Start()
     {
         ren = GetComponent<SpriteRenderer>();
@@ -37,7 +39,12 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             SpawnPickups(reward);
-            Destroy(gameObject); 
+            Destroy(gameObject);
+            if(waveSpawner != null)
+            {
+                // triggers boss defeat dialogue 4 seconds after death to allow time for pickups
+                waveSpawner.GetComponent<WaveSpawner>().Invoke("BossDeath", 4f);
+            }
         }
     }
 
@@ -60,5 +67,10 @@ public class EnemyHealth : MonoBehaviour
             GameObject newPickup = Instantiate(pickuprefrence);
             newPickup.transform.position = transform.position;
         }
+    }
+
+    public void SetWaveSpawner(GameObject target)
+    {
+        waveSpawner = target;
     }
 }

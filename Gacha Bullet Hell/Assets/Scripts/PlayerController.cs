@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public bool focus;
 
+    public GameObject dialogueSystem;
+
     //public float damageLevel = 1.0f;
 
     public bool respawning;
@@ -99,6 +101,15 @@ public class PlayerController : MonoBehaviour
             respawning = false;
             ren.enabled = true;
         }
+
+        if (dialogueSystem.activeSelf)
+        {
+            rb.velocity = new Vector2(0, 0);
+            respawnTimer = 0.1f;
+            flashTimer = 0;
+            return;
+        }
+
 
         rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
                 currentSpeed, Input.GetAxisRaw("Vertical") * currentSpeed, 0);

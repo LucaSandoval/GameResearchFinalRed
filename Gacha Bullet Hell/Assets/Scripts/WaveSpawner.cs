@@ -7,6 +7,8 @@ public class WaveSpawner : MonoBehaviour
     public int waveNumber;
     private float waveTimer;
     public Transform bossSpawn;
+    public Transform enemyParent; // makes it easy to count enemies on screen so that its known when its safe to display dialogue
+    public GameObject dialogueSystem;
     public Wave[] waves;
 
     private float pulseTimer;
@@ -26,6 +28,7 @@ public class WaveSpawner : MonoBehaviour
     {
         public bool bossWave;
         public string bossTheme;
+        public BossProfile bossProfile;
         public GameObject bossPrefab;
         public float waveTime;
         public float spawnRate;
@@ -56,13 +59,16 @@ public class WaveSpawner : MonoBehaviour
         {
             if (waves[waveNumber].bossWave == true)
             {
-                if (bossSpawned == false)
+                if (dialogueSystem.activeSelf == false && bossSpawned == false && enemyParent.childCount == 0)
                 {
-                    bossSpawned = true;
-                    GameObject newBoss = Instantiate(waves[waveNumber].bossPrefab);
-                    newBoss.transform.position = bossSpawn.position;
+                    dialogueSystem.SetActive(true);
 
-                    soundManager.Play(waves[waveNumber].bossTheme);
+                    // tags first line in conversation to trigger boss fight after conversation
+                    DialogueLine[] dialogue = waves[waveNumber].bossProfile.C1preBattleConversation;
+                    dialogue[0].triggerFight = true;
+
+                    // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
+                    this.SendMessage("TypeThis", dialogue);
                 }
             }
             else
@@ -91,6 +97,27 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
+    public void SpawnBoss()
+    {
+        if (bossSpawned == false)
+        {
+            bossSpawned = true;
+            GameObject newBoss = Instantiate(waves[waveNumber].bossPrefab);
+            newBoss.transform.position = bossSpawn.position;
+            newBoss.SendMessage("SetWaveSpawner", this.gameObject);
+
+            soundManager.Play(waves[waveNumber].bossTheme);
+        }
+    }
+
+    public void BossDeath()
+    {
+        dialogueSystem.SetActive(true);
+
+        // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS AND DIFFICULTIES
+        this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+    }
+
     public void SpawnEnemies()
     {
         foreach(Enemy e in waves[waveNumber].enemiesList)
@@ -99,7 +126,7 @@ public class WaveSpawner : MonoBehaviour
 
             if (dice <= e.chance)
             {
-                GameObject newEnemy = Instantiate(e.enemyPrefab);
+                GameObject newEnemy = Instantiate(e.enemyPrefab, enemyParent);
 
                 int dice2 = Random.Range(0, 2);
 
