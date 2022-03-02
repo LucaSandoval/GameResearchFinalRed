@@ -14,6 +14,7 @@ public class Pickup : MonoBehaviour
 
     private Vector3 playerPos;
 
+    public pickupType pickupType;
     public bool spawnedFromPlayer;
 
     public void Start()
@@ -80,7 +81,16 @@ public class Pickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            other.GetComponent<PlayerController>().statController.damageLevel += 0.1f;
+            switch (pickupType)
+            {
+                case pickupType.power:
+                    other.GetComponent<PlayerController>().statController.damageLevel += 0.1f;
+                    break;
+                case pickupType.point:
+                    other.GetComponent<PlayerController>().statController.bombPoints += 1f;
+                    break;
+            }
+
             Destroy(gameObject);
         }
     }
@@ -91,4 +101,11 @@ public enum pickupState
     expell,
     falling,
     attract
+}
+
+public enum pickupType
+{
+    power,
+    point,
+    oneup
 }

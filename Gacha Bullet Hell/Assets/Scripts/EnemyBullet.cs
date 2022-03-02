@@ -76,7 +76,7 @@ public class EnemyBullet : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "DespawnZone")
+        if (other.tag == "DespawnZone" || other.tag == "Bomb")
         {
             Destroy(gameObject);
         }

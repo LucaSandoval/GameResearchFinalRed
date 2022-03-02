@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     public PlayerShotProfile shotProfile;
     private GameObject playerBulletRefrence;
+    private GameObject playerBombRefrence;
 
     private float maxTimer;
     private float timer;
@@ -53,6 +54,7 @@ public class PlayerController : MonoBehaviour
         maxTimer = shotProfile.fireRate;
 
         playerBulletRefrence = Resources.Load<GameObject>("PlayerBullet");
+        playerBombRefrence = Resources.Load<GameObject>("BombPrefab");
     }
 
     // Update is called once per frame
@@ -127,6 +129,23 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            if (statController.bombs > 0)
+            {
+                Bomb();
+            }
+        }
+
+    }
+
+    public void Bomb()
+    {
+        statController.bombs -= 1;
+        statController.GenerateBombsIcons();
+
+        GameObject newBomb = Instantiate(playerBombRefrence);
+        newBomb.transform.position = transform.position;
     }
 
     public void Death()

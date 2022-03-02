@@ -5,7 +5,8 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public float health;
-    public float reward;
+    public float damageReward;
+    public float pointReward;
     private SpriteRenderer ren;
 
     private float damageFade;
@@ -38,7 +39,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            SpawnPickups(reward);
+            SpawnPickups(damageReward, pickupType.power);
+            SpawnPickups(pointReward, pickupType.point);
             Destroy(gameObject);
             if(waveSpawner != null)
             {
@@ -58,9 +60,16 @@ public class EnemyHealth : MonoBehaviour
         }   
     }
 
-    public void SpawnPickups(float ammount)
+    public void SpawnPickups(float ammount, pickupType type)
     {
-        GameObject pickuprefrence = Resources.Load<GameObject>("Pickup");
+        GameObject pickuprefrence = null;
+        if (type == pickupType.power)
+        {
+            pickuprefrence = Resources.Load<GameObject>("Pickup");
+        } else if (type == pickupType.point)
+        {
+            pickuprefrence = Resources.Load<GameObject>("Point");
+        }
 
         for (int i = 0; i < ammount; i++)
         {

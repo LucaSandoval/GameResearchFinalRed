@@ -165,4 +165,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  reward: 2
+  damageReward: 2
+  pointReward: 1
