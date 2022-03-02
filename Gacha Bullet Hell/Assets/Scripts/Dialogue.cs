@@ -28,13 +28,13 @@ public class Dialogue : MonoBehaviour
         charName = lines[lineIndex].characterName;
         typeTime = 0.05f;
 
-        for (int i = 48; i < message.Length; i--)
+        for (int i = 44; i < message.Length; i--)
         {
             if (message[i] == ' ')
             {
                 message = message.Remove(i, 1);
                 message = message.Insert(i, "\n");
-                i += 48;
+                i += 44;
             }
         }
 
