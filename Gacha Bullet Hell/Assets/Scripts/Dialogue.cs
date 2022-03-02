@@ -66,19 +66,28 @@ public class Dialogue : MonoBehaviour
                 }
                 else // quits dialogue
                 {
-                    writtenText.text = "";
-
-                    // spawns boss if first line is tagged to do so
-                    if (lines[0].triggerFight)
-                    {
-                        this.SendMessage("SpawnBoss");
-                    }
-
-                    lineIndex = 0;
-                    dialogueSystem.SetActive(false);
+                    QuitDialogue();
                 }
             }
+            else if (Input.GetKeyDown(KeyCode.X))
+            {
+                QuitDialogue();
+            }
         }
+    }
+
+    void QuitDialogue()
+    {
+        writtenText.text = "";
+
+        // spawns boss if first line is tagged to do so
+        if (lines[0].triggerFight)
+        {
+            this.SendMessage("SpawnBoss");
+        }
+
+        lineIndex = 0;
+        dialogueSystem.SetActive(false);
     }
 
     //CREDIT TO http://wiki.unity3d.com/index.php/AutoType?_ga=2.28672252.1760231856.1570400781-1881874195.1512603304
