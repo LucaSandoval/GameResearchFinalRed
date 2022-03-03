@@ -97,6 +97,7 @@ public class StandardBossAI : MonoBehaviour
         healthBarRefrence = newHealthBar.GetComponent<Slider>();
         healthBarRefrence.maxValue = healthScript.health;
         newHealthBar.transform.GetChild(0).GetComponent<Text>().text = bossName;
+        newHealthBar.transform.localScale = new Vector2(1, 1);
     }
 
     // Update is called once per frame

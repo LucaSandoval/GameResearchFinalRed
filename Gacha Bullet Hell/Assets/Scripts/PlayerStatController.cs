@@ -65,6 +65,7 @@ public class PlayerStatController : MonoBehaviour
             GameObject newLifeIcon = Instantiate(lifeIconRef);
             newLifeIcon.transform.SetParent(livesParent.transform);
             livesIconsList.Add(newLifeIcon);
+            newLifeIcon.transform.localScale = new Vector2(1, 1);
         }
     }
 
@@ -82,6 +83,7 @@ public class PlayerStatController : MonoBehaviour
             GameObject newBombIcon = Instantiate(bombIconRef);
             newBombIcon.transform.SetParent(bombsParent.transform);
             bombsIconsList.Add(newBombIcon);
+            newBombIcon.transform.localScale = new Vector2(1, 1);
         }
     }
 }
