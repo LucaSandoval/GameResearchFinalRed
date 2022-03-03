@@ -114,8 +114,15 @@ public class WaveSpawner : MonoBehaviour
     {
         dialogueSystem.SetActive(true);
 
-        // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS AND DIFFICULTIES
-        this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+        // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
+        if (SceneManage.challenge)
+        {
+            this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
+        }
+        else
+        {
+            this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+        }
     }
 
     public void SpawnEnemies()

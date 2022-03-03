@@ -85,6 +85,10 @@ public class Dialogue : MonoBehaviour
         {
             this.SendMessage("SpawnBoss");
         }
+        else // ends level because its not the text before the battle
+        {
+            this.SendMessage("EndLevel");
+        }
 
         lineIndex = 0;
         dialogueSystem.SetActive(false);
