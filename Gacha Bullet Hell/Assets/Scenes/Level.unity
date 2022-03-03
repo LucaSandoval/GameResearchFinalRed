@@ -1903,6 +1903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stageSong: Stage_test
   waveNumber: 0
   bossSpawn: {fileID: 520374428}
   enemyParent: {fileID: 551397333}
@@ -1977,6 +1978,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Boss_Test2
     clip: {fileID: 8300000, guid: 9a48f7e7bf9e2e94db1d2a0a694137eb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Stage_test
+    clip: {fileID: 8300000, guid: 990ef643c04aa14419a5c8f48228ec46, type: 3}
     volume: 1
     pitch: 1
     loop: 1

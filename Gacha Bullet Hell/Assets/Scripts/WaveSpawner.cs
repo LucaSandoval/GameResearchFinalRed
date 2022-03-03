@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
+    public string stageSong;
     public int waveNumber;
     private float waveTimer;
     public Transform bossSpawn;
@@ -51,6 +52,7 @@ public class WaveSpawner : MonoBehaviour
         waveNumber = 0;
         waveTimer = waves[waveNumber].waveTime;
         pulseMax = waves[waveNumber].spawnRate;
+        soundManager.Play(stageSong);
     }
 
     void Update()
@@ -61,6 +63,7 @@ public class WaveSpawner : MonoBehaviour
             {
                 if (dialogueSystem.activeSelf == false && bossSpawned == false && enemyParent.childCount == 0)
                 {
+                    soundManager.FadeOutSong(stageSong);
                     dialogueSystem.SetActive(true);
 
                     // tags first line in conversation to trigger boss fight after conversation
@@ -112,6 +115,7 @@ public class WaveSpawner : MonoBehaviour
 
     public void BossDeath()
     {
+        soundManager.FadeOutSong(waves[waveNumber].bossTheme);
         dialogueSystem.SetActive(true);
 
         // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
