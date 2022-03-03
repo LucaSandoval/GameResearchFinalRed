@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WaveSpawner : MonoBehaviour
 {
     public string stageSong;
+    public string stageName;
     public int waveNumber;
     private float waveTimer;
     public Transform bossSpawn;
@@ -22,6 +24,8 @@ public class WaveSpawner : MonoBehaviour
     private bool bossSpawned;
 
     private SoundManager soundManager;
+
+    public GameObject stageText;
 
 
     [System.Serializable]
@@ -47,12 +51,18 @@ public class WaveSpawner : MonoBehaviour
 
     void Start()
     {
+        //stageText = GameObject.Find("StageName");
         gameRunning = true;
         soundManager = GetComponent<SoundManager>();
         waveNumber = 0;
         waveTimer = waves[waveNumber].waveTime;
         pulseMax = waves[waveNumber].spawnRate;
         soundManager.Play(stageSong);
+
+        stageText.GetComponent<Text>().text = stageName;
+        stageText.transform.GetChild(0).GetComponent<Text>().text = "Stage " + SceneManage.level;
+        stageText.SetActive(true);
+
     }
 
     void Update()
