@@ -2094,7 +2094,7 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 10
+    waveTime: 60
     spawnRate: 5
     enemiesList:
     - enemyPrefab: {fileID: 5743908680143113380, guid: 0947eccb2e273cd46ba863da941ca671, type: 3}
@@ -2104,11 +2104,15 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
       yMax: -2
       yMin: 0
-      chance: 100
+      chance: 45
+    - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
+      yMax: -2
+      yMin: 0
+      chance: 45
   - bossWave: 1
     bossTheme: Boss_Test
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
-    bossPrefab: {fileID: 7663016226649675333, guid: a9717db440f2f834da424051efb5d2ae, type: 3}
+    bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
     waveTime: 10
     spawnRate: 0
     enemiesList:
