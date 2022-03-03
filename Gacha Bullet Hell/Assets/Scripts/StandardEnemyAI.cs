@@ -46,6 +46,14 @@ public class StandardEnemyAI : MonoBehaviour
         firePauseTimer = firePauseMax;
 
         enemyTrend = Random.Range(-trend, trend);
+
+        if (direction == 1)
+        {
+            ren.flipX = false;
+        } else
+        {
+            ren.flipX = true;
+        }
     }
 
     public void Update()

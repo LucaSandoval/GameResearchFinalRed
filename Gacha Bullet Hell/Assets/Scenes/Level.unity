@@ -248,7 +248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &101347222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2104,7 +2104,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
       yMax: -2
       yMin: 0
-      chance: 30
+      chance: 100
   - bossWave: 1
     bossTheme: Boss_Test
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
