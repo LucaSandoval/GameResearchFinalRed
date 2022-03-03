@@ -7,6 +7,14 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float damageReward;
     public float pointReward;
+
+    [Header("Animation")]
+    public bool animated;
+    public float frameRate;
+    public Sprite[] frames;
+    private float animTimer;
+    private int frameID;
+
     private SpriteRenderer ren;
 
     private float damageFade;
@@ -18,6 +26,8 @@ public class EnemyHealth : MonoBehaviour
     {
         ren = GetComponent<SpriteRenderer>();
         defColor = ren.color;
+        frameID = 0;
+        animTimer = frameRate;
     }
 
     private void Update()
@@ -47,6 +57,26 @@ public class EnemyHealth : MonoBehaviour
                 // triggers boss defeat dialogue 4 seconds after death to allow time for pickups
                 waveSpawner.GetComponent<WaveSpawner>().Invoke("BossDeath", 4f);
             }
+        }
+
+        if (animated == true)
+        {
+            if (animTimer > 0)
+            {
+                animTimer -= Time.deltaTime;
+            }
+            else
+            {
+                animTimer = frameRate;
+
+                frameID += 1;
+
+                if (frameID > frames.Length - 1)
+                {
+                    frameID = 0;
+                }
+                ren.sprite = frames[frameID];
+            }   
         }
     }
 
