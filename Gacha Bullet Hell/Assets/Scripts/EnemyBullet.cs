@@ -10,6 +10,9 @@ public class EnemyBullet : MonoBehaviour
     public float angle;
     public float drift;
     public bool tracking;
+    public bool accelerate;
+    public float trackingDelay;
+    private bool doneWithTrackingDelay;
 
     Vector3 thisDrift;
 
@@ -39,6 +42,7 @@ public class EnemyBullet : MonoBehaviour
         lastPlayerPos = (GameObject.Find("Player").transform.position - transform.position).normalized;
 
         ren.sprite = icon;
+        doneWithTrackingDelay = false;
     }
 
     // Update is called once per frame
@@ -52,7 +56,25 @@ public class EnemyBullet : MonoBehaviour
             rb.velocity = (dir + thisDrift) * velocity;
         } else
         {
-            rb.velocity = lastPlayerPos * velocity;
+            if (trackingDelay > 0)
+            {
+                trackingDelay -= Time.deltaTime;
+                Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
+                rb.velocity = (dir + thisDrift) * velocity;
+            } else
+            {
+                if (doneWithTrackingDelay == false)
+                {
+                    lastPlayerPos = (GameObject.Find("Player").transform.position - transform.position).normalized;
+                    doneWithTrackingDelay = true;
+                } 
+                rb.velocity = lastPlayerPos * velocity;
+            }    
+        }
+
+        if (accelerate == true)
+        {
+            velocity += Time.deltaTime;
         }
 
         if (grazeTimer > 0)

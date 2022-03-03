@@ -16,5 +16,7 @@ public class EnemyPattern : ScriptableObject
     public float size;
     public float drift;
     public bool tracking;
+    public bool accelerate;
+    public float trackingDelay;
     public enemyShotType shotType;
 }

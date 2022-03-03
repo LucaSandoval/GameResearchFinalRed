@@ -157,6 +157,8 @@ public class StandardEnemyAI : MonoBehaviour
         script.tracking = shotPattern.tracking;
         script.angle = rotation;
         script.icon = shotPattern.bulletImage;
+        script.trackingDelay = shotPattern.trackingDelay;
+        script.accelerate = shotPattern.accelerate;
     }
 
     public void OnTriggerEnter2D(Collider2D other)

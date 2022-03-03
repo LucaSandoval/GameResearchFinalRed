@@ -103,6 +103,13 @@ MonoBehaviour:
   patternId: 0
   patterns:
   - duration: 10
+    speed: 3
+    moveInterval: 0.5
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: 5810f8d1ed3577749af79a53ea6997dc, type: 2}
+    - {fileID: 11400000, guid: e7c410a84271fcd4a83be8b66549cc2b, type: 2}
+  - duration: 10
     speed: 1
     moveInterval: 3
     thisState: 1
@@ -189,3 +196,6 @@ MonoBehaviour:
   health: 500
   damageReward: 20
   pointReward: 10
+  animated: 0
+  frameRate: 0
+  frames: []
