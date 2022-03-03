@@ -104,17 +104,15 @@ public class PlayerController : MonoBehaviour
             ren.enabled = true;
         }
 
+        rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
+                currentSpeed, Input.GetAxisRaw("Vertical") * currentSpeed, 0);
+
         if (dialogueSystem.activeSelf)
         {
-            rb.velocity = new Vector2(0, 0);
             respawnTimer = 0.1f;
             flashTimer = 0;
             return;
         }
-
-
-        rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
-                currentSpeed, Input.GetAxisRaw("Vertical") * currentSpeed, 0);
 
         if (Input.GetKey(KeyCode.Z))
         {
