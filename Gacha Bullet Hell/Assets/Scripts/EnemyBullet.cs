@@ -13,6 +13,7 @@ public class EnemyBullet : MonoBehaviour
     public bool accelerate;
     public float trackingDelay;
     private bool doneWithTrackingDelay;
+    public bool pointTowards;
 
     Vector3 thisDrift;
 
@@ -50,17 +51,13 @@ public class EnemyBullet : MonoBehaviour
     {
         if (tracking == false)
         {
-            Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
-
-
-            rb.velocity = (dir + thisDrift) * velocity;
+            MoveBullet();
         } else
         {
             if (trackingDelay > 0)
             {
                 trackingDelay -= Time.deltaTime;
-                Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
-                rb.velocity = (dir + thisDrift) * velocity;
+                MoveBullet();
             } else
             {
                 if (doneWithTrackingDelay == false)
@@ -86,7 +83,7 @@ public class EnemyBullet : MonoBehaviour
             canGraze = true;
         }
 
-        if (Vector3.Distance(transform.position, PlayerController.globalPlayerPos) <= 0.3f)
+        if (Vector3.Distance(transform.position, PlayerController.globalPlayerPos) <= 0.5f)
         {
             if (canGraze)
             {
@@ -94,6 +91,22 @@ public class EnemyBullet : MonoBehaviour
                 grazeTimer += 0.2f;
             }
         }
+
+        if (pointTowards)
+        {
+            Vector2 moveDirection = rb.velocity;
+            if (moveDirection != Vector2.zero)
+            {
+                float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            }
+        }
+    }
+
+    public void MoveBullet()
+    {
+        Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
+        rb.velocity = (dir + thisDrift) * velocity;
     }
 
     public void OnTriggerEnter2D(Collider2D other)

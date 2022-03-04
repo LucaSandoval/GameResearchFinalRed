@@ -18,5 +18,6 @@ public class EnemyPattern : ScriptableObject
     public bool tracking;
     public bool accelerate;
     public float trackingDelay;
+    public bool pointTowards;
     public enemyShotType shotType;
 }

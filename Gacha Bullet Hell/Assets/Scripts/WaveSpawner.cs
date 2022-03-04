@@ -9,9 +9,16 @@ public class WaveSpawner : MonoBehaviour
     public string stageName;
     public int waveNumber;
     private float waveTimer;
+    [HideInInspector]
     public Transform bossSpawn;
+    [HideInInspector]
     public Transform enemyParent; // makes it easy to count enemies on screen so that its known when its safe to display dialogue
+    
+    [HideInInspector]
     public GameObject dialogueSystem;
+
+    [HideInInspector]
+    public GameObject levelControlObj;
     public Wave[] waves;
 
     private float pulseTimer;
@@ -19,12 +26,15 @@ public class WaveSpawner : MonoBehaviour
 
     public bool gameRunning;
 
+    [HideInInspector]
     public Transform[] spawnZones;
 
     private bool bossSpawned;
 
-    private SoundManager soundManager;
+    [HideInInspector]
+    public SoundManager soundManager;
 
+    [HideInInspector]
     public GameObject stageText;
 
 
@@ -53,7 +63,7 @@ public class WaveSpawner : MonoBehaviour
     {
         //stageText = GameObject.Find("StageName");
         gameRunning = true;
-        soundManager = GetComponent<SoundManager>();
+        //soundManager = GetComponent<SoundManager>();
         waveNumber = 0;
         waveTimer = waves[waveNumber].waveTime;
         pulseMax = waves[waveNumber].spawnRate;
@@ -81,7 +91,7 @@ public class WaveSpawner : MonoBehaviour
                     dialogue[0].triggerFight = true;
 
                     // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
-                    this.SendMessage("TypeThis", dialogue);
+                    levelControlObj.SendMessage("TypeThis", dialogue);
                 }
             }
             else
@@ -131,11 +141,11 @@ public class WaveSpawner : MonoBehaviour
         // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
         if (SceneManage.challenge)
         {
-            this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
+            levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
         }
         else
         {
-            this.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+            levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
         }
     }
 

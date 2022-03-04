@@ -20,6 +20,9 @@ public class Dialogue : MonoBehaviour
     private int lineIndex;
     private DialogueLine[] lines;
 
+    [HideInInspector]
+    public GameObject waveObject;
+
     public void TypeThis(DialogueLine[] targetLines)
     {
         lines = targetLines;
@@ -83,7 +86,7 @@ public class Dialogue : MonoBehaviour
         // spawns boss if first line is tagged to do so
         if (lines[0].triggerFight)
         {
-            this.SendMessage("SpawnBoss");
+            waveObject.SendMessage("SpawnBoss");
         }
         else // ends level because its not the text before the battle
         {
