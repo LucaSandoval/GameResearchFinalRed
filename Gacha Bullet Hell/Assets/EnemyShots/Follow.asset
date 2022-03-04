@@ -21,4 +21,7 @@ MonoBehaviour:
   size: 0.3
   drift: 0
   tracking: 1
+  accelerate: 0
+  trackingDelay: 0
+  pointTowards: 1
   shotType: 3

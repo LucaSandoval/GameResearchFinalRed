@@ -510,7 +510,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 20
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -624,7 +624,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 0}
+  m_BackGroundColor: {r: 0.49151537, g: 0.5583762, b: 0.7169812, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1200,6 +1200,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2070060380}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1292518876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292518877}
+  m_Layer: 0
+  m_Name: BGObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292518877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292518876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1292776390
 GameObject:
@@ -1919,6 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1876762626}
   - component: {fileID: 1876762627}
+  - component: {fileID: 1876762628}
   m_Layer: 0
   m_Name: Stage1
   m_TagString: Untagged
@@ -2000,6 +2031,47 @@ MonoBehaviour:
   - {fileID: 1939870196}
   soundManager: {fileID: 0}
   stageText: {fileID: 101347221}
+--- !u!114 &1876762628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876762625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
 --- !u!1 &1906143608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2302,7 @@ Transform:
   - {fileID: 1159496882}
   - {fileID: 1939870196}
   - {fileID: 520374428}
+  - {fileID: 2106425665}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2275,6 +2348,8 @@ MonoBehaviour:
   bossSpawn: {fileID: 520374428}
   enemyParent: {fileID: 551397333}
   stageText: {fileID: 101347221}
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
   dialogue: {fileID: 994918143}
 --- !u!4 &2074034572
 Transform:
@@ -2353,6 +2428,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92aa03056cc1eab4590be5a2cc6b5100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2106425664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2106425665}
+  m_Layer: 0
+  m_Name: BG Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2106425665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106425664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0044947714, y: 7.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2070060380}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2112479957
 GameObject:
   m_ObjectHideFlags: 0

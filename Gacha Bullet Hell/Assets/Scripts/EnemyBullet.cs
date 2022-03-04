@@ -34,7 +34,7 @@ public class EnemyBullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         ren = GetComponent<SpriteRenderer>();
         playerController = GameObject.Find("Player").GetComponent<PlayerController>();
-        Destroy(gameObject, 20);
+        //Destroy(gameObject, 20);
 
         transform.localScale = new Vector3(size, size, size);
 

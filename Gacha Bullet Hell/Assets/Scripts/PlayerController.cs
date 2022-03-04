@@ -89,12 +89,12 @@ public class PlayerController : MonoBehaviour
                 ren.enabled = false;
             } else {
                 ren.enabled = true;
-                if (flashTimer > -0.2f)
+                if (flashTimer > -0.1f)
                 {
                     flashTimer -= Time.deltaTime;
                 } else
                 {
-                    flashTimer = 0.2f;
+                    flashTimer = 0.1f;
                 }
             }
         }
@@ -154,8 +154,8 @@ public class PlayerController : MonoBehaviour
             statController.lives -= 1;
             statController.GenerateLivesIcons();
 
-            respawnTimer = 1;
-            flashTimer = 0.2f;
+            respawnTimer = 2;
+            flashTimer = 0.1f;
 
 
             float penalty = 1;

@@ -10,8 +10,11 @@ public class LevelController : MonoBehaviour
     public Transform bossSpawn;
     public Transform enemyParent;
     public GameObject stageText;
+    public Transform originPoint;
+    public GameObject bgObjectParent;
 
     private WaveSpawner currentLevelScript;
+    private BGController currentBGScript;
     private SoundManager soundManager;
 
     public GameObject dialogue;
@@ -41,12 +44,14 @@ public class LevelController : MonoBehaviour
             {
                 levelObjects[levelID].SetActive(true);
                 currentLevelScript = levelObjects[levelID].GetComponent<WaveSpawner>();
+                currentBGScript = levelObjects[levelID].GetComponent<BGController>();
 
                 dialogueScript.waveObject = levelObjects[levelID];
             } else
             {
                 challengeLevelObjects[levelID].SetActive(true);
                 currentLevelScript = challengeLevelObjects[levelID].GetComponent<WaveSpawner>();
+                currentBGScript = challengeLevelObjects[levelID].GetComponent<BGController>();
 
                 dialogueScript.waveObject = challengeLevelObjects[levelID];
             }
@@ -58,6 +63,8 @@ public class LevelController : MonoBehaviour
             currentLevelScript.dialogueSystem = dialogue;
             currentLevelScript.enemyParent = enemyParent;
             currentLevelScript.stageText = stageText;
+            currentBGScript.originPoint = originPoint;
+            currentBGScript.bgObjectParent = bgObjectParent;
         }
     }
 }
