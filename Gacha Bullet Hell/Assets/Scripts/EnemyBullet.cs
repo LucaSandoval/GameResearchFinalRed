@@ -88,7 +88,7 @@ public class EnemyBullet : MonoBehaviour
             if (canGraze)
             {
                 playerController.statController.graze += 1;
-                grazeTimer += 0.2f;
+                grazeTimer += 0.4f;
             }
         }
 
