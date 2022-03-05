@@ -35,6 +35,13 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public PlayerStatController statController;
 
+    [Header("Animation")]
+    public bool animated;
+    public float frameRate;
+    public Sprite[] frames;
+    private float animTimer;
+    private int frameID;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -132,6 +139,26 @@ public class PlayerController : MonoBehaviour
             if (statController.bombs > 0)
             {
                 Bomb();
+            }
+        }
+
+        if (animated == true)
+        {
+            if (animTimer > 0)
+            {
+                animTimer -= Time.deltaTime;
+            }
+            else
+            {
+                animTimer = frameRate;
+
+                frameID += 1;
+
+                if (frameID > frames.Length - 1)
+                {
+                    frameID = 0;
+                }
+                ren.sprite = frames[frameID];
             }
         }
 
