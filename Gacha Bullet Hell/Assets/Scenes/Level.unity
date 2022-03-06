@@ -2016,7 +2016,7 @@ MonoBehaviour:
       yMin: 0
       chance: 45
   - bossWave: 1
-    bossTheme: Boss_Test
+    bossTheme: Boss_Test3
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
     bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
     waveTime: 10
@@ -2399,6 +2399,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Stage_test
     clip: {fileID: 8300000, guid: 990ef643c04aa14419a5c8f48228ec46, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Boss_Test3
+    clip: {fileID: 8300000, guid: 76b7c8b5a60f2894b86759e898f132da, type: 3}
     volume: 1
     pitch: 1
     loop: 1
