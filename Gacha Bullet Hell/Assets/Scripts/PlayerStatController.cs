@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 public class PlayerStatController : MonoBehaviour
 {
-    public float lives;
-    public float bombs;
-    public float damageLevel;
-    public float bombPoints;
-    private float bombPointMax;
-    public float graze;
+    public static float lives = 5;
+    public static float bombs = 3;
+    public static float damageLevel = 1.0f;
+    public static float bombPoints = 0;
+    public static float bombPointMax = 50;
+    public static float graze = 0;
 
     public Text powerText;
     public Text grazeText;
@@ -28,7 +28,7 @@ public class PlayerStatController : MonoBehaviour
     public void Start()
     {
         //lives = 3;
-        bombPointMax = 50;
+        //bombPointMax = 50;
 
         livesIconsList = new List<GameObject>();
         bombsIconsList = new List<GameObject>();
@@ -37,6 +37,7 @@ public class PlayerStatController : MonoBehaviour
         bombIconRef = Resources.Load<GameObject>("BombIcon");
         GenerateLivesIcons();
         GenerateBombsIcons();
+
     }
     
     public void Update()
@@ -49,6 +50,14 @@ public class PlayerStatController : MonoBehaviour
         grazeText.text = "Graze: " + graze;
 
         bombPointText.text = "Point: " + bombPoints + "/" + bombPointMax;
+
+        if (bombPoints >= bombPointMax)
+        {
+            bombPoints = 0;
+            bombs += 1;
+            GenerateBombsIcons();
+            bombPointMax += 25;
+        }
     }
 
     public void GenerateLivesIcons()

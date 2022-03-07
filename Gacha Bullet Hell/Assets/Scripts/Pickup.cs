@@ -84,10 +84,10 @@ public class Pickup : MonoBehaviour
             switch (pickupType)
             {
                 case pickupType.power:
-                    other.GetComponent<PlayerController>().statController.damageLevel += 0.1f;
+                    PlayerStatController.damageLevel += 0.1f;
                     break;
                 case pickupType.point:
-                    other.GetComponent<PlayerController>().statController.bombPoints += 1f;
+                    PlayerStatController.bombPoints += 1f;
                     break;
             }
 

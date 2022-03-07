@@ -137,6 +137,7 @@ public class WaveSpawner : MonoBehaviour
     {
         soundManager.FadeOutSong(waves[waveNumber].bossTheme);
         dialogueSystem.SetActive(true);
+        //GameObject.Find("Player").GetComponent<PlayerStatController>().SetGlobalVals();
 
         // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
         if (SceneManage.challenge)

@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            if (statController.bombs > 0)
+            if (PlayerStatController.bombs > 0)
             {
                 Bomb();
             }
@@ -166,7 +166,7 @@ public class PlayerController : MonoBehaviour
 
     public void Bomb()
     {
-        statController.bombs -= 1;
+        PlayerStatController.bombs -= 1;
         statController.GenerateBombsIcons();
 
         GameObject newBomb = Instantiate(playerBombRefrence);
@@ -178,7 +178,7 @@ public class PlayerController : MonoBehaviour
         if (respawning == false)
         {
             respawning = true;
-            statController.lives -= 1;
+            PlayerStatController.lives -= 1;
             statController.GenerateLivesIcons();
 
             respawnTimer = 2;
@@ -186,16 +186,16 @@ public class PlayerController : MonoBehaviour
 
 
             float penalty = 1;
-            float startingDamage = statController.damageLevel;
+            float startingDamage = PlayerStatController.damageLevel;
 
             // new power level
-            float newDamage = statController.damageLevel - penalty;
+            float newDamage = PlayerStatController.damageLevel - penalty;
             if (newDamage < 1)
             {
                 newDamage = 1;
             }
 
-            statController.damageLevel = newDamage;
+            PlayerStatController.damageLevel = newDamage;
 
             // power drops
             float pickupsLost = startingDamage - penalty;
@@ -293,7 +293,7 @@ public class PlayerController : MonoBehaviour
 
         newBulletScript.velocity = vel;
         newBulletScript.scale = size;
-        newBulletScript.damage = statController.damageLevel * mult;
+        newBulletScript.damage = PlayerStatController.damageLevel * mult;
     }
 
     public void SpawnPickups(float ammount)
