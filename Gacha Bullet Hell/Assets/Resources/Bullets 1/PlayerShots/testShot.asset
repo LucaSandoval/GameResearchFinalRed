@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d61b43162ff88498892733549d630b, type: 3}
+  m_Name: testShot
+  m_EditorClassIdentifier: 
+  bulletIcon: {fileID: 0}
+  fireRate: 0.08
+  bulletVelocity: 20
+  spreadDegree: 5
+  size: 0.2
+  damageMultiplier: 1
+  spreadType: 4
+  focusFireRate: 0.14
+  focusBulletVelocity: 22
+  focusSpreadDegree: 12
+  focusSize: 0.2
+  focusDamageMultiplier: 2
+  focusSpreadType: 3
+  ability: {fileID: 0}

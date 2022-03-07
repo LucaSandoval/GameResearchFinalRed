@@ -330,6 +330,127 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &113712532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 113712533}
+  - component: {fileID: 113712535}
+  - component: {fileID: 113712534}
+  m_Layer: 0
+  m_Name: Jellyfish Stage (LVL 1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &113712533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113712532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &113712534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113712532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &113712535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113712532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Stage_test
+  stageName: Shallow Tides
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 5
+    enemiesList:
+    - enemyPrefab: {fileID: 7551219225272385504, guid: c0f95025614b2af4e98c5de53f6c0a6d, type: 3}
+      yMax: 2.5
+      yMin: 0
+      chance: 100
+    - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
+      yMax: 3
+      yMin: -0.25
+      chance: 50
+  - bossWave: 1
+    bossTheme: Boss_Test3
+    bossProfile: {fileID: 11400000, guid: 9c9640ddf73973549a92fc3abb7a8db7, type: 2}
+    bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &193569132
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +1001,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 347.6, y: -16.400002}
-  m_SizeDelta: {x: 1024, y: 915}
+  m_SizeDelta: {x: 915, y: 915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962982362
 MonoBehaviour:
@@ -902,7 +1023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1288,6 +1409,131 @@ Transform:
   m_Father: {fileID: 2039834366}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1325276798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1325276799}
+  - component: {fileID: 1325276801}
+  - component: {fileID: 1325276800}
+  m_Layer: 0
+  m_Name: Jellyfish Stage (LVL 1) - CHALLENGE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1325276799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325276798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1325276800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325276798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &1325276801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325276798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Stage_test
+  stageName: Shallow Tides
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 5
+    enemiesList:
+    - enemyPrefab: {fileID: 3868475084185495845, guid: 846669732f34bae48b528f31219c871d, type: 3}
+      yMax: 3
+      yMin: 0.5
+      chance: 100
+    - enemyPrefab: {fileID: 7551219225272385504, guid: c0f95025614b2af4e98c5de53f6c0a6d, type: 3}
+      yMax: 2.5
+      yMin: 0
+      chance: 30
+    - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
+      yMax: 3
+      yMin: -2
+      chance: 50
+  - bossWave: 1
+    bossTheme: Boss_Test3
+    bossProfile: {fileID: 11400000, guid: 9c9640ddf73973549a92fc3abb7a8db7, type: 2}
+    bossPrefab: {fileID: 3914485956572004842, guid: 62d3baa0440ea68468faf163ccfe2e65, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &1395361862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,7 +2044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2074034572}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1709559953
 GameObject:
@@ -1969,7 +2215,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2074034572}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1876762627
 MonoBehaviour:
@@ -1995,21 +2241,17 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 20
-    spawnRate: 5
+    waveTime: 45
+    spawnRate: 10
     enemiesList:
     - enemyPrefab: {fileID: 5743908680143113380, guid: 0947eccb2e273cd46ba863da941ca671, type: 3}
       yMax: 2.5
       yMin: 0
       chance: 100
-    - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
-      yMax: -2
-      yMin: 0
-      chance: 45
     - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
-      yMax: -2
-      yMin: 0
-      chance: 45
+      yMax: 3
+      yMin: -2
+      chance: 50
   - bossWave: 1
     bossTheme: Boss_Test3
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
@@ -2339,8 +2581,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelObjects:
+  - {fileID: 113712532}
   - {fileID: 1876762625}
   challengeLevelObjects:
+  - {fileID: 1325276798}
   - {fileID: 1696924757}
   spawnZones:
   - {fileID: 1159496882}
@@ -2362,6 +2606,8 @@ Transform:
   m_LocalPosition: {x: 0.13940293, y: 0.7132534, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 113712533}
+  - {fileID: 1325276799}
   - {fileID: 1876762626}
   - {fileID: 1696924759}
   m_Father: {fileID: 0}
