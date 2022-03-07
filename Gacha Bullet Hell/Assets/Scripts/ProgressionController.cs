@@ -12,11 +12,20 @@ public class ProgressionController : MonoBehaviour
 
     public Text playerNameText;
 
+    
+
     public Text livesText;
     public Text bombsText;
     public Text powerText;
     public Text bompPText;
     public Text grazeText;
+
+    public Text playerDescriptionsText;
+    public Image playerBigIcon;
+
+    public Sprite[] playerBigIcons;
+    [TextArea(3,10)]
+    public string[] playerDescriptions;
 
     public void Start()
     {
@@ -40,6 +49,8 @@ public class ProgressionController : MonoBehaviour
             {
                 unlocks[i].selected = true;
                 playerNameText.text = unlocks[i].playerName;
+                playerDescriptionsText.text = playerDescriptions[i];
+                playerBigIcon.sprite = playerBigIcons[i];
             } else
             {
                 unlocks[i].selected = false;

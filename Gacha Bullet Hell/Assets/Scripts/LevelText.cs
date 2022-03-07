@@ -8,6 +8,6 @@ public class LevelText : MonoBehaviour
 
     void Start()
     {
-        gameObject.GetComponent<Text>().text = "LEVEL " + SceneManage.level.ToString();
+        gameObject.GetComponent<Text>().text = "STAGE " + SceneManage.level.ToString();
     }
 }
