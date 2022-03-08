@@ -175,6 +175,8 @@ public class PlayerController : MonoBehaviour
             PlayerStatController.damageLevel = 5;
         }
 
+        //if(transform.position.y < )
+
     }
 
     public void Bomb()
