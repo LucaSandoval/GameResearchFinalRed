@@ -2005,7 +2005,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 2746968207913426860, guid: eb61ecb8c7590db42bb6f97067e94d10, type: 3}
       yMax: 3
       yMin: 0
-      chance: 40
+      chance: 70
     - enemyPrefab: {fileID: 663861320873922453, guid: cecba867e20061749a156532361e74fd, type: 3}
       yMax: 3
       yMin: -0.25
