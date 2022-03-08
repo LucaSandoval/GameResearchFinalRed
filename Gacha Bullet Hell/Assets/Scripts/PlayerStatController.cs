@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerStatController : MonoBehaviour
 {
-    public static float lives = 5;
-    public static float bombs = 3;
+    public static float lives = 3;
+    public static float bombs = 2;
     public static float damageLevel = 1.0f;
     public static float bombPoints = 0;
     public static float bombPointMax = 50;

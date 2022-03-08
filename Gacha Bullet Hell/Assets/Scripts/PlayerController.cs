@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -194,6 +195,12 @@ public class PlayerController : MonoBehaviour
         {
             respawning = true;
             PlayerStatController.lives -= 1;
+
+            if (PlayerStatController.lives < 0)
+            {
+                SceneManager.LoadScene("Game Over");
+            }
+
             statController.GenerateLivesIcons();
 
             respawnTimer = 2;
