@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Boss", menuName = "Bosses")]
 public class BossProfile : ScriptableObject
 {
+    public int playerUnlockID;
+
     [Header("With Sirena")]
     public DialogueLine[] C1preBattleConversation;
     public DialogueLine[] C1easyPostBattleConversation;

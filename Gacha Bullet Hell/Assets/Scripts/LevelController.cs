@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
+    public PlayerProfile[] players;
+    public PlayerController mainPlayer;
+
     public GameObject[] levelObjects;
     public GameObject[] challengeLevelObjects;
     public Transform[] spawnZones;
@@ -19,6 +22,11 @@ public class LevelController : MonoBehaviour
 
     public GameObject dialogue;
     private Dialogue dialogueScript;
+
+    private void Awake()
+    {
+        mainPlayer.profile = players[ProgressionController.selectedPlayer];
+    }
 
     public void Start()
     {

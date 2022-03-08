@@ -584,9 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c199be0225b50c4ea89210971e1862e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullSpeed: 7
-  focusSpeed: 3
-  shotProfile: {fileID: 11400000, guid: 73d97af29e712d649a53ab816a49a263, type: 2}
+  profile: {fileID: 11400000, guid: 8f6badd099331354fa9feeed98633e6f, type: 2}
   hitbox: {fileID: 2112479957}
   focus: 0
   dialogueSystem: {fileID: 994918143}
@@ -2275,7 +2273,7 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 5
+    waveTime: 45
     spawnRate: 4.5
     enemiesList:
     - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
@@ -2614,6 +2612,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d354b2529f55eec48a96f2ead25e3076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players:
+  - {fileID: 11400000, guid: 5b6a6c48f2ceeeb40b9eb0aaf2cd52e8, type: 2}
+  - {fileID: 11400000, guid: 8f6badd099331354fa9feeed98633e6f, type: 2}
+  mainPlayer: {fileID: 504044636}
   levelObjects:
   - {fileID: 113712532}
   - {fileID: 1876762625}

@@ -8,12 +8,13 @@ public class SceneManage : MonoBehaviour
     public static int level = 1;
     public static bool challenge = false;
 
-    public static float globalPower = 1.0f;
-    public static float globalBPoints = 0;
-    public static float globalBPointMax = 50;
-    public static float globalLives = 5;
-    public static float globalBombs = 3;
-    public static float globalGraze = 0;
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            PlayerStatController.damageLevel = 5.0f;
+        }
+    }
 
     void NormalLevel()
     {

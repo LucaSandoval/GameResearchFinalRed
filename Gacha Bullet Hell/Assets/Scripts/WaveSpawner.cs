@@ -137,7 +137,12 @@ public class WaveSpawner : MonoBehaviour
     {
         soundManager.FadeOutSong(waves[waveNumber].bossTheme);
         dialogueSystem.SetActive(true);
-        //GameObject.Find("Player").GetComponent<PlayerStatController>().SetGlobalVals();
+
+        //Unlock proper character if boss defeated
+        if (SceneManage.challenge == true)
+        {
+            ProgressionController.playersUnlocked[waves[waveNumber].bossProfile.playerUnlockID] = true;
+        }
 
         // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
         if (SceneManage.challenge)

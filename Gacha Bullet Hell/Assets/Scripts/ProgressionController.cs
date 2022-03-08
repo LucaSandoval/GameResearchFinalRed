@@ -12,8 +12,6 @@ public class ProgressionController : MonoBehaviour
 
     public Text playerNameText;
 
-    
-
     public Text livesText;
     public Text bombsText;
     public Text powerText;

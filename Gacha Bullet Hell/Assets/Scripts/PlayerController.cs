@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float fullSpeed;
-    public float focusSpeed;
+    public PlayerProfile profile;
+
+    private float fullSpeed;
+    private float focusSpeed;
 
     private float currentSpeed;
 
-    public PlayerShotProfile shotProfile;
+    private PlayerShotProfile shotProfile;
     private GameObject playerBulletRefrence;
     private GameObject playerBombRefrence;
 
@@ -58,6 +60,11 @@ public class PlayerController : MonoBehaviour
 
     public void Init()
     {
+        fullSpeed = profile.moveSpeed;
+        focusSpeed = profile.focusMoveSpeed;
+        shotProfile = profile.pattern;
+        frames = profile.anims;
+
         maxTimer = shotProfile.fireRate;
 
         playerBulletRefrence = Resources.Load<GameObject>("PlayerBullet");
@@ -111,6 +118,7 @@ public class PlayerController : MonoBehaviour
             ren.enabled = true;
         }
 
+
         rb.velocity = new Vector3(Input.GetAxisRaw("Horizontal") *
                 currentSpeed, Input.GetAxisRaw("Vertical") * currentSpeed, 0);
 
@@ -160,6 +168,11 @@ public class PlayerController : MonoBehaviour
                 }
                 ren.sprite = frames[frameID];
             }
+        }
+
+        if (PlayerStatController.damageLevel > 5)
+        {
+            PlayerStatController.damageLevel = 5;
         }
 
     }
@@ -293,6 +306,7 @@ public class PlayerController : MonoBehaviour
 
         newBulletScript.velocity = vel;
         newBulletScript.scale = size;
+        newBulletScript.icon = shotProfile.bulletIcon;
         newBulletScript.damage = PlayerStatController.damageLevel * mult;
     }
 

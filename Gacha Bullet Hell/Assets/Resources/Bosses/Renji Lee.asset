@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731960073839e7a4caae1b8259424dc4, type: 3}
   m_Name: Renji Lee
   m_EditorClassIdentifier: 
+  playerUnlockID: 1
   C1preBattleConversation:
   - characterName: Renji Lee
     avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}

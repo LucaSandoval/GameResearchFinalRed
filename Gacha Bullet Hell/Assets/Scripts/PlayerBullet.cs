@@ -7,6 +7,7 @@ public class PlayerBullet : MonoBehaviour
     public float velocity;
     public SpriteRenderer ren;
     private Rigidbody2D rb;
+    public Sprite icon;
     public float angle;
     public float scale;
     public float damage;
@@ -14,7 +15,7 @@ public class PlayerBullet : MonoBehaviour
     {
         ren = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-
+        ren.sprite = icon;
         Destroy(gameObject, 20);
 
         transform.localScale = new Vector3(scale, scale, scale);
