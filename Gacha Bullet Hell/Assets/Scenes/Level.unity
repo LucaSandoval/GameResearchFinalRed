@@ -1965,8 +1965,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1696924759}
   - component: {fileID: 1696924758}
+  - component: {fileID: 1696924760}
   m_Layer: 0
-  m_Name: Stage1 - Challenge
+  m_Name: Eel Stage (LVL 2) - CHALLENGE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1985,7 +1986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageSong: Stage_test
-  stageName: Shallow Tides
+  stageName: Murky Waters
   waveNumber: 0
   bossSpawn: {fileID: 520374428}
   enemyParent: {fileID: 551397333}
@@ -1996,36 +1997,28 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 10
-    spawnRate: 0.5
+    waveTime: 45
+    spawnRate: 4.5
     enemiesList:
-    - enemyPrefab: {fileID: 5743908680143113380, guid: 0947eccb2e273cd46ba863da941ca671, type: 3}
+    - enemyPrefab: {fileID: 2746968207913426860, guid: eb61ecb8c7590db42bb6f97067e94d10, type: 3}
+      yMax: 3
+      yMin: 0
+      chance: 90
+    - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
       yMax: 2.5
       yMin: 0
-      chance: 100
-    - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
-      yMax: -2
-      yMin: 0
-      chance: 45
-    - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
-      yMax: -2
-      yMin: 0
-      chance: 45
+      chance: 30
+    - enemyPrefab: {fileID: 663861320873922453, guid: cecba867e20061749a156532361e74fd, type: 3}
+      yMax: 3
+      yMin: -0.25
+      chance: 60
   - bossWave: 1
     bossTheme: Boss_Test
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
-    bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
+    bossPrefab: {fileID: 18985153616583854, guid: 884a0104f90011945a3605639077a2b5, type: 3}
     waveTime: 10
     spawnRate: 0
-    enemiesList:
-    - enemyPrefab: {fileID: 5743908680143113380, guid: 0947eccb2e273cd46ba863da941ca671, type: 3}
-      yMax: 2.5
-      yMin: 0
-      chance: 100
-    - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
-      yMax: -2
-      yMin: 0
-      chance: 30
+    enemiesList: []
   gameRunning: 0
   spawnZones:
   - {fileID: 1159496882}
@@ -2046,6 +2039,47 @@ Transform:
   m_Father: {fileID: 2074034572}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1696924760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696924757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
 --- !u!1 &1709559953
 GameObject:
   m_ObjectHideFlags: 0
@@ -2197,7 +2231,7 @@ GameObject:
   - component: {fileID: 1876762627}
   - component: {fileID: 1876762628}
   m_Layer: 0
-  m_Name: Stage1
+  m_Name: Eel Stage (LVL 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2230,7 +2264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageSong: Stage_test
-  stageName: Shallow Tides
+  stageName: Murky Waters
   waveNumber: 0
   bossSpawn: {fileID: 520374428}
   enemyParent: {fileID: 551397333}
@@ -2241,21 +2275,21 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 45
-    spawnRate: 10
+    waveTime: 5
+    spawnRate: 4.5
     enemiesList:
-    - enemyPrefab: {fileID: 5743908680143113380, guid: 0947eccb2e273cd46ba863da941ca671, type: 3}
+    - enemyPrefab: {fileID: 4399082004760959086, guid: f30a1fbd8b2d80b4d927766bdbad2feb, type: 3}
       yMax: 2.5
       yMin: 0
       chance: 100
-    - enemyPrefab: {fileID: 3423155157087203361, guid: ea5d37977d741144e8f67fb48a74c936, type: 3}
+    - enemyPrefab: {fileID: 663861320873922453, guid: cecba867e20061749a156532361e74fd, type: 3}
       yMax: 3
-      yMin: -2
-      chance: 50
+      yMin: -0.25
+      chance: 60
   - bossWave: 1
     bossTheme: Boss_Test3
     bossProfile: {fileID: 11400000, guid: 58a8028198b52a5448e14a1313dc337f, type: 2}
-    bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
+    bossPrefab: {fileID: 4455389738758710999, guid: 8041a1d12affe3e4e896e39e6e6eae28, type: 3}
     waveTime: 10
     spawnRate: 0
     enemiesList:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   C1preBattleConversation:
   - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: Hi lol
     triggerFight: 1
   - characterName: Marin
@@ -22,16 +22,16 @@ MonoBehaviour:
     dialogueLine: O_o
     triggerFight: 0
   - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: Yeah.
     triggerFight: 1
   C1easyPostBattleConversation:
   - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: Ow
     triggerFight: 0
   - characterName: Renji
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: '>:[ goodbye'
     triggerFight: 0
   - characterName: Marin
@@ -40,7 +40,7 @@ MonoBehaviour:
     triggerFight: 0
   C1hardPostBattleConversation:
   - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: mann
     triggerFight: 0
   - characterName: Marin
@@ -48,7 +48,7 @@ MonoBehaviour:
     dialogueLine: lets be friends
     triggerFight: 0
   - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: d9aa91a4ee0213341842557ef2fa94be, type: 3}
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
     dialogueLine: kk
     triggerFight: 0
   C2preBattleConversation: []
