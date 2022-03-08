@@ -113,10 +113,96 @@ MonoBehaviour:
     avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
     dialogueLine: "So much for hating extra effort\u2026"
     triggerFight: 0
-  C1hardPostBattleConversation:
   - characterName: Sirena Cari
     avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
-    dialogueLine: Yeah, I'll say something cool here.
+    dialogueLine: 'But at least she was a total pushover.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Jeez, I can\u2019t believe this is happening to me\u2026  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Oh well, time to keep moving.  '
+    triggerFight: 0
+  C1hardPostBattleConversation:
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: '*Sigh*  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "Okay, okay\u2026 you win.  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: 'All this fighting is way too much for me. '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "I\u2019m not built for this type of exercise.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Giving up so soon?  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Well, it was a good decision.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Your laziness might have actually helped you out for once.  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "I prefer to call it \u2018practicality\u2019. "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: 'You could say I have a sixth sense for it.  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: 'And right now, that sense is telling me to pick the stronger leader
+      to follow.  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "I figure that the stronger my boss is, the less fighting I\u2019ll
+      end up having to do.  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "So I\u2019ll just tag along with you and help out, I guess.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Huh? That's nice and all, but\u2026  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Do jellyfish even have five senses\u2026?  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "Of course we do. That\u2019s not very funny.  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    dialogueLine: "Don\u2019t make me change my mind.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Alright, alright.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Whatever, you can tag along.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Just, keep up, yeah?  '
     triggerFight: 0
   C2preBattleConversation: []
   C2easyPostBattleConversation: []
