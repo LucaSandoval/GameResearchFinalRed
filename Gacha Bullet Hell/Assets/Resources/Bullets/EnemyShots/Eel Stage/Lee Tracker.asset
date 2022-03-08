@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Lee Tracker
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 68aba696ab9e24f48b4182df9ba3a811, type: 3}
-  fireRate: 0.2
-  attackLength: 1
-  restPeriod: 2
+  fireRate: 0.8
+  attackLength: 2
+  restPeriod: 0.5
   spreadAngle: 0
-  bulletVelocity: 4
+  bulletVelocity: 2
   size: 0.2
   drift: 0.5
   tracking: 1

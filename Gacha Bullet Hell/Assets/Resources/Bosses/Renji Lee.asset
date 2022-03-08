@@ -14,43 +14,144 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnlockID: 1
   C1preBattleConversation:
-  - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: Hi lol
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "First the jellyfish, now\u2026 eels? "
     triggerFight: 1
-  - characterName: Marin
-    avatar: {fileID: 21300000, guid: c8cde7a4a08fef14db3bb39a08bb53d0, type: 3}
-    dialogueLine: O_o
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "I could probably enjoy all of this sea life if it wasn\u2019t
+      trying to kill me all the time.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "And, of course, if I wasn\u2019t dealing with Chahde\u2019s absurd
+      kidnapping. "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Where could he have been taken? '
     triggerFight: 0
   - characterName: Renji Lee
     avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: Yeah.
-    triggerFight: 1
+    dialogueLine: "He\u2019s not arrround herrre, I can tell you that much. "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Oh, Let me guess, another one of the queen\u2019s loyal subjects? "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I would preferrr to think of myself as herrr\u2026 business partnerrr\u2026 "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'What, do you run a kidnapping corporation?  '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Woah therrre, you should underrrstand that I cannot talk about
+      herrr and my affairrrs here. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Oh Brother. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Regarrrdless, herrr \u201CChahde\u201D is no longer yourrrs. I
+      think it would be best for you to go home. "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Funny that she thinks she can make those decisions for him. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "I won\u2019t be going home without my boyfriend. "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: I see, so you have chosen a farrr less painless path.
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Well, I have to respect yourrr deterrrmination.  '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Unforrrtunately for you, I am just as well deterrrmined not to
+      let you furrrtherrr. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Yeah, I\u2019d doubt that."
+    triggerFight: 0
   C1easyPostBattleConversation:
-  - characterName: Renji Lee
-    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: Ow
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'I thought that they said they were determined? '
     triggerFight: 0
-  - characterName: Renji
-    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: '>:[ goodbye'
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Well, it seems that they were nothing more than a slinky eel after
+      all. '
     triggerFight: 0
-  - characterName: Marin
-    avatar: {fileID: 21300000, guid: c8cde7a4a08fef14db3bb39a08bb53d0, type: 3}
-    dialogueLine: get owned eel bastard
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'Nothing to do now but continue pressing forward. '
     triggerFight: 0
   C1hardPostBattleConversation:
   - characterName: Renji Lee
     avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: mann
+    dialogueLine: 'Oh, I suppose the queen will be closing ourr business contracts
+      afterrr this. '
     triggerFight: 0
-  - characterName: Marin
-    avatar: {fileID: 21300000, guid: c8cde7a4a08fef14db3bb39a08bb53d0, type: 3}
-    dialogueLine: lets be friends
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: 'What?  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "I have you here, moments from defeat, and you\u2019re thinking
+      about your\u2026 business? "
     triggerFight: 0
   - characterName: Renji Lee
     avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
-    dialogueLine: kk
+    dialogueLine: 'It is verrry important to me. You have neverrr seen a rrribbon
+      as well-crafted as ourrrs. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'But the queen will neverrr come to us again afterrr this. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Oh, with her powerrr, she may even blacklist us from everrr signing
+      a contract with anyone in the seven seas again\u2026 "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Oh\u2026"
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I don\u2019t suppose you could make rrroom for one morrre?"
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    dialogueLine: "Let me get this straight. If the queen won\u2019t buy your ribbons
+      anymore, you\u2019d rather go and physically fight against her and all of her
+      kingdom? "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'It is something imporrrtant I learned on the firrrst day at business
+      school. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "If you can\u2019t join them, beat them. "
     triggerFight: 0
   C2preBattleConversation: []
   C2easyPostBattleConversation: []

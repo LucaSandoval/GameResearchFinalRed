@@ -147,10 +147,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: 1
   trend: 0.2
-  speed: 4
+  speed: 6
   burstTimer: 0
   bulletPatterns:
-  - {fileID: 11400000, guid: be388cf6d33021a47897754fd9892d97, type: 2}
+  - {fileID: 11400000, guid: 9b9fea8ef30e9a44f851517a27a141bc, type: 2}
   - {fileID: 11400000, guid: 59325643e80110d4cad8b3c4cfe399c1, type: 2}
 --- !u!114 &2726963632749773976
 MonoBehaviour:
