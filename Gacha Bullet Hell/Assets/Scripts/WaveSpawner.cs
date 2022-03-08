@@ -86,11 +86,24 @@ public class WaveSpawner : MonoBehaviour
                     soundManager.FadeOutSong(stageSong);
                     dialogueSystem.SetActive(true);
 
+                    DialogueLine[] dialogue;
+                    switch (ProgressionController.selectedPlayer)
+                    {
+                        case 0:
+                            dialogue = waves[waveNumber].bossProfile.C1preBattleConversation;
+                            break;
+                        case 1:
+                            dialogue = waves[waveNumber].bossProfile.C2preBattleConversation;
+                            break;
+
+                        default:
+                            dialogue = waves[waveNumber].bossProfile.C1preBattleConversation;
+                            break;
+                    }
+
                     // tags first line in conversation to trigger boss fight after conversation
-                    DialogueLine[] dialogue = waves[waveNumber].bossProfile.C1preBattleConversation;
                     dialogue[0].triggerFight = true;
 
-                    // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
                     levelControlObj.SendMessage("TypeThis", dialogue);
                 }
             }
@@ -144,14 +157,37 @@ public class WaveSpawner : MonoBehaviour
             ProgressionController.playersUnlocked[waves[waveNumber].bossProfile.playerUnlockID] = true;
         }
 
-        // ! - CHANGE CONVERSATION TO REFLECT DIFFERENT PLAYER CHARACTERS
         if (SceneManage.challenge)
         {
-            levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
+            switch (ProgressionController.selectedPlayer)
+            {
+                case 0:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
+                    break;
+                case 1:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C2hardPostBattleConversation);
+                    break;
+
+                default:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
+                    break;
+            }
         }
         else
         {
-            levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+            switch (ProgressionController.selectedPlayer)
+            {
+                case 0:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+                    break;
+                case 1:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C2easyPostBattleConversation);
+                    break;
+
+                default:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1easyPostBattleConversation);
+                    break;
+            }
         }
     }
 

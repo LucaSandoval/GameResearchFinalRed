@@ -151,7 +151,6 @@ MonoBehaviour:
   burstTimer: 0
   bulletPatterns:
   - {fileID: 11400000, guid: f0472643e7298e14b999ab42c516c466, type: 2}
-  - {fileID: 11400000, guid: 562ae09e17524f4448e0ce31d36749ae, type: 2}
 --- !u!114 &3046014687821375339
 MonoBehaviour:
   m_ObjectHideFlags: 0
