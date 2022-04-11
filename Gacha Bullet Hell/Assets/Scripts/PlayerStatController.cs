@@ -9,7 +9,7 @@ public class PlayerStatController : MonoBehaviour
     public static float bombs = 2;
     public static float damageLevel = 1.0f;
     public static float bombPoints = 0;
-    public static float bombPointMax = 50;
+    public static float bombPointMax = 25;
     public static float graze = 0;
 
     public Text powerText;
@@ -56,7 +56,7 @@ public class PlayerStatController : MonoBehaviour
             bombPoints = 0;
             bombs += 1;
             GenerateBombsIcons();
-            bombPointMax += 25;
+            bombPointMax += 15;
         }
     }
 

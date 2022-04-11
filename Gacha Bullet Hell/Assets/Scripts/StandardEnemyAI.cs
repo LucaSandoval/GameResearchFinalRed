@@ -132,6 +132,14 @@ public class StandardEnemyAI : MonoBehaviour
                 FireBullet(transform.position, 90);
                 FireBullet(transform.position, -180);
                 break;
+            case enemyShotType.smallRingOffset:
+
+                int idk = 45;
+                FireBullet(transform.position, -90 + idk);
+                FireBullet(transform.position, 0 + idk);
+                FireBullet(transform.position, 90 + idk);
+                FireBullet(transform.position, -180 + idk);
+                break;
             case enemyShotType.largeRing:
                 FireBullet(transform.position, -90);
                 FireBullet(transform.position, -45);

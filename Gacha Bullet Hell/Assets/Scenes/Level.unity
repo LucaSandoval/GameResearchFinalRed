@@ -2157,6 +2157,131 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709559953}
   m_CullTransparentMesh: 1
+--- !u!1 &1747117605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1747117606}
+  - component: {fileID: 1747117608}
+  - component: {fileID: 1747117607}
+  m_Layer: 0
+  m_Name: Shark Stage (LVL 3) - CHALLENGE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1747117606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747117605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747117607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747117605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &1747117608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747117605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Shark Stage
+  stageName: Dark Reef
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 4
+    enemiesList:
+    - enemyPrefab: {fileID: 8347212581123346200, guid: 526843969582c9f45af3247ab4e2066b, type: 3}
+      yMax: 3
+      yMin: 1
+      chance: 100
+    - enemyPrefab: {fileID: 2710841568226387833, guid: 3a05b93e4a55b304c95f040d5cd97f55, type: 3}
+      yMax: 2
+      yMin: -2
+      chance: 65
+    - enemyPrefab: {fileID: 7923074495472467004, guid: e1bef187e05d43946bc5ff912865a294, type: 3}
+      yMax: 2.5
+      yMin: 0
+      chance: 20
+  - bossWave: 1
+    bossTheme: Shark Fight
+    bossProfile: {fileID: 11400000, guid: 2c068de76b7122c4da101f3e225e4e0d, type: 2}
+    bossPrefab: {fileID: 733230742435346882, guid: 68aa7ccff4d8b604d8f2cf3d94d5796b, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &1858018931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,9 +2744,11 @@ MonoBehaviour:
   levelObjects:
   - {fileID: 113712532}
   - {fileID: 1876762625}
+  - {fileID: 2127704529}
   challengeLevelObjects:
   - {fileID: 1325276798}
   - {fileID: 1696924757}
+  - {fileID: 1747117605}
   spawnZones:
   - {fileID: 1159496882}
   - {fileID: 1939870196}
@@ -2646,6 +2773,8 @@ Transform:
   - {fileID: 1325276799}
   - {fileID: 1876762626}
   - {fileID: 1696924759}
+  - {fileID: 2127704530}
+  - {fileID: 1747117606}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2662,7 +2791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Boss_Test2
+  - name: Shark Fight
     clip: {fileID: 8300000, guid: 9a48f7e7bf9e2e94db1d2a0a694137eb, type: 3}
     volume: 1
     pitch: 1
@@ -2688,6 +2817,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Dot Stage
     clip: {fileID: 8300000, guid: b69fa57198d967d4eadeaacd565df024, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Shark Stage
+    clip: {fileID: 8300000, guid: 2a4ace876c4a36144944279206047a95, type: 3}
     volume: 1
     pitch: 1
     loop: 1
@@ -2834,3 +2969,124 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2127704529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2127704530}
+  - component: {fileID: 2127704532}
+  - component: {fileID: 2127704531}
+  m_Layer: 0
+  m_Name: Shark Stage (LVL 3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2127704530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127704529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2127704531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127704529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &2127704532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127704529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Shark Stage
+  stageName: Dark Reef
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 4
+    enemiesList:
+    - enemyPrefab: {fileID: 8347212581123346200, guid: 526843969582c9f45af3247ab4e2066b, type: 3}
+      yMax: 3
+      yMin: 1
+      chance: 100
+    - enemyPrefab: {fileID: 2710841568226387833, guid: 3a05b93e4a55b304c95f040d5cd97f55, type: 3}
+      yMax: 2
+      yMin: -2
+      chance: 50
+  - bossWave: 1
+    bossTheme: Shark Fight
+    bossProfile: {fileID: 11400000, guid: 2c068de76b7122c4da101f3e225e4e0d, type: 2}
+    bossPrefab: {fileID: 4304351497698176294, guid: f01026a9479137f40848ab11443acc24, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}

@@ -171,9 +171,9 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (PlayerStatController.damageLevel > 5)
+        if (PlayerStatController.damageLevel > 3)
         {
-            PlayerStatController.damageLevel = 5;
+            PlayerStatController.damageLevel = 3;
         }
 
         //if(transform.position.y < )

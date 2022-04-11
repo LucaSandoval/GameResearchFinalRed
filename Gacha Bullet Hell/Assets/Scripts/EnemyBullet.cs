@@ -124,6 +124,8 @@ public enum enemyShotType
     triple,
     quad,
     smallRing,
-    largeRing
+    largeRing,
+    largeRingOffset,
+    smallRingOffset
 }
 

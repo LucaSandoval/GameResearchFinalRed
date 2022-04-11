@@ -276,6 +276,19 @@ public class StandardBossAI : MonoBehaviour
                 FireBullet(transform.position, -180);
                 FireBullet(transform.position, -225);
                 break;
+            case enemyShotType.largeRingOffset:
+
+                int idk = 22;
+
+                FireBullet(transform.position, -90 + idk);
+                FireBullet(transform.position, -45 + idk);
+                FireBullet(transform.position, 0 + idk);
+                FireBullet(transform.position, 45 + idk);
+                FireBullet(transform.position, 90 + idk);
+                FireBullet(transform.position, -135 + idk);
+                FireBullet(transform.position, -180 + idk);
+                FireBullet(transform.position, -225 + idk);
+                break;
         }
     }
 
