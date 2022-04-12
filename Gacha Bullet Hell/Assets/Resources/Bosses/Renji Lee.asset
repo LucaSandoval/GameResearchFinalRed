@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731960073839e7a4caae1b8259424dc4, type: 3}
   m_Name: Renji Lee
   m_EditorClassIdentifier: 
-  playerUnlockID: 1
+  playerUnlockID: 2
   C1preBattleConversation:
   - characterName: Sirena Cari
     avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}

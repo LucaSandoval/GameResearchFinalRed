@@ -11,6 +11,7 @@ public class PlayerBullet : MonoBehaviour
     public float angle;
     public float scale;
     public float damage;
+    public bool pointTowards;
     public void Start()
     {
         ren = GetComponent<SpriteRenderer>();
@@ -27,6 +28,16 @@ public class PlayerBullet : MonoBehaviour
         Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector3.right;
 
         rb.velocity = dir * velocity;
+
+        if (pointTowards)
+        {
+            Vector2 moveDirection = rb.velocity;
+            if (moveDirection != Vector2.zero)
+            {
+                float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            }
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other)

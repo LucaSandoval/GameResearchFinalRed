@@ -23,8 +23,8 @@ public class PlayerShotProfile : ScriptableObject
     public float focusDamageMultiplier;
     public spreadType focusSpreadType;
 
-    [Header("Abilities")]
-    public GameObject ability;
+    [Header("Misc.")]
+    public bool pointTowards;
 }
 
 public enum spreadType

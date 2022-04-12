@@ -317,6 +317,7 @@ public class PlayerController : MonoBehaviour
         newBulletScript.scale = size;
         newBulletScript.icon = shotProfile.bulletIcon;
         newBulletScript.damage = PlayerStatController.damageLevel * mult;
+        newBulletScript.pointTowards = shotProfile.pointTowards;
     }
 
     public void SpawnPickups(float ammount)
