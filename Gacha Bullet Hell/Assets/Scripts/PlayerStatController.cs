@@ -24,6 +24,9 @@ public class PlayerStatController : MonoBehaviour
     private List<GameObject> livesIconsList;
     private List<GameObject> bombsIconsList;
 
+    public Slider powerSlider;
+    public Slider pointSlider;
+
 
     public void Start()
     {
@@ -37,6 +40,8 @@ public class PlayerStatController : MonoBehaviour
         bombIconRef = Resources.Load<GameObject>("BombIcon");
         GenerateLivesIcons();
         GenerateBombsIcons();
+
+        powerSlider.maxValue = 3;
 
     }
     
@@ -58,6 +63,10 @@ public class PlayerStatController : MonoBehaviour
             GenerateBombsIcons();
             bombPointMax += 15;
         }
+
+        powerSlider.value = dam;
+        pointSlider.value = bombPoints;
+        pointSlider.maxValue = bombPointMax;
     }
 
     public void GenerateLivesIcons()
