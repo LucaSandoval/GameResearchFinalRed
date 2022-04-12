@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: badf38dbee7a911419b8831bc12c7e41, type: 3}
   m_Name: Small Shark Blast
   m_EditorClassIdentifier: 
-  bulletImage: {fileID: 21300000, guid: 3b5573dee477ee144abfb59183959d42, type: 3}
+  bulletImage: {fileID: 21300000, guid: 07b17a83fe6bd4a42afdfcae9e44f43e, type: 3}
   fireRate: 0.5
   attackLength: 4
   restPeriod: 2
@@ -23,5 +23,5 @@ MonoBehaviour:
   tracking: 0
   accelerate: 0
   trackingDelay: 0
-  pointTowards: 0
+  pointTowards: 1
   shotType: 1

@@ -8,6 +8,10 @@ public class EnemyHealth : MonoBehaviour
     public float damageReward;
     public float pointReward;
 
+    public bool isBoss;
+
+    private GameObject explosionEffect;
+
     [Header("Animation")]
     public bool animated;
     public float frameRate;
@@ -25,6 +29,17 @@ public class EnemyHealth : MonoBehaviour
     private void Start()
     {
         ren = GetComponent<SpriteRenderer>();
+
+
+        if (!isBoss)
+        {
+            explosionEffect = Resources.Load<GameObject>("explosion");
+        } else
+        {
+            explosionEffect = Resources.Load<GameObject>("boss_explosion");
+        }
+
+
         defColor = ren.color;
         frameID = 0;
         animTimer = frameRate;
@@ -49,6 +64,10 @@ public class EnemyHealth : MonoBehaviour
 
         if (health <= 0)
         {
+            GameObject newEffect = Instantiate(explosionEffect);
+            newEffect.transform.position = transform.position;
+
+
             SpawnPickups(damageReward, pickupType.power);
             SpawnPickups(pointReward, pickupType.point);
             Destroy(gameObject);

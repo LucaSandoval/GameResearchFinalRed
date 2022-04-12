@@ -3621,7 +3621,7 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 45
+    waveTime: 2
     spawnRate: 4
     enemiesList:
     - enemyPrefab: {fileID: 8347212581123346200, guid: 526843969582c9f45af3247ab4e2066b, type: 3}

@@ -15,15 +15,15 @@ MonoBehaviour:
   playerUnlockID: 0
   C1preBattleConversation:
   - characterName: 
-    avatar: {fileID: 0}
+    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
     dialogueLine: ...
     triggerFight: 1
   - characterName: 
-    avatar: {fileID: 0}
+    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
     dialogueLine: .............
     triggerFight: 1
   - characterName: 
-    avatar: {fileID: 0}
+    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
     dialogueLine: ..........................................
     triggerFight: 1
   C1easyPostBattleConversation: []
