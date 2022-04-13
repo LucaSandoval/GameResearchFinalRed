@@ -152,7 +152,6 @@ MonoBehaviour:
   bulletPatterns:
   - {fileID: 11400000, guid: 90765d2c890d8db44924d0fad7df8aca, type: 2}
   - {fileID: 11400000, guid: b1d39d95f4dca854bb384695bb6c1a3a, type: 2}
-  - {fileID: 11400000, guid: 58311f5576e09604ea2e45220cefe28f, type: 2}
 --- !u!114 &4712100924671235361
 MonoBehaviour:
   m_ObjectHideFlags: 0
