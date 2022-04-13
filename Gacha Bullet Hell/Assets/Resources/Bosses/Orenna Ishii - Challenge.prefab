@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6342603042687125217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6342603042687125219}
+  - component: {fileID: 6342603042687125216}
+  - component: {fileID: 6342603042687125218}
+  - component: {fileID: 6342603042687125228}
+  - component: {fileID: 6342603042687125229}
+  - component: {fileID: 6342603042687125231}
+  m_Layer: 0
+  m_Name: Orenna Ishii - Challenge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6342603042687125219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6342603042687125216
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 22
+  m_Sprite: {fileID: 21300000, guid: 85bab4c3ba3c01547b0af926a4705500, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &6342603042687125218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2a9b66536c88644a176d5793188973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossName: Orenna Ishii
+  state: 0
+  patternId: 0
+  patterns:
+  - duration: 4
+    speed: 3
+    moveInterval: 1
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: eb67f274f15c08f43a605bbad911de5c, type: 2}
+  - duration: 6
+    speed: 3
+    moveInterval: 1
+    thisState: 2
+    attacks:
+    - {fileID: 11400000, guid: ad01671214ccd9d4ca559b5e141b0950, type: 2}
+    - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
+  - duration: 0.3
+    speed: 2
+    moveInterval: 5
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: c2d4d345fd821c6449f33a9103fb7266, type: 2}
+    - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
+  - duration: 4
+    speed: 6
+    moveInterval: 1
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: f492dd21528d57a40a2a794ebef7ffd6, type: 2}
+    - {fileID: 11400000, guid: c8e6ec12418c85047bf8d91d0d95613e, type: 2}
+    - {fileID: 11400000, guid: c2d4d345fd821c6449f33a9103fb7266, type: 2}
+  - duration: 1
+    speed: 1
+    moveInterval: 10
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: 4f3e03478ca926e46be3f68adde393f2, type: 2}
+  - duration: 2
+    speed: 1
+    moveInterval: 10
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
+    - {fileID: 11400000, guid: c2d4d345fd821c6449f33a9103fb7266, type: 2}
+  movePoints:
+  - {x: 0, y: 3.88, z: 0}
+  - {x: -6.38, y: 1.43, z: 0}
+  - {x: 6.77, y: 1.43, z: 0}
+  patternAttackId: 0
+  burstTimer: 0
+  xMax: 4
+  xMin: -4
+  yMin: 0
+  yMax: 4
+--- !u!50 &6342603042687125228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6342603042687125229
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.15, y: 1.78}
+  m_EdgeRadius: 0
+--- !u!114 &6342603042687125231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342603042687125217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2500
+  damageReward: 20
+  pointReward: 25
+  isBoss: 1
+  animated: 1
+  frameRate: 0.1
+  frames:
+  - {fileID: 21300000, guid: 85bab4c3ba3c01547b0af926a4705500, type: 3}
+  - {fileID: 21300000, guid: cfcee9fa549603e449b82ec9c40c11d3, type: 3}

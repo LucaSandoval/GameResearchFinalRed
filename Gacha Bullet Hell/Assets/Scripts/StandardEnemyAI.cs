@@ -150,10 +150,30 @@ public class StandardEnemyAI : MonoBehaviour
                 FireBullet(transform.position, -180);
                 FireBullet(transform.position, -225);
                 break;
+            case enemyShotType.massiveRing:
+
+                FireBullet(transform.position, 0);
+                FireBullet(transform.position, 22.5f);
+                FireBullet(transform.position, 45);
+                FireBullet(transform.position, 67.5f);
+                FireBullet(transform.position, 90);
+                FireBullet(transform.position, 112.5f);
+                FireBullet(transform.position, 135);
+                FireBullet(transform.position, 157.5f);
+                FireBullet(transform.position, 180);
+                FireBullet(transform.position, 202.5f);
+                FireBullet(transform.position, 225);
+                FireBullet(transform.position, 247.5f);
+                FireBullet(transform.position, 270);
+                FireBullet(transform.position, 292.5f);
+                FireBullet(transform.position, 315);
+                FireBullet(transform.position, 337.5f);
+                FireBullet(transform.position, 360);
+                break;
         }
     }
 
-    public void FireBullet(Vector3 pos, int rotation)
+    public void FireBullet(Vector3 pos, float rotation)
     {
         GameObject newBullet = Instantiate(shotPrefab);
         newBullet.transform.position = pos;

@@ -1168,6 +1168,146 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 54}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &955667206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955667207}
+  - component: {fileID: 955667209}
+  - component: {fileID: 955667208}
+  m_Layer: 0
+  m_Name: Oar Stage (LVL 4) - CHALLENGE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &955667207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955667206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955667208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955667206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &955667209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955667206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Oar Stage
+  stageName: Black Precipice
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 25
+    spawnRate: 4
+    enemiesList:
+    - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
+      yMax: 3
+      yMin: -1
+      chance: 100
+    - enemyPrefab: {fileID: 4801841251850423829, guid: 28adc106c2435194b9dcc6e4595d82a2, type: 3}
+      yMax: 3
+      yMin: -1
+      chance: 60
+    - enemyPrefab: {fileID: 6124282068588994789, guid: b3ba1a331f777c3458c7b36f71719abe, type: 3}
+      yMax: 1
+      yMin: -1
+      chance: 15
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 20
+    spawnRate: 3.2
+    enemiesList:
+    - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
+      yMax: 2
+      yMin: -1.5
+      chance: 100
+    - enemyPrefab: {fileID: 6124282068588994789, guid: b3ba1a331f777c3458c7b36f71719abe, type: 3}
+      yMax: 2
+      yMin: -2
+      chance: 60
+  - bossWave: 1
+    bossTheme: Oar Fight
+    bossProfile: {fileID: 11400000, guid: 2ae8751a1eaf0454aa3e12da5109e011, type: 2}
+    bossPrefab: {fileID: 6342603042687125217, guid: d12b1a8d091336e4395cb78112fdf46c, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &962982360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3116,6 +3256,127 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958536303}
   m_CullTransparentMesh: 1
+--- !u!1 &1981991546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981991547}
+  - component: {fileID: 1981991549}
+  - component: {fileID: 1981991548}
+  m_Layer: 0
+  m_Name: 'Oar Stage (LVL 4) '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1981991547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981991546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1981991548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981991546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &1981991549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981991546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: Oar Stage
+  stageName: Black Precipice
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 4
+    enemiesList:
+    - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
+      yMax: 3
+      yMin: -1
+      chance: 100
+    - enemyPrefab: {fileID: 4801841251850423829, guid: 28adc106c2435194b9dcc6e4595d82a2, type: 3}
+      yMax: 3
+      yMin: -1
+      chance: 70
+  - bossWave: 1
+    bossTheme: Oar Fight
+    bossProfile: {fileID: 11400000, guid: 2ae8751a1eaf0454aa3e12da5109e011, type: 2}
+    bossPrefab: {fileID: 4438668536707563655, guid: 3787c187bd4ff284d96f1d99e9c44ed1, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &2032772178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3300,10 +3561,12 @@ MonoBehaviour:
   - {fileID: 113712532}
   - {fileID: 1876762625}
   - {fileID: 2127704529}
+  - {fileID: 1981991546}
   challengeLevelObjects:
   - {fileID: 1325276798}
   - {fileID: 1696924757}
   - {fileID: 1747117605}
+  - {fileID: 955667206}
   spawnZones:
   - {fileID: 1159496882}
   - {fileID: 1939870196}
@@ -3330,6 +3593,8 @@ Transform:
   - {fileID: 1696924759}
   - {fileID: 2127704530}
   - {fileID: 1747117606}
+  - {fileID: 1981991547}
+  - {fileID: 955667207}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3378,6 +3643,18 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Shark Stage
     clip: {fileID: 8300000, guid: 2a4ace876c4a36144944279206047a95, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Oar Stage
+    clip: {fileID: 8300000, guid: cdc3e4dfae1a8a046bbf3fbd11192c76, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Oar Fight
+    clip: {fileID: 8300000, guid: 5be2b0ec935fc954598197d27ff2bbfd, type: 3}
     volume: 1
     pitch: 1
     loop: 1

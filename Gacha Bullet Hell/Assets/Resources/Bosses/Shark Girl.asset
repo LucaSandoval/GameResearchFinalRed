@@ -26,11 +26,107 @@ MonoBehaviour:
     avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
     dialogueLine: ..........................................
     triggerFight: 1
-  C1easyPostBattleConversation: []
-  C1hardPostBattleConversation: []
-  C2preBattleConversation: []
-  C2easyPostBattleConversation: []
-  C2hardPostBattleConversation: []
-  C3preBattleConversation: []
-  C3easyPostBattleConversation: []
-  C3hardPostBattleConversation: []
+  C1easyPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C1hardPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C2preBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C2easyPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C2hardPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C3preBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C3easyPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C3hardPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0

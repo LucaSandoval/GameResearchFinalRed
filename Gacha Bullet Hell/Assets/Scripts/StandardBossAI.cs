@@ -266,6 +266,14 @@ public class StandardBossAI : MonoBehaviour
                 FireBullet(transform.position, 90);
                 FireBullet(transform.position, -180);
                 break;
+            case enemyShotType.smallRingOffset:
+
+                int idk3 = 45;
+                FireBullet(transform.position, -90 + idk3);
+                FireBullet(transform.position, 0 + idk3);
+                FireBullet(transform.position, 90 + idk3);
+                FireBullet(transform.position, -180 + idk3);
+                break;
             case enemyShotType.largeRing:
                 FireBullet(transform.position, -90);
                 FireBullet(transform.position, -45);
@@ -289,6 +297,49 @@ public class StandardBossAI : MonoBehaviour
                 FireBullet(transform.position, -180 + idk);
                 FireBullet(transform.position, -225 + idk);
                 break;
+            case enemyShotType.massiveRing:
+
+                FireBullet(transform.position, 0);
+                FireBullet(transform.position, 22.5f);
+                FireBullet(transform.position, 45);
+                FireBullet(transform.position, 67.5f);
+                FireBullet(transform.position, 90);
+                FireBullet(transform.position, 112.5f);
+                FireBullet(transform.position, 135);
+                FireBullet(transform.position, 157.5f);
+                FireBullet(transform.position, 180);
+                FireBullet(transform.position, 202.5f);
+                FireBullet(transform.position, 225);
+                FireBullet(transform.position, 247.5f);
+                FireBullet(transform.position, 270);
+                FireBullet(transform.position, 292.5f);
+                FireBullet(transform.position, 315);
+                FireBullet(transform.position, 337.5f);
+                FireBullet(transform.position, 360);
+                break;
+            case enemyShotType.massiveRingOffset:
+
+                float idk2 = -11;
+
+                FireBullet(transform.position, 0 + idk2);
+                FireBullet(transform.position, 22.5f + idk2);
+                FireBullet(transform.position, 45 + idk2);
+                FireBullet(transform.position, 67.5f + idk2);
+                FireBullet(transform.position, 90 + idk2);
+                FireBullet(transform.position, 112.5f + idk2);
+                FireBullet(transform.position, 135 + idk2);
+                FireBullet(transform.position, 157.5f + idk2);
+                FireBullet(transform.position, 180 + idk2);
+                FireBullet(transform.position, 202.5f + idk2);
+                FireBullet(transform.position, 225 + idk2);
+                FireBullet(transform.position, 247.5f + idk2);
+                FireBullet(transform.position, 270 + idk2);
+                FireBullet(transform.position, 292.5f + idk2);
+                FireBullet(transform.position, 315 + idk2);
+                FireBullet(transform.position, 337.5f + idk2);
+                FireBullet(transform.position, 360 + idk2);
+                break;
+
         }
     }
 
@@ -297,7 +348,7 @@ public class StandardBossAI : MonoBehaviour
         Destroy(healthBarRefrence.gameObject);
     }
 
-    public void FireBullet(Vector3 pos, int rotation)
+    public void FireBullet(Vector3 pos, float rotation)
     {
         GameObject newBullet = Instantiate(shotPrefab);
         newBullet.transform.position = pos;
