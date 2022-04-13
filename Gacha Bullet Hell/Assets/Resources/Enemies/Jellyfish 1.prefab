@@ -164,9 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 35
+  health: 30
   damageReward: 2
   pointReward: 1
+  scoreReward: 50
+  isBoss: 0
   animated: 1
   frameRate: 0.1
   frames:

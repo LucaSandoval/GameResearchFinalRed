@@ -100,6 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossName: Shark Girl
   state: 0
+  dropInterval: 4
   patternId: 0
   patterns:
   - duration: 4
@@ -108,6 +109,7 @@ MonoBehaviour:
     thisState: 1
     attacks:
     - {fileID: 11400000, guid: d8a6d3e602a123241bbcb98a772f8142, type: 2}
+    - {fileID: 11400000, guid: 9ad6ffd3f92e4b442bac4415b248a557, type: 2}
   - duration: 1
     speed: 0.5
     moveInterval: 4
@@ -198,9 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1800
+  health: 1600
   damageReward: 20
   pointReward: 10
+  scoreReward: 1000
   isBoss: 1
   animated: 1
   frameRate: 0.1

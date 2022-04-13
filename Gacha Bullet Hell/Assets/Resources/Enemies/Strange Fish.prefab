@@ -167,6 +167,7 @@ MonoBehaviour:
   health: 50
   damageReward: 3
   pointReward: 2
+  scoreReward: 50
   isBoss: 0
   animated: 1
   frameRate: 0.1

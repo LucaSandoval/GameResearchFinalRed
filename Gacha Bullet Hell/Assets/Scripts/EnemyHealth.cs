@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public float health;
     public float damageReward;
     public float pointReward;
+    public float scoreReward;
 
     public bool isBoss;
 
@@ -67,7 +68,7 @@ public class EnemyHealth : MonoBehaviour
             GameObject newEffect = Instantiate(explosionEffect);
             newEffect.transform.position = transform.position;
 
-
+            ScoreManager.scoreToAdd += scoreReward;
             SpawnPickups(damageReward, pickupType.power);
             SpawnPickups(pointReward, pickupType.point);
             Destroy(gameObject);

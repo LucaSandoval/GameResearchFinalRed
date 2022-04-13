@@ -8,6 +8,9 @@ public class StandardBossAI : MonoBehaviour
     public string bossName;
     public bossStates state;
 
+    public float dropInterval;
+    private float dropIntervalTimer;
+
     public int patternId;
     public bossPatterns[] patterns;
 
@@ -76,6 +79,8 @@ public class StandardBossAI : MonoBehaviour
         patternId = 0;
         movePointId = 0;
 
+        dropIntervalTimer = dropInterval;
+
         patternTimer = patterns[0].duration;
         patternAttackId = 0;
 
@@ -110,6 +115,16 @@ public class StandardBossAI : MonoBehaviour
         }
 
         healthBarRefrence.value = healthScript.health;
+
+        if (dropIntervalTimer > 0)
+        {
+            dropIntervalTimer -= Time.deltaTime;
+            
+        } else
+        {
+            dropIntervalTimer = dropInterval;
+            healthScript.SpawnPickups(Random.Range(1, 3), pickupType.power);
+        }
     }
 
     public void StateMachine()

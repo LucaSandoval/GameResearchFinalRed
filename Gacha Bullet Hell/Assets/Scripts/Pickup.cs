@@ -91,6 +91,8 @@ public class Pickup : MonoBehaviour
                     break;
             }
 
+            ScoreManager.scoreToAdd += 10;
+
             Destroy(gameObject);
         }
     }

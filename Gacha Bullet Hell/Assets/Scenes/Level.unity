@@ -224,6 +224,7 @@ RectTransform:
   - {fileID: 1646401371}
   - {fileID: 994918144}
   - {fileID: 101347222}
+  - {fileID: 1791936428}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -444,6 +445,127 @@ MonoBehaviour:
     bossTheme: Dot Fight
     bossProfile: {fileID: 11400000, guid: 9c9640ddf73973549a92fc3abb7a8db7, type: 2}
     bossPrefab: {fileID: 3636461311296906244, guid: e301e927bafb61d438aad93523aa3807, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
+--- !u!1 &166798416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166798417}
+  - component: {fileID: 166798419}
+  - component: {fileID: 166798418}
+  m_Layer: 0
+  m_Name: Angler Stage (LVL 5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &166798417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166798416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &166798418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166798416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &166798419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166798416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: 
+  stageName: Twilight Layer
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 4.2
+    enemiesList:
+    - enemyPrefab: {fileID: 2454894052405261587, guid: 77ff5498fb429bb4c9589a8d9a63c15e, type: 3}
+      yMax: 2
+      yMin: -2
+      chance: 100
+    - enemyPrefab: {fileID: 5325616211438450270, guid: 7e00ed649e110cc41b4929290a6d5058, type: 3}
+      yMax: 3.5
+      yMin: 0
+      chance: 80
+  - bossWave: 1
+    bossTheme: Angler Fight
+    bossProfile: {fileID: 11400000, guid: 4d36ce496a4002544be8b81150f610d0, type: 2}
+    bossPrefab: {fileID: 6155745329600854351, guid: 74c58287821ac3348bb270271e659b4b, type: 3}
     waveTime: 10
     spawnRate: 0
     enemiesList: []
@@ -696,6 +818,131 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231413074}
   m_CullTransparentMesh: 1
+--- !u!1 &334405787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334405788}
+  - component: {fileID: 334405790}
+  - component: {fileID: 334405789}
+  m_Layer: 0
+  m_Name: Angler Stage (LVL 5) - CHALLENGE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &334405788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334405787}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2074034572}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334405789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334405787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739b329ef2ab093409fc38edc4eacc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originPoint: {fileID: 2106425665}
+  bgObjectParent: {fileID: 1292518876}
+  layers:
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 0.6
+    moveSpeed: 2
+    scale: 1
+    layerOrder: 1
+    color: {r: 0.4025157, g: 0.4615051, b: 0.6037736, a: 1}
+  - sprites:
+    - {fileID: 21300000, guid: 448d4065c3dda814583f027aa2efd176, type: 3}
+    - {fileID: 21300000, guid: 1e2e18ab6fa2e3a4889ad4f4b556232f, type: 3}
+    - {fileID: 21300000, guid: e78e20c0abb8f32478921affc05f46c5, type: 3}
+    spawnRate: 3
+    moveSpeed: 0.8
+    scale: 3
+    layerOrder: 0
+    color: {r: 0.46564612, g: 0.5266745, b: 0.6792453, a: 1}
+  - sprites:
+    - {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+    spawnRate: 0.05
+    moveSpeed: 7
+    scale: 0.08
+    layerOrder: 3
+    color: {r: 0.5914323, g: 0.65840423, b: 0.8396226, a: 1}
+  active: 0
+--- !u!114 &334405790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334405787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageSong: 
+  stageName: Twilight Layer
+  waveNumber: 0
+  bossSpawn: {fileID: 520374428}
+  enemyParent: {fileID: 551397333}
+  dialogueSystem: {fileID: 994918143}
+  levelControlObj: {fileID: 0}
+  waves:
+  - bossWave: 0
+    bossTheme: 
+    bossProfile: {fileID: 0}
+    bossPrefab: {fileID: 0}
+    waveTime: 45
+    spawnRate: 4
+    enemiesList:
+    - enemyPrefab: {fileID: 2454894052405261587, guid: 77ff5498fb429bb4c9589a8d9a63c15e, type: 3}
+      yMax: 2
+      yMin: -2
+      chance: 100
+    - enemyPrefab: {fileID: 5325616211438450270, guid: 7e00ed649e110cc41b4929290a6d5058, type: 3}
+      yMax: 3.5
+      yMin: 0
+      chance: 75
+    - enemyPrefab: {fileID: 5695509820468769833, guid: b26f0e8837bce414894a89e46396c5eb, type: 3}
+      yMax: -1
+      yMin: -3.5
+      chance: 20
+  - bossWave: 1
+    bossTheme: Angler Fight
+    bossProfile: {fileID: 11400000, guid: 4d36ce496a4002544be8b81150f610d0, type: 2}
+    bossPrefab: {fileID: 7566152927119332375, guid: f0bff7eb2a78f7441b1515ecef16cc26, type: 3}
+    waveTime: 10
+    spawnRate: 0
+    enemiesList: []
+  gameRunning: 0
+  spawnZones:
+  - {fileID: 1159496882}
+  - {fileID: 1939870196}
+  soundManager: {fileID: 0}
+  stageText: {fileID: 101347221}
 --- !u!1 &504044634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,6 +3148,85 @@ MonoBehaviour:
   - {fileID: 1939870196}
   soundManager: {fileID: 0}
   stageText: {fileID: 101347221}
+--- !u!1 &1791936427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791936428}
+  - component: {fileID: 1791936430}
+  - component: {fileID: 1791936429}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1791936428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791936427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 31300658}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -103, y: -33}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791936429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791936427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 43fd76a436c4a024ea1f8a2c5b6970b5, type: 3}
+    m_FontSize: 68
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 95
+    m_Alignment: 2
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 99999
+--- !u!222 &1791936430
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791936427}
+  m_CullTransparentMesh: 1
 --- !u!1 &1858018931
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,7 +3680,7 @@ MonoBehaviour:
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
     waveTime: 45
-    spawnRate: 4
+    spawnRate: 4.5
     enemiesList:
     - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
       yMax: 3
@@ -3533,6 +3859,7 @@ GameObject:
   - component: {fileID: 2074034574}
   - component: {fileID: 2074034575}
   - component: {fileID: 2074034571}
+  - component: {fileID: 2074034576}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3562,11 +3889,13 @@ MonoBehaviour:
   - {fileID: 1876762625}
   - {fileID: 2127704529}
   - {fileID: 1981991546}
+  - {fileID: 166798416}
   challengeLevelObjects:
   - {fileID: 1325276798}
   - {fileID: 1696924757}
   - {fileID: 1747117605}
   - {fileID: 955667206}
+  - {fileID: 334405787}
   spawnZones:
   - {fileID: 1159496882}
   - {fileID: 1939870196}
@@ -3595,6 +3924,8 @@ Transform:
   - {fileID: 1747117606}
   - {fileID: 1981991547}
   - {fileID: 955667207}
+  - {fileID: 166798417}
+  - {fileID: 334405788}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3659,6 +3990,12 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Angler Fight
+    clip: {fileID: 8300000, guid: 15f2a1c2bcfd39741b0c5a97881fa156, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
 --- !u!114 &2074034574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3689,6 +4026,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92aa03056cc1eab4590be5a2cc6b5100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2074034576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074034570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75689306647e6384c9cbe0b3758872ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1791936429}
 --- !u!1 &2106425664
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,7 +4248,7 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 2
+    waveTime: 45
     spawnRate: 4
     enemiesList:
     - enemyPrefab: {fileID: 8347212581123346200, guid: 526843969582c9f45af3247ab4e2066b, type: 3}

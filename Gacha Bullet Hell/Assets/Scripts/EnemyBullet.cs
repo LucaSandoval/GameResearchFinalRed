@@ -83,10 +83,11 @@ public class EnemyBullet : MonoBehaviour
             canGraze = true;
         }
 
-        if (Vector3.Distance(transform.position, PlayerController.globalPlayerPos) <= 0.5f)
+        if (Vector3.Distance(transform.position, PlayerController.globalPlayerPos) <= 0.6f)
         {
             if (canGraze)
             {
+                ScoreManager.scoreToAdd += 10;
                 PlayerStatController.graze += 1;
                 grazeTimer += 0.4f;
             }
