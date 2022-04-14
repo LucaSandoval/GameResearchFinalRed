@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6691199868809887402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6691199868809887400}
+  - component: {fileID: 6691199868809887403}
+  - component: {fileID: 6691199868809887401}
+  - component: {fileID: 6691199868809887399}
+  - component: {fileID: 6691199868809887398}
+  - component: {fileID: 6691199868809887396}
+  m_Layer: 0
+  m_Name: Arah, Abyssal Queen -  Normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6691199868809887400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6691199868809887403
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 22
+  m_Sprite: {fileID: 21300000, guid: c9b36d6255a1cb241af3f035d84ceafc, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &6691199868809887401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2a9b66536c88644a176d5793188973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossName: 'Arah, Abyssal Queen '
+  state: 0
+  dropInterval: 4
+  patternId: 0
+  patterns:
+  - duration: 3
+    speed: 3
+    moveInterval: 1
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: df23ba0126aa00e41a194cf0c4d981f0, type: 2}
+  - duration: 0.3
+    speed: 1
+    moveInterval: 2
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: dae7fc6119abf2e47ac33745f0eeae6a, type: 2}
+    - {fileID: 11400000, guid: 58aaa7da8d9c52d4bb2714e0e6ad12d8, type: 2}
+  - duration: 1
+    speed: 1
+    moveInterval: 1
+    thisState: 1
+    attacks:
+    - {fileID: 11400000, guid: ab0ffe503b614794c8a3d8aece6ed1fe, type: 2}
+  - duration: 0.8
+    speed: 1
+    moveInterval: 3
+    thisState: 2
+    attacks:
+    - {fileID: 11400000, guid: ff06be1788d86d94b889afba633f3e48, type: 2}
+  - duration: 5
+    speed: 1
+    moveInterval: 3
+    thisState: 2
+    attacks:
+    - {fileID: 11400000, guid: 439f7c49bd617a543a8c6fd8404243d5, type: 2}
+  movePoints:
+  - {x: 0, y: 3.88, z: 0}
+  - {x: -6.38, y: 1.43, z: 0}
+  - {x: 6.77, y: 1.43, z: 0}
+  patternAttackId: 0
+  burstTimer: 0
+  xMax: 4
+  xMin: -4
+  yMin: 0
+  yMax: 4
+--- !u!50 &6691199868809887399
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6691199868809887398
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.15, y: 1.78}
+  m_EdgeRadius: 0
+--- !u!114 &6691199868809887396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691199868809887402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1800
+  damageReward: 50
+  pointReward: 50
+  scoreReward: 10000
+  isBoss: 1
+  animated: 1
+  frameRate: 0.1
+  frames:
+  - {fileID: 21300000, guid: c9b36d6255a1cb241af3f035d84ceafc, type: 3}
+  - {fileID: 21300000, guid: bd6057c21e10c614797e1efc280e1d60, type: 3}
