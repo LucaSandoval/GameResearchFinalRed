@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Small Shark Blast
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 07b17a83fe6bd4a42afdfcae9e44f43e, type: 3}
-  fireRate: 0.5
+  fireRate: 0.75
   attackLength: 4
   restPeriod: 2
   spreadAngle: 25
-  bulletVelocity: 3.5
+  bulletVelocity: 3
   size: 0.35
   drift: 0.15
   tracking: 0

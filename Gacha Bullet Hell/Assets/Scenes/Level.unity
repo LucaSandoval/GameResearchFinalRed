@@ -4100,7 +4100,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074034570}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d354b2529f55eec48a96f2ead25e3076, type: 3}
   m_Name: 
@@ -4494,7 +4494,7 @@ MonoBehaviour:
     - enemyPrefab: {fileID: 2710841568226387833, guid: 3a05b93e4a55b304c95f040d5cd97f55, type: 3}
       yMax: 2
       yMin: -2
-      chance: 50
+      chance: 55
   - bossWave: 1
     bossTheme: Shark Fight
     bossProfile: {fileID: 11400000, guid: 2c068de76b7122c4da101f3e225e4e0d, type: 2}

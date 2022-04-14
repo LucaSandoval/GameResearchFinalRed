@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Mini Super Ring 1
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 07b17a83fe6bd4a42afdfcae9e44f43e, type: 3}
-  fireRate: 0.55
+  fireRate: 10.55
   attackLength: 0.56
   restPeriod: 1
   spreadAngle: 0

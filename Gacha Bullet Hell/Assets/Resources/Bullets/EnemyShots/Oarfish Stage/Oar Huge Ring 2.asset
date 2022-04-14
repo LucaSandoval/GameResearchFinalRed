@@ -17,7 +17,7 @@ MonoBehaviour:
   attackLength: 0.11
   restPeriod: 1
   spreadAngle: 0
-  bulletVelocity: 6
+  bulletVelocity: 4
   size: 0.4
   drift: 0
   tracking: 0

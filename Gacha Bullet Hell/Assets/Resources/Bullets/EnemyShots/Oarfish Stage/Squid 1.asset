@@ -17,11 +17,11 @@ MonoBehaviour:
   attackLength: 1
   restPeriod: 0.51
   spreadAngle: 0
-  bulletVelocity: 4
-  size: 0.55
+  bulletVelocity: 3
+  size: 0.4
   drift: 0
   tracking: 0
-  accelerate: 0
+  accelerate: 1
   trackingDelay: 0
   pointTowards: 1
-  shotType: 3
+  shotType: 0

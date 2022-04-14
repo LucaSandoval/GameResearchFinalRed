@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 3d84424a8a153bc43b839800509cacd0, type: 3}
   fireRate: 0.5
-  attackLength: 4
+  attackLength: 1
   restPeriod: 2
   spreadAngle: 25
   bulletVelocity: 2
-  size: 0.45
+  size: 0.25
   drift: 0.8
   tracking: 0
   accelerate: 0

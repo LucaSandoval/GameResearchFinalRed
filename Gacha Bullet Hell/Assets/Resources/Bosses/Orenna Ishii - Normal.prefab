@@ -115,7 +115,6 @@ MonoBehaviour:
     moveInterval: 5
     thisState: 1
     attacks:
-    - {fileID: 11400000, guid: 90765d2c890d8db44924d0fad7df8aca, type: 2}
     - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
     - {fileID: 11400000, guid: b1d39d95f4dca854bb384695bb6c1a3a, type: 2}
     - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
@@ -202,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4057ace70ec6b4419abb807ebca5577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1800
+  health: 1300
   damageReward: 20
   pointReward: 40
   scoreReward: 1000

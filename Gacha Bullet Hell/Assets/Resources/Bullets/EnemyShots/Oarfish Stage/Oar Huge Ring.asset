@@ -15,9 +15,9 @@ MonoBehaviour:
   bulletImage: {fileID: 21300000, guid: 8c2b11436e522e349a5cf6ae61925157, type: 3}
   fireRate: 0.1
   attackLength: 0.11
-  restPeriod: 1
+  restPeriod: 2
   spreadAngle: 0
-  bulletVelocity: 6
+  bulletVelocity: 4
   size: 0.4
   drift: 0
   tracking: 0
