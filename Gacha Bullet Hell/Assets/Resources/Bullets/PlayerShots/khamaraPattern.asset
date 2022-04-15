@@ -17,7 +17,7 @@ MonoBehaviour:
   bulletVelocity: 20
   spreadDegree: 15
   size: 0.6
-  damageMultiplier: 0.9
+  damageMultiplier: 1.1
   spreadType: 1
   focusFireRate: 0.08
   focusBulletVelocity: 22
