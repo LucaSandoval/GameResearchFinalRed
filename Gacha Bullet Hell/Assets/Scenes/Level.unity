@@ -539,7 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageSong: 
+  stageSong: Angler Stage
   stageName: Twilight Layer
   waveNumber: 0
   bossSpawn: {fileID: 520374428}
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744c202f3d715104aabd4685b292efdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageSong: 
+  stageSong: Angler Stage
   stageName: Twilight Layer
   waveNumber: 0
   bossSpawn: {fileID: 520374428}
@@ -1028,7 +1028,7 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 0
+    waveTime: 35
     spawnRate: 4.2
     enemiesList:
     - enemyPrefab: {fileID: 2454894052405261587, guid: 77ff5498fb429bb4c9589a8d9a63c15e, type: 3}
@@ -4226,7 +4226,13 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Final Boss
-    clip: {fileID: 8300000, guid: 713f07ec50567624b9b83074e14c4da8, type: 3}
+    clip: {fileID: 8300000, guid: d0dd5d6395bfd0d4b86406fe02203f54, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Angler Stage
+    clip: {fileID: 8300000, guid: f32214fe8cc92c347a98504baf8ea199, type: 3}
     volume: 1
     pitch: 1
     loop: 1
