@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0995b632bbb8b8a45b71dc415065804c, type: 3}
+  m_Name: Angela
+  m_EditorClassIdentifier: 
+  moveSpeed: 6
+  focusMoveSpeed: 2.5
+  pattern: {fileID: 11400000, guid: ec3504d57a30f944c9dbed593db9a84a, type: 2}
+  anims:
+  - {fileID: 21300000, guid: 70111777c95e4a74b8c9b65e7a35a141, type: 3}
+  - {fileID: 21300000, guid: 937f8a4e30eddd7459b8ee07f10c723f, type: 3}
+  - {fileID: 21300000, guid: 64be7cc8d859486489f59b3f5f6fd69f, type: 3}

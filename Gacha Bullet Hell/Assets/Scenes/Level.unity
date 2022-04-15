@@ -4109,6 +4109,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5b6a6c48f2ceeeb40b9eb0aaf2cd52e8, type: 2}
   - {fileID: 11400000, guid: 8f6badd099331354fa9feeed98633e6f, type: 2}
   - {fileID: 11400000, guid: c61c39fbaf54f8648956514311dc2d91, type: 2}
+  - {fileID: 11400000, guid: ca4dca53bad347b44a1e265ffc890095, type: 2}
+  - {fileID: 11400000, guid: 8fcafbf692f13a3418fc9ef13bf48991, type: 2}
+  - {fileID: 11400000, guid: e92167d70fef3bb42b3966041fae842e, type: 2}
   mainPlayer: {fileID: 504044636}
   levelObjects:
   - {fileID: 113712532}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0995b632bbb8b8a45b71dc415065804c, type: 3}
+  m_Name: Khamara
+  m_EditorClassIdentifier: 
+  moveSpeed: 6.5
+  focusMoveSpeed: 3
+  pattern: {fileID: 11400000, guid: 795173e8ebe403641803e1613d54f92b, type: 2}
+  anims:
+  - {fileID: 21300000, guid: 3ea2ff6139dc0ef43b7f32ea6c9c800f, type: 3}
+  - {fileID: 21300000, guid: 092f167c0fa7b7349964a5a0f4bb2c39, type: 3}
