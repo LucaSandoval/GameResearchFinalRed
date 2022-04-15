@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
-    public static int level = 4;
-    public static bool challenge = false;
+    public static int level = 5;
+    public static bool challenge = true;
 
     private void Update()
     {

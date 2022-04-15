@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Ang Endless Rand Spray
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 138bdc66a71704f4d81dc9a386f0a15f, type: 3}
-  fireRate: 0.09
+  fireRate: 0.2
   attackLength: 2
   restPeriod: 2
   spreadAngle: 0
   bulletVelocity: 4
-  size: 0.5
+  size: 0.25
   drift: 4
   tracking: 0
   accelerate: 1

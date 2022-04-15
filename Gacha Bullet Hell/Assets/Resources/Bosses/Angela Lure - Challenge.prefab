@@ -105,22 +105,22 @@ MonoBehaviour:
   patterns:
   - duration: 3
     speed: 2
-    moveInterval: 2
+    moveInterval: 3
     thisState: 1
     attacks:
     - {fileID: 11400000, guid: ec59f6e1df6e5774e9cf3c5dd499c4fb, type: 2}
     - {fileID: 11400000, guid: 1be94af2534df17488a3a1a0532b4a37, type: 2}
   - duration: 5
     speed: 1
-    moveInterval: 2
+    moveInterval: 3
     thisState: 2
     attacks:
     - {fileID: 11400000, guid: 508031102abb32b4ea6241eaf81b4a48, type: 2}
     - {fileID: 11400000, guid: af904d3d6a80d584a8d3a05c8e017b4b, type: 2}
     - {fileID: 11400000, guid: 310ad925fdbda9d4993904ab07ae0d85, type: 2}
-  - duration: 2
+  - duration: 5
     speed: 5
-    moveInterval: 2
+    moveInterval: 3
     thisState: 2
     attacks:
     - {fileID: 11400000, guid: 4a26874a99fc6044ba450433b6e66b40, type: 2}

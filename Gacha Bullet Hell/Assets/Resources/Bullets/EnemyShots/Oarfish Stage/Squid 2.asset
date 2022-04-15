@@ -16,7 +16,7 @@ MonoBehaviour:
   fireRate: 0.5
   attackLength: 1
   restPeriod: 0.51
-  spreadAngle: 0
+  spreadAngle: 35
   bulletVelocity: 3
   size: 0.4
   drift: 0
@@ -24,4 +24,4 @@ MonoBehaviour:
   accelerate: 0
   trackingDelay: 0
   pointTowards: 1
-  shotType: 3
+  shotType: 1

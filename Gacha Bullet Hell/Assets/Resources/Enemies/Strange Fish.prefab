@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: 1
   trend: 0.4
-  speed: 2
+  speed: 2.2
   burstTimer: 0
   bulletPatterns:
   - {fileID: 11400000, guid: caddb3aad216c6c4f8cf358d24fe5b9f, type: 2}

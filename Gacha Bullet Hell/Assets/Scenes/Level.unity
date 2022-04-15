@@ -555,13 +555,13 @@ MonoBehaviour:
     spawnRate: 4.2
     enemiesList:
     - enemyPrefab: {fileID: 2454894052405261587, guid: 77ff5498fb429bb4c9589a8d9a63c15e, type: 3}
-      yMax: 2
-      yMin: -2
+      yMax: 2.5
+      yMin: -0.5
       chance: 100
     - enemyPrefab: {fileID: 5325616211438450270, guid: 7e00ed649e110cc41b4929290a6d5058, type: 3}
       yMax: 3.5
       yMin: 0
-      chance: 80
+      chance: 50
   - bossWave: 1
     bossTheme: Angler Fight
     bossProfile: {fileID: 11400000, guid: 4d36ce496a4002544be8b81150f610d0, type: 2}
@@ -1028,20 +1028,20 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 45
-    spawnRate: 4
+    waveTime: 0
+    spawnRate: 4.2
     enemiesList:
     - enemyPrefab: {fileID: 2454894052405261587, guid: 77ff5498fb429bb4c9589a8d9a63c15e, type: 3}
-      yMax: 2
-      yMin: -2
+      yMax: 2.5
+      yMin: -0.5
       chance: 100
     - enemyPrefab: {fileID: 5325616211438450270, guid: 7e00ed649e110cc41b4929290a6d5058, type: 3}
       yMax: 3.5
       yMin: 0
-      chance: 75
+      chance: 50
     - enemyPrefab: {fileID: 5695509820468769833, guid: b26f0e8837bce414894a89e46396c5eb, type: 3}
-      yMax: -1
-      yMin: -3.5
+      yMax: 2
+      yMin: 0
       chance: 20
   - bossWave: 1
     bossTheme: Angler Fight
@@ -1625,36 +1625,32 @@ MonoBehaviour:
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 25
-    spawnRate: 4.3
+    waveTime: 35
+    spawnRate: 4.5
     enemiesList:
     - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
       yMax: 3
-      yMin: -1
+      yMin: 0
       chance: 100
     - enemyPrefab: {fileID: 4801841251850423829, guid: 28adc106c2435194b9dcc6e4595d82a2, type: 3}
       yMax: 3
-      yMin: -1
-      chance: 60
+      yMin: 0.5
+      chance: 10
     - enemyPrefab: {fileID: 6124282068588994789, guid: b3ba1a331f777c3458c7b36f71719abe, type: 3}
       yMax: 1
       yMin: -1
-      chance: 15
+      chance: 50
   - bossWave: 0
     bossTheme: 
     bossProfile: {fileID: 0}
     bossPrefab: {fileID: 0}
-    waveTime: 20
-    spawnRate: 3.2
+    waveTime: 10
+    spawnRate: 3
     enemiesList:
-    - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
-      yMax: 2
-      yMin: -1.5
-      chance: 100
     - enemyPrefab: {fileID: 6124282068588994789, guid: b3ba1a331f777c3458c7b36f71719abe, type: 3}
-      yMax: 2
-      yMin: -2
-      chance: 60
+      yMax: 3
+      yMin: -0.5
+      chance: 100
   - bossWave: 1
     bossTheme: Oar Fight
     bossProfile: {fileID: 11400000, guid: 2ae8751a1eaf0454aa3e12da5109e011, type: 2}
@@ -3910,11 +3906,11 @@ MonoBehaviour:
     enemiesList:
     - enemyPrefab: {fileID: 8844817446364945582, guid: 5c9b1ee27a323284391b9672f10ad714, type: 3}
       yMax: 3
-      yMin: -1
+      yMin: 0
       chance: 100
     - enemyPrefab: {fileID: 4801841251850423829, guid: 28adc106c2435194b9dcc6e4595d82a2, type: 3}
       yMax: 3
-      yMin: -1
+      yMin: 0.5
       chance: 70
   - bossWave: 1
     bossTheme: Oar Fight

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Blob Fish
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: c4f68004864a4f9488ce9daec66750ef, type: 3}
-  fireRate: 0.4
-  attackLength: 1
-  restPeriod: 1
+  fireRate: 0.6
+  attackLength: 1.5
+  restPeriod: 1.5
   spreadAngle: 0
-  bulletVelocity: 0.4
+  bulletVelocity: 2
   size: 0.3
   drift: 0.2
   tracking: 0

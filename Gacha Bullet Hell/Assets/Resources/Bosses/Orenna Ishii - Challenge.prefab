@@ -111,10 +111,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: eb67f274f15c08f43a605bbad911de5c, type: 2}
   - duration: 6
     speed: 3
-    moveInterval: 1
+    moveInterval: 2
     thisState: 2
     attacks:
-    - {fileID: 11400000, guid: ad01671214ccd9d4ca559b5e141b0950, type: 2}
     - {fileID: 11400000, guid: 3325c69c8e468424fbdd742fd52e5dfd, type: 2}
   - duration: 0.3
     speed: 2

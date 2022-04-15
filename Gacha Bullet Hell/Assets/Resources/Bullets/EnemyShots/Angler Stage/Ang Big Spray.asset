@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Ang Big Spray
   m_EditorClassIdentifier: 
   bulletImage: {fileID: 21300000, guid: 18174ab19cf5b2a46bcac0f332312a4b, type: 3}
-  fireRate: 0.2
+  fireRate: 0.33
   attackLength: 1
   restPeriod: 1
   spreadAngle: 0
   bulletVelocity: 1.5
-  size: 0.8
+  size: 0.4
   drift: 1
-  tracking: 1
-  accelerate: 1
-  trackingDelay: 0.2
+  tracking: 0
+  accelerate: 0
+  trackingDelay: 0
   pointTowards: 1
   shotType: 0
