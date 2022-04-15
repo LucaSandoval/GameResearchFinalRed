@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BGController : MonoBehaviour
 {
+    public Color bgCOLOR;
+
+
     [HideInInspector]
     public Transform originPoint;
     [HideInInspector]
@@ -28,6 +31,8 @@ public class BGController : MonoBehaviour
 
     private void Start()
     {
+        Camera mainCam = Camera.main;
+        mainCam.backgroundColor = bgCOLOR;
         active = true;
         InitLayers();
     }
@@ -48,6 +53,7 @@ public class BGController : MonoBehaviour
 
     public void Update()
     {
+        //Debug.Log("test");
         if (active == true)
         {
             for (int i = 0; i < layers.Length; i++)
