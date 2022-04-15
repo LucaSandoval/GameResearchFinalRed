@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731960073839e7a4caae1b8259424dc4, type: 3}
   m_Name: Khamara Dae
   m_EditorClassIdentifier: 
-  playerUnlockID: 0
+  playerUnlockID: 3
   C1preBattleConversation:
   - characterName: 
     avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}

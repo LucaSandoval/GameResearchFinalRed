@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731960073839e7a4caae1b8259424dc4, type: 3}
   m_Name: Angela Lure
   m_EditorClassIdentifier: 
-  playerUnlockID: 0
+  playerUnlockID: 5
   C1preBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
