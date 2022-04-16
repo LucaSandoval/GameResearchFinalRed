@@ -14,19 +14,140 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnlockID: 5
   C1preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "Wow\u2026 It is so incredibly dark down here.  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "What\u2019s that light? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "I\u2019m stopping you here- "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: "Whoa!!!! I can\u2019t believe I\u2019ve seen two humans in one
+      day!! "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Ahem. Sorry about that. '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "I am Angela Lure, the Queen\u2019s bodyguard. You cannot pass
+      this point. "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Do you like humans or something? '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "Well\u2026 I just think they\u2019re cute. "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "Do you think I\u2019m cute? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "Ah..! Um\u2026 th-that\u2019s besides the point. "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "I don\u2019t want to fight you\u2026 can\u2019t you just return
+      to the surface? "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
+    dialogueLine: "Why? Do you think I\u2019m weak? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Yes. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
+    dialogueLine: "Oh\u2026 "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2a13d4693fa6f3941984fefe9a5d57f7, type: 3}
+    dialogueLine: 'Well then, let me disprove that! '
     triggerFight: 0
   C1easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Whew! She was tough. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "I\u2019m glad I could show her that humans aren\u2019t just weak! "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "And I\u2019ve gotta get Chahde away fast before she decides to
+      take him too.  "
     triggerFight: 0
   C1hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: 'Wow! Humans continue to surprise me! '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "So you admit we aren\u2019t weak? "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'I guess I do. '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'So cute and so tough! Amazing!! '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
+    dialogueLine: 'Ooookay, hands off. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 432a562ac0485da439ece5aa03e0aee3, type: 3}
+    dialogueLine: "I\u2019ve gotta go get my boyfriend back.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'You are associated with the human male? '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Yep. Please don\u2019t take him too, Angela. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "No\u2026 um\u2026 I promise I won\u2019t. I need to do research
+      on proper human care before I commit to owning one.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
+    dialogueLine: 'What? '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: 'Anyways, let me help you. The Queen is a formidable opponent. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "But she\u2019s so short? "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'Trust me here, human. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "Alright then\u2026 "
     triggerFight: 0
   C2preBattleConversation:
   - characterName: 
@@ -58,3 +179,12 @@ MonoBehaviour:
     avatar: {fileID: 0}
     dialogueLine: 
     triggerFight: 0
+  C4preBattleConversation: []
+  C4easyPostBattleConversation: []
+  C4hardPostBattleConversation: []
+  C5preBattleConversation: []
+  C5easyPostBattleConversation: []
+  C5hardPostBattleConversation: []
+  C6preBattleConversation: []
+  C6easyPostBattleConversation: []
+  C6hardPostBattleConversation: []
