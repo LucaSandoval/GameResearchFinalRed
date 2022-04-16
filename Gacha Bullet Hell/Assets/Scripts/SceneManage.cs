@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
-    public static int level = 5;
+    public static int level = 1;
     public static bool challenge = false;
 
     private void Update()
@@ -31,6 +31,10 @@ public class SceneManage : MonoBehaviour
     void EndLevel()
     {
         level++;
+        if (PlayerStatController.lives < 5)
+        {
+            PlayerStatController.lives = 5;
+        }
         SceneManager.LoadScene("DifficultySelect");
     }
 }

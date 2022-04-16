@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ProgressionController : MonoBehaviour
 {
     public PlayerUnlock[] unlocks;
-    public static bool[] playersUnlocked = new bool[6] { true, true, true, true, true, true };
+    public static bool[] playersUnlocked = new bool[6] { true, false, false, false, false, false };
 
-    public static int selectedPlayer = 4;
+    public static int selectedPlayer = 0;
 
     public Text playerNameText;
 

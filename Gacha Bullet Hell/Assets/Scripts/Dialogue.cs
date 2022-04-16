@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Dialogue : MonoBehaviour
     public Text writtenName;
     public GameObject shownAvatar;
 
+    public GameObject fadeToWhite;
+
     private string message;
     private Sprite avatar;
     private string charName;
@@ -19,6 +22,7 @@ public class Dialogue : MonoBehaviour
     private bool typing = false;
     private int lineIndex;
     private DialogueLine[] lines;
+
 
     [HideInInspector]
     public GameObject waveObject;
@@ -90,7 +94,14 @@ public class Dialogue : MonoBehaviour
         }
         else // ends level because its not the text before the battle
         {
-            this.SendMessage("EndLevel");
+            if (SceneManage.level == 6)
+            {
+                StartCoroutine(WinGame());
+            }
+            else
+            {
+                this.SendMessage("EndLevel");
+            }
         }
 
         lineIndex = 0;
@@ -146,5 +157,19 @@ public class Dialogue : MonoBehaviour
             //Wait for a frame so that Unity doesn't freeze
             yield return null;
         }
+    }
+
+    IEnumerator WinGame()
+    {
+        fadeToWhite.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+        fadeToWhite.SetActive(true);
+        for (int i = 0; i < 30; i++)
+        {
+            Debug.Log("fading");
+            fadeToWhite.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, (i / 30f));
+            yield return new WaitForSeconds(0.05f);
+        }
+        Debug.Log("cg time");
+        SceneManager.LoadScene("HappyEnding");
     }
 }

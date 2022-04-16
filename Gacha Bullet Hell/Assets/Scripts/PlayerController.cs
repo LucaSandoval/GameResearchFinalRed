@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     public bool focus;
 
     public GameObject dialogueSystem;
+    public GameObject fadeToBlack;
 
     //public float damageLevel = 1.0f;
 
@@ -55,6 +56,8 @@ public class PlayerController : MonoBehaviour
         ren = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         statController = GetComponent<PlayerStatController>();
+
+        fadeToBlack.SetActive(false);
 
         Init();
     }
@@ -198,7 +201,7 @@ public class PlayerController : MonoBehaviour
 
             if (PlayerStatController.lives < 0)
             {
-                SceneManager.LoadScene("Game Over");
+                StartCoroutine(GameOver());
             }
 
             statController.GenerateLivesIcons();
@@ -330,5 +333,22 @@ public class PlayerController : MonoBehaviour
             newPickup.transform.position = transform.position;
             newPickup.GetComponent<Pickup>().spawnedFromPlayer = true;
         }
+    }
+
+    IEnumerator GameOver()
+    {
+        fadeToBlack.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+        fadeToBlack.SetActive(true);
+        for (int i = 0; i < 30; i++)
+        {
+            // keeps character invincible during death
+            respawnTimer = 0.1f;
+            flashTimer = 0;
+
+            fadeToBlack.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, (i / 30f));
+            yield return new WaitForSeconds(0.05f);
+        }
+        PlayerStatController.lives = 5;
+        SceneManager.LoadScene("DifficultySelect");
     }
 }
