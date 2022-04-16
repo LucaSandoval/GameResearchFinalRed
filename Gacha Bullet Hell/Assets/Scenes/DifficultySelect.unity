@@ -244,7 +244,7 @@ RectTransform:
   m_Children:
   - {fileID: 1763361566}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -5124,7 +5124,7 @@ RectTransform:
   m_Children:
   - {fileID: 572008512}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5267,7 +5267,6 @@ RectTransform:
   - {fileID: 893897941}
   - {fileID: 1905129213}
   - {fileID: 1578261473}
-  - {fileID: 798515225}
   - {fileID: 148245565}
   - {fileID: 543584512}
   - {fileID: 1461266146}
@@ -5275,6 +5274,7 @@ RectTransform:
   - {fileID: 866911040}
   - {fileID: 214084584}
   - {fileID: 468858795}
+  - {fileID: 798515225}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5646,7 +5646,7 @@ RectTransform:
   m_LocalScale: {x: 2.5536191, y: 2.5536191, z: 2.5536191}
   m_Children: []
   m_Father: {fileID: 287889526}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5801,7 +5801,7 @@ RectTransform:
   m_Children:
   - {fileID: 1431259036}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -5877,7 +5877,7 @@ RectTransform:
   m_Children:
   - {fileID: 395338438}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -6107,11 +6107,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 287889526}
-  m_RootOrder: 7
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -792, y: -537}
+  m_AnchoredPosition: {x: -337, y: -409}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798515226
@@ -6136,12 +6136,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 43fd76a436c4a024ea1f8a2c5b6970b5, type: 3}
-    m_FontSize: 48
+    m_FontSize: 67
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 56
-    m_Alignment: 0
+    m_MaxSize: 73
+    m_Alignment: 2
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -6253,7 +6253,7 @@ RectTransform:
   m_Children:
   - {fileID: 2038722276}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -6861,9 +6861,12 @@ MonoBehaviour:
   - A jellyfish girl who seems to have joined out of her own laziness...
   - An eel salesman of great renown. Saleseel? Eelsman? I don't know, we have like
     3 days to finish this game.
-  - 
-  - 
-  - 
+  - A strong willed shark knight determined to serve and protect her queen at all
+    costs. Also has a massive crush on her.
+  - An oarfish day-trader extraordinaire. Couldn't care less about helping Sirena,
+    just wants to make sure the market is okay.
+  - 'An anglerfish with suspect ulterior motives. Maybe a bit too obsessed with humans
+    and how ''little'' and ''weak'' they are. '
 --- !u!1 &1227178041
 GameObject:
   m_ObjectHideFlags: 0
@@ -7438,7 +7441,7 @@ RectTransform:
   m_Children:
   - {fileID: 916162789}
   m_Father: {fileID: 287889526}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}

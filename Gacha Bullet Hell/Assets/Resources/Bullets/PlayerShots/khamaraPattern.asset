@@ -17,12 +17,12 @@ MonoBehaviour:
   bulletVelocity: 20
   spreadDegree: 15
   size: 0.6
-  damageMultiplier: 1.1
+  damageMultiplier: 1.4
   spreadType: 1
   focusFireRate: 0.08
   focusBulletVelocity: 22
   focusSpreadDegree: 0
   focusSize: 0.8
-  focusDamageMultiplier: 1.7
+  focusDamageMultiplier: 1.8
   focusSpreadType: 0
   pointTowards: 1

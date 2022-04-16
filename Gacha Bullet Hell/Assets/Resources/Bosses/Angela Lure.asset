@@ -17,7 +17,7 @@ MonoBehaviour:
   - characterName: 'Sirena Cari '
     avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: "Wow\u2026 It is so incredibly dark down here.  "
-    triggerFight: 0
+    triggerFight: 1
   - characterName: 'Sirena Cari '
     avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
     dialogueLine: "What\u2019s that light? "
@@ -150,41 +150,619 @@ MonoBehaviour:
     dialogueLine: "Alright then\u2026 "
     triggerFight: 0
   C2preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: 'I cannot believe I am down this far. '
+    triggerFight: 1
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "I\u2019m so mad. I didn\u2019t sign up for this level of responsibility
+      and effort.  "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 074d9bd3aa649ee4c9a691782bf8cd1a, type: 3}
+    dialogueLine: "It\u2019s all dark and depressing and - oh, what\u2019s that light? "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: "\u2026 so alluring\u2026. "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'Stop here, creature. '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 6c5b40d9a37e10f4cbe04d5450398bfd, type: 3}
+    dialogueLine: "None can pass this point - it is the queen\u2019s sovereign land.  "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'Hey, did you just call me a creature?? '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 6c5b40d9a37e10f4cbe04d5450398bfd, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'Hello? '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'You cannot pass. Turn back now. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "You\u2019re just going to insult me and ignore me? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'Really? '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: 'Okay, now I feel a little motivated to fight. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: Take me on, nerd.
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 68489942229142844b9310d8645510b2, type: 3}
+    dialogueLine: 'Fine then. I will make your death quick. '
     triggerFight: 0
   C2easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'She acted soooo cool and got whooped by an invertebrate.  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'What a dweeeeeb. '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "I am so so so so tired. I\u2019m excited for this to be over with.  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: 'Onto the queen, I guess.  '
     triggerFight: 0
   C2hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'I assume you are worthy of recognition.  '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'You assume? '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: "I just beat you up and you assume I\u2019m worthy? "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'Alright. Calm down there. '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Jeez. I have never been so worked up in my life\u2026  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: "I\u2019m going to go bring that stupid human the Queen took back
+      to the surface, finally. "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: 'I miss the sunlight. '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "The human? But he\u2019s such a cute addition to the kingdom! "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: 'What? '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Look, I\u2019m here with his girlfriend and she wants him back. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'Humans are social creatures? '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: 'Wonderful!! '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Can you tell me more?? '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "Ahh\u2026 but it\u2019s no good that the queen has taken him alone
+      if he requires another of his species to be happy. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "No\u2026 not good at all.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'We have to reunite them!! '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: "What??? You can help, but they\u2019re both going to the surface
+      together.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "Ah.. I\u2019ll hate to see such cute creatures leave but if it
+      is what\u2019s best for their health\u2026 "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Okay then. You\u2019re weird. Let\u2019s move on. "
     triggerFight: 0
   C3preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "A light\u2026 Is this what\u2019s in style these days? "
+    triggerFight: 1
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I should rrremember\u2026 "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Renji Lee. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Oh. It\u2019s you. "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'Up to trouble now, are we? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I am simply up to\u2026 business\u2026 "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "Well I hope that that business doesn\u2019t concern disturbing
+      the Queen. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Only the King :) '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "I know how you like to slink around the other guards, but I am
+      the queen\u2019s official bodyguard! "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 8d4a9ac49d413bb438675305cb0abf4b, type: 3}
+    dialogueLine: "If you think I will let you pass\u2026 "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "It\u2019s just a merrre human. "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 8d4a9ac49d413bb438675305cb0abf4b, type: 3}
+    dialogueLine: "A mere\u2026 A mere human!? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 68489942229142844b9310d8645510b2, type: 3}
+    dialogueLine: "Why, don\u2019t ever call a human \u201Cmere!\u201D As if you
+      could ever get a human to be around you\u2026 "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 68489942229142844b9310d8645510b2, type: 3}
+    dialogueLine: 'I will not let you hurt the queen or her adorable human! '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Okay. '
     triggerFight: 0
   C3easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'That was the last obstacle between the Queen and I. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Our destination is nearrr. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Only a little bit furtherrr\u2026 "
     triggerFight: 0
   C3hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "Oh, I get it! You\u2019re just jealous of the Queen\u2019s human,
+      huh? "
     triggerFight: 0
-  C4preBattleConversation: []
-  C4easyPostBattleConversation: []
-  C4hardPostBattleConversation: []
-  C5preBattleConversation: []
-  C5easyPostBattleConversation: []
-  C5hardPostBattleConversation: []
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'You could never get a human to put up with you. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'I am herrre With Sirrrena, human boyfriend of Chahde, to reunite
+      them. '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: "THERE\u2019S ANOTHER HUMAN??? "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Yes, they need to be togetherrr. So, if you please\u2026 "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "Oh my! I didn\u2019t know that humans came in pairs of two. That\u2019s
+      so\u2026 cute! "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "You\u2019re helping a human? So she knows what the King needs
+      to be happy and healthy? "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: "Ah, then what am I doing? I won\u2019t let the Queen mistreat
+      her human! "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Then come along, let\u2019s continue. "
+    triggerFight: 0
+  C4preBattleConversation:
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'I seldom travel this deep in the ocean.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: "We are nearing the Lady\u2019s home\u2026  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Oh! Khamara!  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'How lovely to see you down here.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: f6b566d3be4d80b4893a0ee69096d618, type: 3}
+    dialogueLine: 'Are we.. acquainted?  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "You don\u2019t remember me?  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'How sad!  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Well, I know you anyway.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: "It\u2019s quite amusing to watch you get all flustered around
+      the Queen.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d6d43800c0492f744b3467425e7b0de1, type: 3}
+    dialogueLine: 'W-what??  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "Oh yes, look- you\u2019re embarrassed right now! "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'So very cute!  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: 'I-im not e-embarassed!  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d6d43800c0492f744b3467425e7b0de1, type: 3}
+    dialogueLine: 'I am here to prevent the Lady from making a terrible decision.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d6d43800c0492f744b3467425e7b0de1, type: 3}
+    dialogueLine: 'It is my duty, anglerfish.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'My, so serious as well.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "I do have my orders, though. I\u2019ll need to stop you.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: 'Very well.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'This shall be our first and last formal meeting.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'No hard feelings, okay?  '
+    triggerFight: 0
+  C4easyPostBattleConversation:
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: 'What an insufferable fish.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'Now nothing stands between me and the Lady.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: "\u2026 my.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: c531319b85c80e543a6df06a0d72cd39, type: 3}
+    dialogueLine: "My heart is\u2026 racing. "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'I n-need to get myself under control.  '
+    triggerFight: 0
+  C4hardPostBattleConversation:
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'My, you put up quite the fight.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "I\u2019m spent.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'Now, move aside.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'I have little time.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'I suppose you have me a bit curious now.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'You allied with a human, yes? '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "They\u2019re so tiny and weak!! I love them! "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'I would hate to miss the opportunity to observe them in the wild.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "Maybe I\u2019ll come along with you and your little plan.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: 'And anyway, you are too cute when you are determined like that! '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'I am growing to despise you.. '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: 'But very well. If it means you will let me pass, you may accompany
+      us.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'Only the Queen remains now.  '
+    triggerFight: 0
+  C5preBattleConversation:
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 88d7d2d96f70e1348b70321131048600, type: 3}
+    dialogueLine: "That light\u2026  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'Ah, I figured I would encounter you here, Angela.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "\u2026 Orenna. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'What are you doing here?  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: 'Well, I guess you could say the reason is purely economical.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'I need to stop this kidnapping, unfortunately.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 88d7d2d96f70e1348b70321131048600, type: 3}
+    dialogueLine: "It\u2019s doing a lot of damage to the stock market.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: '*Sigh* Of course. '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "You\u2019re as boring as ever. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "Don\u2019t you do anything fun?  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: 'Of course I do!  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'I was just working on this year''s financial documentation!  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "You would think that\u2019s fun\u2026  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "Hey, it\u2019s not like your obsession with humans is a more interesting
+      hobby. "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'You clearly don''t get it.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: "So, uh\u2026 let me by?  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: "You know I can\u2019t do that, Orenna.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "Let\u2019s have our spat and then call it a day, alright?  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "Alright\u2026  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "I hope it\u2019s not too boring\u2026  "
+    triggerFight: 0
+  C5easyPostBattleConversation:
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "Honestly I\u2019m a bit surprised I beat her.  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f10271790de150e419df12c3a65fd292, type: 3}
+    dialogueLine: "I\u2019ve always been more of a nerd than a fighter.  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: 'Ah well, I guess I''d better move along.  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'Time to face the Queen.  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "I can\u2019t imagine she will be too happy\u2026  "
+    triggerFight: 0
+  C5hardPostBattleConversation:
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'Ugh, lame.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'You win, though.  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'Alright!  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: 'I''m a little surprised though. '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: c87509d0db459d341a380726b9cd0cf1, type: 3}
+    dialogueLine: "Me too\u2026  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'This whole thing put me in a bad mood.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'I wish something interesting was happening.  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "Well, I\u2019m about to go face the Queen with a human I met in
+      order to steal away her soon-to-be husband.  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: 'Really?  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "I would love to get the chance to observe those humans in action\u2026  "
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: "I\u2019ve always wanted to keep one as a pet!! "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: "Why don\u2019t you come with me?  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'I could use all the help I can get. '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'It is, uh, treason, though.  '
+    triggerFight: 0
+  - characterName: Angela Lure
+    avatar: {fileID: 21300000, guid: 63c98fe5ee0cb68478cd99e2e7a88434, type: 3}
+    dialogueLine: "Oh well, I\u2019m down for anything as long as it makes life more
+      fun!  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "That\u2019s\u2026 "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: 'Not a good attitude to have.  '
+    triggerFight: 0
   C6preBattleConversation: []
   C6easyPostBattleConversation: []
   C6hardPostBattleConversation: []
