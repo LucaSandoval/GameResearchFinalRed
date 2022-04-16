@@ -95,6 +95,18 @@ public class WaveSpawner : MonoBehaviour
                         case 1:
                             dialogue = waves[waveNumber].bossProfile.C2preBattleConversation;
                             break;
+                        case 2:
+                            dialogue = waves[waveNumber].bossProfile.C3preBattleConversation;
+                            break;
+                        case 3:
+                            dialogue = waves[waveNumber].bossProfile.C4preBattleConversation;
+                            break;
+                        case 4:
+                            dialogue = waves[waveNumber].bossProfile.C5preBattleConversation;
+                            break;
+                        case 5:
+                            dialogue = waves[waveNumber].bossProfile.C6preBattleConversation;
+                            break;
 
                         default:
                             dialogue = waves[waveNumber].bossProfile.C1preBattleConversation;
@@ -167,6 +179,18 @@ public class WaveSpawner : MonoBehaviour
                 case 1:
                     levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C2hardPostBattleConversation);
                     break;
+                case 2:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C3hardPostBattleConversation);
+                    break;
+                case 3:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C4hardPostBattleConversation);
+                    break;
+                case 4:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C5hardPostBattleConversation);
+                    break;
+                case 5:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C6hardPostBattleConversation);
+                    break;
 
                 default:
                     levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C1hardPostBattleConversation);
@@ -182,6 +206,18 @@ public class WaveSpawner : MonoBehaviour
                     break;
                 case 1:
                     levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C2easyPostBattleConversation);
+                    break;
+                case 2:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C3easyPostBattleConversation);
+                    break;
+                case 3:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C4easyPostBattleConversation);
+                    break;
+                case 4:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C5easyPostBattleConversation);
+                    break;
+                case 5:
+                    levelControlObj.SendMessage("TypeThis", waves[waveNumber].bossProfile.C6easyPostBattleConversation);
                     break;
 
                 default:

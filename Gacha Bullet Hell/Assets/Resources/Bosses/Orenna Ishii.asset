@@ -14,119 +14,542 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnlockID: 4
   C1preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: 'Who goes there?  '
     triggerFight: 1
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Ah\u2026let me guess, another anthropomorphized fish here to fight
+      me. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: 'Excuse me? '
+    triggerFight: 0
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Oh, sorry. Will you let me pass so I can go get my stupid boyfriend
+      from your Queen? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: 'Wait, you mean to steal away our newly appointed King? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'This coup is completely unprecedented - I cannot let you pass. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "\u2026. although, I do agree that this human man must be absolved
+      of his position\u2026 "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: 'It is not good for the deep sea economy of our kingdom to have
+      a human King.  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "Ummm, you seem a little lost in thought. Let me just sneak by
+      here\u2026 "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "Ah!! Nope! It\u2019s not good business acumen to just let you
+      proceed without a physical altercation. "
+    triggerFight: 0
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Okay then? The ocean is really weird. '
     triggerFight: 0
   C1easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "I bet she\u2019ll get a demotion after this or something\u2026  "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 432a562ac0485da439ece5aa03e0aee3, type: 3}
+    dialogueLine: "I guess the underwater business world gets intense? But that\u2019s
+      not my concern. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'I quite literally have bigger fish to fry. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari  '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Onwards! '
     triggerFight: 0
   C1hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "Ahhh\u2026. Oh no\u2026 it seems I have been defeated. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: 'It appears I have no other option than to become your unwilling
+      accomplice! '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "If my stocks take another hit, I\u2019m in the hole for sure\u2026  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'How fortunate is it that I will be a collaborator in this dethroning. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "You don\u2019t seem particularly bothered by this outcome. "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "What do you mean? I\u2019m devastated. I tried so hard to defeat
+      you. "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Alright then? '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "You brute\u2026 ahhh\u2026 woe is me! I am taken hostage! "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Okay, I get it, let\u2019s go. "
     triggerFight: 0
   C2preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: 'Why am I still swimming?? Why am I this deep?? '
+    triggerFight: 1
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: "I\u2019m so used to just drifting in the water aimlessly. This
+      sucks. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f10271790de150e419df12c3a65fd292, type: 3}
+    dialogueLine: "Who\u2019s there? "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: 'Did you schedule an appointment with me? '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: 'Who are you? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: 'I am Orenna Ishii, best stock trader in the four oceans. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: "If you would like to hire me to stimulate great economic prosperity
+      for you or your business\u2026 "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "Come back later. Now isn\u2019t a good time for the market\u2026 "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "\u2026 given the whole \u2018new king\u2019 situation. "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: "Oh. I\u2019m here to bring him back to the surface, actually.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: 'Oh. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: 'Yeah. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: 'Ah. I see. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'Well. We must engage in battle then. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: 'Huh? Why?? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: 'It would be unlawful for me to allow you to pass. I simply cannot
+      risk a bad reputation! '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: 'Alright? We are in the open ocean where nobody can see you letting
+      me pass though? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'You never know who is watching, you fool. '
     triggerFight: 0
   C2easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: "What was that lady\u2019s deal? "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: "I guess it will only be to her benefit that she got defeated\u2026 "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: "She looks pretty unscathed\u2026? "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: 'Hey - are you even knocked out? '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: 'Just move on! Dethrone that imbicile! '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'Jeez. Okay! Make me do all the work then!! This sucks. '
     triggerFight: 0
   C2hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "Ahhh\u2026. Oh no\u2026 it seems I have been defeated. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: 'It appears I have no other option than to become your unwilling
+      accomplice! '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: "If my stocks take another hit, I\u2019m in the hole for sure\u2026  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'How fortunate is it that I will be a collaborator in this dethroning. '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Oh. I see your game here\u2026 "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: d03d99f70ccf8ca4cbf520798776c2ec, type: 3}
+    dialogueLine: "Maybe since you\u2019ll be fighting for us it\u2019ll mean I can
+      take a nap! "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: "Let\u2019s move quickly. The OSE (ocean stock exchange) opens
+      again soon, so I can\u2019t be away from my office for long. "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3a066b5579c74f241af63fd0f51f913c, type: 3}
+    dialogueLine: "Okay then\u2026 "
     triggerFight: 0
   C3preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: "12 points down from yesterday, if I buy now\u2026 "
+    triggerFight: 1
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Orrrenna, busy as always. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: 'Oh? Oh! Renji Lee. We need to have a word. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'When I invested in your company, I expected full monthly disclosures.
+      Our- '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Orrrenna! I do not have time for this. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'My deadline for rrreuniting this human with herrr boyfriend is
+      quick approaching. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: 'Human? The King? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'Why, yes, he is a nuisance to the OSE (Ocean Stock Exchange)... '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: 'But I would never allow my reputation to be sullied by allowing
+      you to commit treason! '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'I am a moral capitalist, through and through. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "\u2026\u2026. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Orrrenna, it is time for us to close this account. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: 'I agree. Let the meeting begin. '
     triggerFight: 0
   C3easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'It is a good thing that I got herrr to invest beforrre I beat
+      herrr down. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Her business prrractices were quite spectacularrr, but they ultimately
+      weighed herrr down. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'No worries, I will find a new firrrm to work with next week. '
     triggerFight: 0
   C3hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "Okay! That\u2019s enough, Renji. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Why do you even want this king to rrrule? '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'You said yourrrself that he was rrruining the economy. '
     triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Classic human\u2026 "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f10271790de150e419df12c3a65fd292, type: 3}
+    dialogueLine: 'Unlike you, I have morals. '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: "Even if it\u2019s what\u2019s best for me personally, I still
+      must stand by what\u2019s right and wrong. "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: d285aaa8636c89841b153d455c790d60, type: 3}
+    dialogueLine: "Of course, if someone beat me up and forced me to help them remove
+      the nuisance King\u2026 "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: '..? '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: "Then I suppose I would have no choice\u2026 "
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'What a strrrange thing to say. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Anyway, I will be going. '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: "Wait! I\u2019ll come with you. "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 77ed9b3d32bd65645a20fbdfba2e4002, type: 3}
+    dialogueLine: 'My morals can wait. '
+    triggerFight: 0
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I\u2019m starrrting to doubt that they exist in the first place. "
+    triggerFight: 0
+  C4preBattleConversation:
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: "Who\u2019s there? I\u2019m quite busy. "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: "\u2026 oh. You're that shark that always follows the Queen around.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "I am not \u2018following her around,\u2019 you insolent oarfish!  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: "I am the Lady\u2019s sworn knight.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'And it is for that reason that you must stand aside before she
+      makes a terrible mistake.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: "Hm, yes\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: f6b566d3be4d80b4893a0ee69096d618, type: 3}
+    dialogueLine: "\u2026 ?  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "My apologies\u2026 You see, I\u2019m a tad distracted at the moment.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'The stock market is down in nearly every sector! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: f835dd0f9c4f19c47bff952cb959c5e0, type: 3}
+    dialogueLine: 'Stock.. Market?  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'Well, I suppose a shark like yourself wouldn''t understand. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: 'But in any case, I do have my own duty to the Queen.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'Seems odd that you would betray her, but oh well.  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'I would never betray her! This is for her own good!  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "Yes, whatever. Let\u2019s have our battle now so I can get back
+      to my day trading. "
+    triggerFight: 0
+  C4easyPostBattleConversation:
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: 'Ha! What a weak enemy. '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: "It is simply a fact that I am the strongest of all of the Lady\u2019s
+      subjects! "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'What is the stock market anyway?  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: 'No matter. I must fight onward for the Queen!  '
+    triggerFight: 0
+  C4hardPostBattleConversation:
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: 'Ouch, okay. You got me.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: 'Ha! What a weak enemy.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: "It is simply a fact that I am the strongest of all of the Lady\u2019s
+      subjects! "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "Didn\u2019t that human beat you though\u2026? "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: "\u2026  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'That is besides the point.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'I have a new mission now! I must stop the Queen from marrying
+      that human!  '
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: "About that\u2026  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: 5777783c6643beb439b6d8387d513e2b, type: 3}
+    dialogueLine: "I\u2019ve realized that a lot of the current financial instability
+      of the market is likely due to that human\u2019s presence as our new sovereign.  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: a18aa4ae0b39ccb4b9e7275046c7710e, type: 3}
+    dialogueLine: 'If I were to assist in his dethroning as well, perhaps the numbers
+      will return to their former rate?  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: f6b566d3be4d80b4893a0ee69096d618, type: 3}
+    dialogueLine: "Financial.. Market\u2026 numbers?  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: "\u2026 uh.  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f1ea1b97e3d4ef8429b19ed68494b433, type: 3}
+    dialogueLine: "I\u2019ll help you out, idiot.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: 'I see!  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: 'Very well, I suppose an extra ally couldn''t hurt.  '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Don\u2019t slow me down.  "
+    triggerFight: 0
+  - characterName: Orenna Ishii
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: "Maybe this wasn\u2019t such a good idea\u2026  "
+    triggerFight: 0
+  C5preBattleConversation: []
+  C5easyPostBattleConversation: []
+  C5hardPostBattleConversation: []
+  C6preBattleConversation: []
+  C6easyPostBattleConversation: []
+  C6hardPostBattleConversation: []

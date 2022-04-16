@@ -15,21 +15,21 @@ MonoBehaviour:
   playerUnlockID: 2
   C1preBattleConversation:
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: "First the jellyfish, now\u2026 eels? "
     triggerFight: 1
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
     dialogueLine: "I could probably enjoy all of this sea life if it wasn\u2019t
       trying to kill me all the time.  "
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
     dialogueLine: "And, of course, if I wasn\u2019t dealing with Chahde\u2019s absurd
       kidnapping. "
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: 'Where could he have been taken? '
     triggerFight: 0
   - characterName: Renji Lee
@@ -37,7 +37,7 @@ MonoBehaviour:
     dialogueLine: "He\u2019s not arrround herrre, I can tell you that much. "
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
     dialogueLine: "Oh, Let me guess, another one of the queen\u2019s loyal subjects? "
     triggerFight: 0
   - characterName: Renji Lee
@@ -45,7 +45,7 @@ MonoBehaviour:
     dialogueLine: "I would preferrr to think of myself as herrr\u2026 business partnerrr\u2026 "
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
     dialogueLine: 'What, do you run a kidnapping corporation?  '
     triggerFight: 0
   - characterName: Renji Lee
@@ -54,7 +54,7 @@ MonoBehaviour:
       herrr and my affairrrs here. '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
     dialogueLine: 'Oh Brother. '
     triggerFight: 0
   - characterName: Renji Lee
@@ -63,11 +63,11 @@ MonoBehaviour:
       think it would be best for you to go home. "
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
     dialogueLine: 'Funny that she thinks she can make those decisions for him. '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
     dialogueLine: "I won\u2019t be going home without my boyfriend. "
     triggerFight: 0
   - characterName: Renji Lee
@@ -84,21 +84,21 @@ MonoBehaviour:
       let you furrrtherrr. '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: "Yeah, I\u2019d doubt that."
     triggerFight: 0
   C1easyPostBattleConversation:
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
     dialogueLine: 'I thought that they said they were determined? '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
     dialogueLine: 'Well, it seems that they were nothing more than a slinky eel after
       all. '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 432a562ac0485da439ece5aa03e0aee3, type: 3}
     dialogueLine: 'Nothing to do now but continue pressing forward. '
     triggerFight: 0
   C1hardPostBattleConversation:
@@ -108,11 +108,11 @@ MonoBehaviour:
       afterrr this. '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: 'What?  '
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
     dialogueLine: "I have you here, moments from defeat, and you\u2019re thinking
       about your\u2026 business? "
     triggerFight: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
     dialogueLine: "I don\u2019t suppose you could make rrroom for one morrre?"
     triggerFight: 0
   - characterName: Sirena Cari
-    avatar: {fileID: 21300000, guid: 1878f3d29dc7dd647a115ced44c0b670, type: 3}
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
     dialogueLine: "Let me get this straight. If the queen won\u2019t buy your ribbons
       anymore, you\u2019d rather go and physically fight against her and all of her
       kingdom? "
@@ -155,7 +155,7 @@ MonoBehaviour:
     triggerFight: 0
   C2preBattleConversation:
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
     dialogueLine: "I\u2019ve never been this deep before\u2026 I didn\u2019t know
       that the ocean went this far down. "
     triggerFight: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
     dialogueLine: 'Dot? I neverrr expected to see you down herrre. '
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: da857d395c8c1ca41a562e90cab29d98, type: 3}
     dialogueLine: "Oh\u2026 You\u2019re that Renju Eel or\u2026 something. "
     triggerFight: 0
   - characterName: Renji Lee
@@ -172,12 +172,12 @@ MonoBehaviour:
     dialogueLine: "We\u2019ve met severrral times\u2026 We went to grade school togetherrr\u2026"
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
     dialogueLine: "Really? I don\u2019t remember. I\u2019ve only seen you occasionally
       with the eels in shallow waters. "
     triggerFight: 0
   - characterName: Dot HIza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: d03d99f70ccf8ca4cbf520798776c2ec, type: 3}
     dialogueLine: "But does that mean that you\u2019ll let me get through here? You
       know, since we\u2019re friends and all? "
     triggerFight: 0
@@ -196,26 +196,26 @@ MonoBehaviour:
       my business contract with the queen at rrrisk\u2026 "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
     dialogueLine: "Oh, that\u2019s right. You\u2019re really obsessed with that,
       aren\u2019t you? "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
     dialogueLine: "How exhausting. I guess I\u2019ll just have to beat you quickly
       so that this can be over with. "
     triggerFight: 0
   C2easyPostBattleConversation:
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
     dialogueLine: "Oh\u2026 What a strange person\u2026 "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: da857d395c8c1ca41a562e90cab29d98, type: 3}
     dialogueLine: I hope that his business is ok.
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
     dialogueLine: "Not that it really matters much to me\u2026"
     triggerFight: 0
   C2hardPostBattleConversation:
@@ -228,11 +228,11 @@ MonoBehaviour:
     dialogueLine: "I will admit, I didn\u2019t know that you had all of that in you. "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
     dialogueLine: "Well I\u2019d regularily prefer not to fight\u2026"
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
     dialogueLine: "It\u2019s a waste of energy."
     triggerFight: 0
   - characterName: Renji Lee
@@ -245,11 +245,11 @@ MonoBehaviour:
     dialogueLine: "Give me a moment to calculate the rrright course of action herrre\u2026 "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
     dialogueLine: 'Is this about your ribbon business? '
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
     dialogueLine: "You really are strange\u2026"
     triggerFight: 0
   - characterName: Renji Lee
@@ -262,9 +262,18 @@ MonoBehaviour:
       have no doubt that I am currrrently looking at the winning team. "
     triggerFight: 0
   - characterName: Dot Hiza
-    avatar: {fileID: 21300000, guid: bf59722a9cd6f1d42ab4267451b26ac6, type: 3}
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
     dialogueLine: "Yeah, that\u2019s fine I think."
     triggerFight: 0
   C3preBattleConversation: []
   C3easyPostBattleConversation: []
   C3hardPostBattleConversation: []
+  C4preBattleConversation: []
+  C4easyPostBattleConversation: []
+  C4hardPostBattleConversation: []
+  C5preBattleConversation: []
+  C5easyPostBattleConversation: []
+  C5hardPostBattleConversation: []
+  C6preBattleConversation: []
+  C6easyPostBattleConversation: []
+  C6hardPostBattleConversation: []

@@ -14,118 +14,559 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnlockID: 3
   C1preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
-    dialogueLine: ...
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Something feels off\u2026  "
     triggerFight: 1
-  - characterName: 
-    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
-    dialogueLine: .............
-    triggerFight: 1
-  - characterName: 
-    avatar: {fileID: 21300000, guid: a824fde5260d73e4ca6dca2c5f78b72f, type: 3}
-    dialogueLine: ..........................................
-    triggerFight: 1
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Like I\u2019m being watched. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 4ca53b4f056928a43a9454f8125cfe17, type: 3}
+    dialogueLine: 'You have strayed much too far from the shore, Human.  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 4ca53b4f056928a43a9454f8125cfe17, type: 3}
+    dialogueLine: "And into my Lady\u2019s domain.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 4ca53b4f056928a43a9454f8125cfe17, type: 3}
+    dialogueLine: 'She is my purpose for living, and I shall defend her with every
+      last drop of my blood.  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: "So, Human\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 4ca53b4f056928a43a9454f8125cfe17, type: 3}
+    dialogueLine: 'If you take another step forward, I will kill you without so much
+      as a second thought.  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'A shark, huh?  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "So loyal! What\u2019s so great about this \u2018Queen\u2019 anyway?  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "Other than being a common criminal, I guess she was kinda\u2026  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Short? '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Hey, Shark girl.  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "If you love your Queen so much, why don\u2019t you just marry
+      her?  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "Huh\u2026?  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: 'W-w-what?  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: 'M-marry?  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: "I could never! I mean\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: "Of course, if she would, uh\u2026 have me, then\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "B-but it's not my place to\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: "But, I suppose, hypothetically\u2026  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "Not the reaction I was expecting\u2026  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'What, do you have a crush on her?  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "It\u2019s okay! You can tell me about it!  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: 'SHUT UP! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c531319b85c80e543a6df06a0d72cd39, type: 3}
+    dialogueLine: "Y-you\u2019ve angered me for the last time, human!  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Once I\u2019m done with you, there will be nothing left but blood
+      in the water!  "
+    triggerFight: 0
   C1easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2a13d4693fa6f3941984fefe9a5d57f7, type: 3}
+    dialogueLine: 'That was a close one.   '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: "D-damn it\u2026  "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'I have failed my lady. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'What a disgrace. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "Hey, don\u2019t beat yourself up about it.  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "I\u2019m sure your queen will appreciate the effort you put in\u2026 "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 2b9a12305ae881945b61e25ff74ab2cd, type: 3}
+    dialogueLine: "Maybe she\u2019ll even go out with you! "
     triggerFight: 0
   C1hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: "D-damn it\u2026  "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'I have failed my lady. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'What a disgrace. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'You know, you and I might have the same objective here. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "I want my boyfriend back, and if he were gone\u2026 "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "Wouldn\u2019t that make your queen single?  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: "You ignorant human! How dare you speak\u2026 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "Do you think that would work\u2026?  "
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Huh? Probably, yeah. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "See? It\u2019s a win-win.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: "\u2026 Very well.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: 'Your words are true, human. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: 'That silly man would never make her happy. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'Mind you, I shall never betray my lady.  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "I shall merely, uh\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'Ensure that she is making the correct romantic decision. '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "Uh, yeah, sure. Whatever you want to call it\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 614d2d2a49128f342a99a1878cbf5485, type: 3}
+    dialogueLine: 'Very well! I shall accompany you, human! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'But do not speak to me while we travel. Or look at me.  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Alright, whatever.  '
+    triggerFight: 0
+  - characterName: 'Sirena Cari '
+    avatar: {fileID: 21300000, guid: dfb00f9e815649141a976c4761f4733e, type: 3}
+    dialogueLine: "Let\u2019s just get this over with.  "
     triggerFight: 0
   C2preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Jeez\u2026 I\u2019m getting tired from swimming so far. Can\u2019t
+      we just take a nap? "
+    triggerFight: 1
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'Halt! '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'What brings you here, jellyfish? '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "I\u2019m here to retrieve some dude the Queen grabbed, I guess. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "You mean your Lady - and she has claimed him as our rightful King\u2026 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: "Even though that doesn\u2019t make me too happy\u2026  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'I shall defend her with every last drop of my blood, for she is
+      my purpose for living. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: "Wow\u2026 Okay\u2026 you\u2019re definitely a whole lot more motivated
+      than me. "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: "You\u2019re pretty gung ho over some crush.  "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "I can respect it but I\u2019ve gotta get past you dude. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: 'A CRUSH? '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: d6d43800c0492f744b3467425e7b0de1, type: 3}
+    dialogueLine: "Wh-what do you mean by that?? This is purely just \u2026. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c531319b85c80e543a6df06a0d72cd39, type: 3}
+    dialogueLine: "\u2026. a very NORMAL loving devotion for our Queen. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Once I\u2019ve beaten you to a jelly-pulp, I\u2019ll teach you
+      what\u2019s worth appreciating about my Lady! "
     triggerFight: 0
   C2easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Agghhhhhh\u2026. that was so tiring. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: 'That shark definitely has a lot of stuff to work through. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 3913f0d1091a98442bf39b49b9e4fcda, type: 3}
+    dialogueLine: "Hopefully the defeat hasn\u2019t messed up their chances of romancing
+      the Queen\u2026 "
     triggerFight: 0
   C2hardPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: 'Alright, so are you going to let me pass now? '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: "Aghhhh\u2026 I\u2019ve failed to protect her\u2026 I\u2019m such
+      a disappointment. "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: "I can\u2019t even beat a creature without a brain\u2026 "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Hey! That\u2019s a generalization.  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "OR lungs\u2026 "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Jellyfish don\u2019t have a heart either\u2026 that\u2019s why
+      you can\u2019t understand how wonderful our queen is\u2026 "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: "Shark dude, let\u2019s calm down a bit. I\u2019m pretty sure you
+      don\u2019t want that dude to be King. "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Why don\u2019t you join us?  "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 13f169800c66416489e50a0bc2d1ef83, type: 3}
+    dialogueLine: "Maybe then you\u2019d have a shot at getting with the Queen you
+      love so much? "
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Not that it matters much to me\u2026 but you being here would
+      definitely make me work less. "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: "You\u2019re right!! "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: 'I can show my Lady just how superior I am to that worthless human
+      by killing him! '
+    triggerFight: 0
+  - characterName: Dot Hiza
+    avatar: {fileID: 21300000, guid: 074d9bd3aa649ee4c9a691782bf8cd1a, type: 3}
+    dialogueLine: 'N-n-nonononono we will not be killing him! '
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: acf7ef718a4fa5c498b1796dddfee9c9, type: 3}
+    dialogueLine: "Hahahaha\u2026. aha..  "
+    triggerFight: 0
+  - characterName: Khamara Dae
+    avatar: {fileID: 21300000, guid: acf7ef718a4fa5c498b1796dddfee9c9, type: 3}
+    dialogueLine: "\u2026. this is my master plan. "
     triggerFight: 0
   C3preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'Halt! State your business here. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Khamarrra\u2026 How many times have we done this now? "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Renji, you can\u2019t pay your way through this one today. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'How unforrrtunate. I have an imporrrtant package to deliverrr. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: "Is that so? I don\u2019t see your goon squad anywhere nearby,
+      and I know as well as anyone that you wouldn\u2019t be traveling alone down
+      here. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "My \u201Cgoon squad\u201D is none of your business. In fact, you
+      do not have a business. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "Anything that may threaten the queen is my business, and I have
+      a feeling that your intentions aren\u2019t all that moral today! "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'What are you up to? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Ah, so you\u2019ve caught me\u2026 No botherrr. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "I need to deliverrr this human to her \u201CChahde.\u201D "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: acf7ef718a4fa5c498b1796dddfee9c9, type: 3}
+    dialogueLine: "The Queen\u2019s new King? Hah! As if I would ever let you touch
+      them! "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'The Queen, why, she deserves the world! And if she wants that
+      human, she deserves him. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: "Why, I would give her\u2026 I would give her anything that she
+      wants. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'I am fairrrly confused. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "But I need to pass now. Let\u2019s get down to business. "
     triggerFight: 0
   C3easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "People who live for otherrrs\u2026 "
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'They neverrr seem to live for long. '
     triggerFight: 0
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Renji Lee
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'That is why I will live forever. '
     triggerFight: 0
   C3hardPostBattleConversation:
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: 'Argh! How are you so strong all by yourself? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'I simply need to deliverrr this human. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'That was brutal! '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Ok, I need to move onward and deliverrr this girrrl now. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: 'Wait! I cannot allow you to hurt the Queen! She must remain with
+      her King. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'I will do whatever I have to to keep my Queen happy. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'What is so special about this King? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'There is always a rrreplacement. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "A\u2026 replacement? "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: d00285d4ea5826b4799252c00d2edceb, type: 3}
+    dialogueLine: "That\u2019s it! If I can get the King out of the picture, there
+      will be room for\u2026 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: acf7ef718a4fa5c498b1796dddfee9c9, type: 3}
+    dialogueLine: 'Oh, this will be good! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae  '
+    avatar: {fileID: 21300000, guid: acf7ef718a4fa5c498b1796dddfee9c9, type: 3}
+    dialogueLine: "Let\u2019s go, Renji! "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'I do not underrrstand. But you may come. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Move quickly. '
+    triggerFight: 0
+  C4preBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
     dialogueLine: 
     triggerFight: 0
+  C4easyPostBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
     dialogueLine: 
     triggerFight: 0
+  C4hardPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C5preBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C5easyPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C5hardPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C6preBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C6easyPostBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 
+    triggerFight: 0
+  C6hardPostBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
     dialogueLine: 
