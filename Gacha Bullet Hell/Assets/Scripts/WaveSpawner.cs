@@ -83,7 +83,7 @@ public class WaveSpawner : MonoBehaviour
             {
                 if (dialogueSystem.activeSelf == false && bossSpawned == false && enemyParent.childCount == 0)
                 {
-                    soundManager.FadeOutSong(stageSong);
+                    //soundManager.FadeOutSong(stageSong);
                     dialogueSystem.SetActive(true);
 
                     DialogueLine[] dialogue;
@@ -154,6 +154,7 @@ public class WaveSpawner : MonoBehaviour
             newBoss.transform.position = bossSpawn.position;
             newBoss.SendMessage("SetWaveSpawner", this.gameObject);
 
+            soundManager.Pause(stageSong);
             soundManager.Play(waves[waveNumber].bossTheme);
         }
     }

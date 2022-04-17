@@ -47,6 +47,9 @@ public class PlayerController : MonoBehaviour
     private int frameID;
 
     // Start is called before the first frame update
+
+    public GameObject pauseMenu;
+    private bool gamePaused;
     void Start()
     {
         hitbox.SetActive(false);
@@ -73,11 +76,31 @@ public class PlayerController : MonoBehaviour
 
         playerBulletRefrence = Resources.Load<GameObject>("PlayerBullet");
         playerBombRefrence = Resources.Load<GameObject>("BombPrefab");
+
+        if (SceneManage.level == 1)
+        {
+            gamePaused = true;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            gamePaused = !gamePaused;
+        }
+
+        if (gamePaused == true)
+        {
+            pauseMenu.SetActive(true);
+            Time.timeScale = 0;
+        } else
+        {
+            pauseMenu.SetActive(false);
+            Time.timeScale = 1;
+        }
+
         globalPlayerPos = transform.position;
 
         if (Input.GetKey(KeyCode.LeftShift))
