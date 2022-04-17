@@ -16,25 +16,25 @@ MonoBehaviour:
   C1preBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: It's a sunny summer day when Sirena Cari takes her boyfriend, Chahde
-      Chaedwihk, out to the beach.
+    dialogueLine: It's a sunny summer+day when Sirena+Cari takes her+boyfriend, Chahde+Chaedwihk,
+      out to+the beach.
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: "Chahde is hot and is a good boyfriend\u2026"
+    dialogueLine: "Chahde is hot and+a good boyfriend\u2026"
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: "but he\u2019s a little dumb."
+    dialogueLine: "but he\u2019s a little+dumb."
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: 'Sirena is a professional scuba diver and Chahde can barely swim
-      - definitely not a recipe for disaster. '
+    dialogueLine: 'Sirena is a+professional scuba+diver and Chahde+can barely swim
+      -+definitely not a+recipe for+disaster. '
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: So, when they get into the water,
+    dialogueLine: So, when they get+into the water,
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
@@ -42,12 +42,12 @@ MonoBehaviour:
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: 'Chahde has been stolen away by the short, green, and powerful
-      Queen of the Abyss! '
+    dialogueLine: 'Chahde has been+stolen away by the+short, green, and+powerful
+      Queen of+the Abyss! '
     triggerFight: 0
   - characterName: 
     avatar: {fileID: 0}
-    dialogueLine: "So great\u2026 now Sirena has to clean up another one of his messes\u2026 "
+    dialogueLine: "So, great\u2026 now+Sirena has to+clean up anothee+one of his+messes\u2026 "
     triggerFight: 0
   C1easyPostBattleConversation: []
   C1hardPostBattleConversation: []

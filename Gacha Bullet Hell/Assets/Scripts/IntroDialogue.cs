@@ -28,15 +28,14 @@ public class IntroDialogue : MonoBehaviour
         message = lines[lineIndex].dialogueLine;
         typeTime = 0.05f;
 
-        /*for (int i = 18; i < message.Length; i--)
+        for (int i = 0; i < message.Length; i++)
         {
-            if (message[i] == ' ')
+            if (message[i] == '+')
             {
                 message = message.Remove(i, 1);
                 message = message.Insert(i, "\n");
-                i += 18;
             }
-        }*/
+        }
 
         if (typing == false)
         {
