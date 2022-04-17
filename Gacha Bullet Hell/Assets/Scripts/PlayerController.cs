@@ -349,6 +349,7 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         PlayerStatController.lives = 5;
+        PlayerStatController.bombs = 3;
         SceneManager.LoadScene("DifficultySelect");
     }
 }
