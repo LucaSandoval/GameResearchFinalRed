@@ -14,14 +14,211 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnlockID: 0
   C1preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2a13d4693fa6f3941984fefe9a5d57f7, type: 3}
+    dialogueLine: 'She must be here. This is as deep as it goes.  '
+    triggerFight: 1
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: "I\u2019ve been waiting, human.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "I honestly can\u2019t believe you followed me all the way down
+      here. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "My good for nothing guards don\u2019t seem to have slowed you
+      in the slightest.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'Well, they tried.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Not very hard though.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2681c9c7e0e515d42bd6ae4f68a08423, type: 3}
+    dialogueLine: "Now, kidnapper, why don\u2019t you just hand my boyfriend over
+      and we can all go home?  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'How amusing.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'I assume this is the man of whom you speak? '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Babe!  '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "It\u2019s me, Sirena! Chahde! "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Chahde! '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'I.. I know it''s you, babe.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'What a touching reunion. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'Unfortunately, human man, this woman is no longer your girlfriend! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'Your absurd good looks are too fine for the surface.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'Once I make you my husband, we will be the most attractive couple
+      in the ocean! '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Daamn, that\u2019s like, straight messed up.  "
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Whatever it is you said just now. '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'This is my b but I was totally distracted just now and missed
+      a lot of that. '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "\u2026  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: "That\u2019s\u2026 okay Chahde, just stay there for a little bit.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "Ahem, well\u2026  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'In any case.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'I suppose it is time to settle this.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: 'I am Arah, Queen of the Abyss. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'My power and beauty are second to none.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'If you want your man back, come at me! '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2a13d4693fa6f3941984fefe9a5d57f7, type: 3}
+    dialogueLine: 'Alright, miss criminal.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "But don\u2019t get too upset when you lose! "
     triggerFight: 0
   C1easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: "I\u2026 I can\u2019t believe it.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a1c5a63508ad5f046ae43c57a3406dd6, type: 3}
+    dialogueLine: "Bested\u2026 by a HUMAN.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Well, what did you expect?  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 2b9a12305ae881945b61e25ff74ab2cd, type: 3}
+    dialogueLine: "You\u2019re short.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "\u2026 Shit.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "Just, take your \u2018Chahde\u2019 back.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'To be honest, he was really starting to get on my nerves.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'I''m so tired of hearing him explaining how he spells his name. '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'You kept forgetting the second h though.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'I literally cannot have you tell me that again. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Please go home, both of you.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'Well, uh, alright then.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: "Come on Chahde. Let\u2019s go home.  "
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 39aa7700745e26d49a594ebfcdd361ea, type: 3}
+    dialogueLine: 'No more getting kidnapped, yeah?  '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Sorry babe.  '
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Don\u2019t worry, I\u2019ll fight the next one off. "
+    triggerFight: 0
+  - characterName: Chahde Chaedwihk
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'She just got a good angle on me.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3e4943c4b4dbbcc4b87af589ca464534, type: 3}
+    dialogueLine: 'Actually, he kinda just went limp when I grabbed him.  '
+    triggerFight: 0
+  - characterName: Sirena Cari
+    avatar: {fileID: 21300000, guid: 6766c11486d33484c936c7f40ca75f37, type: 3}
+    dialogueLine: 'I would expect nothing less.  '
     triggerFight: 0
   C1hardPostBattleConversation:
   - characterName: 
@@ -29,14 +226,134 @@ MonoBehaviour:
     dialogueLine: 
     triggerFight: 0
   C2preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "Finally, I\u2019m at the bottom of this stupid ocean. "
+    triggerFight: 1
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: 'Hello, Dot. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "I would have never expected you to be the one who would fight
+      me at the end of this\u2026 "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'That much motivation is entirely uncharacteristic of you.  '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 074d9bd3aa649ee4c9a691782bf8cd1a, type: 3}
+    dialogueLine: 'Hiiiiiiiii Queen Arah. '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: "Please give me that stupid man so I can slowly drift back to the
+      top of the ocean where I\u2019m supposed to be.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Stupid? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Who are you? '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: "This is the man I\u2019ve been searching for this whole time? "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'This dude?  '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 796b6b374664a8f47bd2d06b2db39f5c, type: 3}
+    dialogueLine: 'With tattoos that line up so his nipples are fish eyes? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Why do you say that like its a bad thing\u2026 "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: 'There are some things about his appearance that can be overlooked. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Whaaaaat? For real? Ladies love my fish nips!! '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: 'This is the new king of the ocean?  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'That is treason, Dot. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'I will cut down this pathetic insurrection immediately so this
+      stupid hot dude can be my king! '
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Alrighty then. Let\u2019s go! "
     triggerFight: 0
   C2easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: "No way\u2026 defeated by an invertebrate? "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "You should have let me give you that preworky I told you about
+      lady\u2026 You would\u2019ve had such a sick pump! "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: 'Why would you try to help her?? She kidnapped you?? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Yeah, but I\u2019m really passionate about furthering my homies\u2019
+      fitness journeys.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Just take him.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: a1c5a63508ad5f046ae43c57a3406dd6, type: 3}
+    dialogueLine: "I\u2019m so tired of this guy. I feel like the panic of being
+      kidnapped hasn\u2019t even set in for him and he\u2019s been down here for
+      almost a day.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "You mean this isn\u2019t some really weird scuba diving trip? "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: 8990887baafb05e449072bb95180a448, type: 3}
+    dialogueLine: "Alright buddy, let\u2019s leave so I can take a really really
+      long nap.  "
+    triggerFight: 0
+  - characterName: 'Dot Hiza '
+    avatar: {fileID: 21300000, guid: ac07684dce3563d429443f0b9422d777, type: 3}
+    dialogueLine: 'I have never in my life exerted this much energy before.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: 'Goodbye, my hot and stupid starcrossed lover.  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Not sure what that means, but peace out shorty! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Stop calling me that! '
     triggerFight: 0
   C2hardPostBattleConversation:
   - characterName: 
@@ -44,17 +361,669 @@ MonoBehaviour:
     dialogueLine: 
     triggerFight: 0
   C3preBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Finally, we have arrrived at our destination. '
+    triggerFight: 1
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Now to locate that human. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Yuck! What is an eel doing in here? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Ah, if you are here, Chahde must be near. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'What? You looking for me? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Woahhh. Your hair looks fire! '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Do you think you could teach me sometime? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'You are Chahde, I prrresume? '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Ahem!!! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Are you not going to greet your Queen? '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Hello '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Hello '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3e4943c4b4dbbcc4b87af589ca464534, type: 3}
+    dialogueLine: 'Not you, Chahde! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "I recognize you now, you eel. You\u2019re the one who makes my
+      ribbons. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'That is rrright, my Queen. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: "Well don\u2019t think I\u2019m EVER going to sign another contract
+      after this little stunt of yours. "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Yooo, that\u2019s not cool. He probably swam really far to get
+      here! That\u2019s hard work, bro. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "My cute, stupid human. You just don\u2019t get it. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: "Renji Lee, I\u2019m shutting down your business AND keeping my
+      hot himbo boyfriend! "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: "Tell me something I don\u2019t know, my rrravishing Queen. "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Once I defeat you, you will have no powerrr left to contrrrol
+      me with. I am expanding to the Indian ocean whether you like it orrr not! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'You slimy eel. Prepare to meet the end of your life, your legacy,
+      and your BUSINESS! '
     triggerFight: 0
   C3easyPostBattleConversation:
-  - characterName: 
-    avatar: {fileID: 0}
-    dialogueLine: 
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'It seems we are apprrroaching the end, my Queen. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Argh! How are you this strong? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Don\u2019t beat yourself up too hard! It\u2019s the effort that
+      counts. You\u2019ll get \u2018em next time! "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Really, I just think you need to focus your workouts on your arms
+      more.  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'I can help you set up a home gym if you want, I know a really
+      good- '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Human, Chahde, do you not desirrre to go home with your girrrlfrrriend
+      now? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Ohhhh. Ohhhhhhhhhh. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Is that what this battle was about? Cause I just thought like,
+      maybe you guys were beefing over political stuff. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'My b, I kind of tuned out when you started talking about business
+      before. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Oh my god Renji, just take him to the surface. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "He\u2019s really hot, but he\u2019s so\u2026 dumb\u2026 "
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Excellent. Well then, allow us to end this deliverrry in peace. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Chahde, please rrremind your girlfriend to leave a positive Kelp
+      rrreview. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'You got it, bro. '
+    triggerFight: 0
+  - characterName: 'Renji Lee '
+    avatar: {fileID: 21300000, guid: c7e2ceb0084f96f4aa67894682dd8fac, type: 3}
+    dialogueLine: 'Let us get you back to where you belong. '
     triggerFight: 0
   C3hardPostBattleConversation:
   - characterName: 
     avatar: {fileID: 0}
     dialogueLine: 
     triggerFight: 0
+  C4preBattleConversation:
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 8fa8d2525dafdb844847437b1e37c1b9, type: 3}
+    dialogueLine: "\u2026Of all the battles I\u2019ve fought\u2026 "
+    triggerFight: 1
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: "There\u2019s not one I have felt my heart beat faster for than
+      this one.  "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: "I\u2013 I\u2019m not sweating am I?  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: 'Took you long enough to get here, knight. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'I knew you guards were incompetent, but this is a new low. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "My Lady! I\u2013 uh\u2013 ahem\u2013  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'What? Catfish got your tongue? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Yoooo bro, sick hat!  '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 01ee5282e2de6394689d80621366f5e1, type: 3}
+    dialogueLine: 'Excuse me? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Your hat bro! It\u2019s like, totally rad! "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Like, you look like you could be in Sharknado or something! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'This is a helmet, thank you very much! '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Isn\u2019t that what I said?  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: "D\u2019aww, you\u2019re so cute when you\u2019re stupid!   "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: d6d43800c0492f744b3467425e7b0de1, type: 3}
+    dialogueLine: "Am I truly to believe this is the man you\u2019ve taken as your
+      lover?  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: "Of course you wouldn\u2019t be able to appreciate his greatness.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Always so focused on your training and duties.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'Plus just look at his abs~ '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "HIS TATTOOS HAVE NIPPLES FOR EYES\u2013 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 53cbebe7f4976f5498117ded956258d9, type: 3}
+    dialogueLine: "Ahem\u2013 "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'My Lady, allow me to personally remove this pest from your presence. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: 'He is undeserving of your heart, let alone the throne. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'That was totally not epic poggers, dude.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "You\u2019ll have to get through me first, Khamara. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'Try not to get too distracted, alright?       '
+    triggerFight: 0
+  C4easyPostBattleConversation:
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'Do not drag this out any longer, My Lady. '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 54c2b03daf3f7a94f9c6c50baaa1ae0b, type: 3}
+    dialogueLine: 'Fighting you is hard enough. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: "Perhaps you\u2019re not as incompetent as I thought. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "And\u2026 perhaps he wasn\u2019t as perfect as I thought he was
+      either.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Ugh, but where else am I supposed to find someone with such great
+      abs?! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 9166bdda2a3df214696f883f022c2c0b, type: 3}
+    dialogueLine: "Well\u2026I\u2013 er\u2013  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Brooo that fight gave you a nasty pump, cool hat lady!  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Want me to show you how to pose? I promise it drives all the octo-chicks
+      wild! '
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "I will rip you to shreds you insolent piece of\u2013 "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "I mean he\u2019s not wrong. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: 'What? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Ha! Score one for Chahd\u2013 "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "That wasn\u2019t an invitation for you to keep talking. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: aba6149e031db994bbd5ee5153f2fbd6, type: 3}
+    dialogueLine: 'Khamara, how does a promotion to Head Knight sound?  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: aba6149e031db994bbd5ee5153f2fbd6, type: 3}
+    dialogueLine: "You\u2019re clearly qualified, and I wouldn\u2019t mind getting
+      to work with you on a closer level. "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: c1ba429fd4eb3f341b90d7b311dc81b6, type: 3}
+    dialogueLine: "My Lady\u2013 I\u2019d be honored! "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: aba6149e031db994bbd5ee5153f2fbd6, type: 3}
+    dialogueLine: 'We can discuss the details more after you get this stupid human
+      back to his girlfriend. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Dude, my name\u2019s Chahde! C-H-A-H- "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: 65cf32bc1c2e6e04f87506209a53bb39, type: 3}
+    dialogueLine: "You heard the Queen, pest! Let\u2019s get moving!  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Ok ok! And you\u2019re welcome, by the way! "
+    triggerFight: 0
+  - characterName: 'Khamara Dae '
+    avatar: {fileID: 21300000, guid: bfcd5cac0e7ac5a40a24b76aca520f19, type: 3}
+    dialogueLine: 'S-Shut up! '
+    triggerFight: 0
+  C4hardPostBattleConversation: []
+  C5preBattleConversation:
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'Oh, hello Orenna.  '
+    triggerFight: 1
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: "Is there an issue with the kingdom\u2019s finances? I never see
+      you out of the office.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "No\u2026 unfortunately I have been taken against my will to retrieve
+      the idiot king.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Hello?? Did she just call me stupid? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: 'How terrible! Forced to betray my own queen! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Orenna, I have the feeling you are lying through your teeth.  '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "No\u2026 not at all. Nope. Nope. "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Fish lady, why did you say that about me\u2026? "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "I feel kinda bummed out. First off this shorty keeps spelling
+      my name wrong\u2026 now I\u2019m insulted by a fish lady\u2026  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Shorty?? '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'And it is not my fault you have the most annoying name ever. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "C\u2019mon \u2026 its Chad with another H after the A but the
+      H is silent. And a silent E at the end. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "I\u2019m not having this conversation again.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: 'Arah, you can see he is simply not mentally fit to be a leader. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: "But he\u2019s so hot!! "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "With him by my side, we\u2019ll be the most attractive couple
+      in the ocean! "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "You know, I don\u2019t vibe with being object.. objectifeed\u2026
+      objectfyed\u2026. object- "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "Please\u2026 stop talking.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 8610d20c240e2754fb001d0282748b96, type: 3}
+    dialogueLine: "Okay Arah, let\u2019s get this over with.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "Orenna, I\u2019ll beat your nerdy ass up.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: "\u2026 (she looks horrified) "
+    triggerFight: 0
+  C5easyPostBattleConversation:
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "Oh my god\u2026 I\u2019m winded.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'I cannot believe you beat me!! '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a1c5a63508ad5f046ae43c57a3406dd6, type: 3}
+    dialogueLine: "You\u2019re so\u2026 unathletic. And short! You have nothing on
+      me. "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 9e09d452107e30f44aea56aa06e52620, type: 3}
+    dialogueLine: 'You just called me short? Really? '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Octo-homie\u2026 you\u2019re pretty short. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "Urrggghhh. I\u2019m so done with you. "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: 'I will take this useless human to the surface and restore the
+      balance of the market! '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Useless\u2026? But look at me, I\u2019m ripped. I can lift heavy
+      things. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'Oh my god please just take him to the surface. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: "He\u2019s so hot but just so\u2026 dumb.  "
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: f5e70dbd3ef36424b9714b37dc20591e, type: 3}
+    dialogueLine: 'Wise choice, Arah.  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'I really cannot catch a break down here. Why is everyone so mean? '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 7f863901dae00cf46b524788ae037857, type: 3}
+    dialogueLine: "Does he even know he\u2019s at the bottom of the ocean?  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Well, duh I\u2019m at the bottom of the ocean. This is just that
+      scuba trip Sirena was talking about.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'That or I got stung by a trippy sea urchin. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Leave, please. '
+    triggerFight: 0
+  - characterName: 'Orenna Ishii  '
+    avatar: {fileID: 21300000, guid: 5067351a5f9bd3144a60bad8eef96faa, type: 3}
+    dialogueLine: "Alright Chahde, let\u2019s go.  "
+    triggerFight: 0
+  C5hardPostBattleConversation: []
+  C6preBattleConversation:
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'My lady, it is me.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: "Angela\u2026? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'I have come to take the human back to the surface.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: 'This is entirely unexpected. Betrayed by my own bodyguard? '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: "\u2026is this because of your obsession with humans? "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 6c5b40d9a37e10f4cbe04d5450398bfd, type: 3}
+    dialogueLine: "Ah, yes. I don\u2019t think it\u2019s proper human care to separate
+      them from a friend. They\u2019re a very social species.  "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: 'Look at him- he looks so sad without his mate. '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'My mate? Like aye aye matey? Pirates lol '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 6c5b40d9a37e10f4cbe04d5450398bfd, type: 3}
+    dialogueLine: "He\u2019s less cute than I expected.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: a2206a9db47c1ce47a8ad394cd0fb251, type: 3}
+    dialogueLine: 'No, not cute. Just ridiculously hot.  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Thanks man haha. '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "\u2026 "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'This is incredibly disappointing. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f5f0aefb2c5931f4088939c1e74fbfae, type: 3}
+    dialogueLine: 'So are you still going to take him from me? '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 4831eb937031df040901e6566ca19dab, type: 3}
+    dialogueLine: 'It is undeniable that you are not taking proper care of him, so
+      I must stay true to my word.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "Whaat? I\u2019m feeding him and giving him water though.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Shorty, you\u2019ve just fed me seaweed\u2026 It's got decent
+      macros but I can\u2019t eat anything if it doesn\u2019t taste like peanut butter.  "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: "Chad\u2026 I DO NOT know what peanut butter is.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Hey dog, I have a feeling just now you pronounced my name without
+      the extra H or E. '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 46492f66739eb6948a5d0f280047488e, type: 3}
+    dialogueLine: "Alright Arah. Let\u2019s get this fight over with already. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "Yes, let\u2019s. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: f2dcf87a90441f14f9c2f4c5f37ccec3, type: 3}
+    dialogueLine: 'Come at me! '
+    triggerFight: 0
+  C6easyPostBattleConversation:
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: "I can\u2019t really complain - you\u2019re a great bodyguard.  "
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 57258ea5f6471f94dbf6b176e8ef85a2, type: 3}
+    dialogueLine: 'Thank you, my lady.  '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: "I\u2019m a little sad to see him go\u2026 they don\u2019t make
+      guys this hot at the bottom of the ocean.  "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: "Thanks little friend, I\u2019ll miss you too I think. "
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 8bb7df8342a5eda4fbb4b6533eee6cab, type: 3}
+    dialogueLine: 'PLEASE stop calling me little. '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 212a70e92d75f734d95be9bf986efec3, type: 3}
+    dialogueLine: 'Just take him away, please.  '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "Alright puny human, let\u2019s go to the surface! "
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'Okie dokie big lady. This was a really weird scuba trip haha '
+    triggerFight: 0
+  - characterName: 'Arah, Abyssal Queen   '
+    avatar: {fileID: 21300000, guid: 3280e7259dd585a47bf7f73afcd6f580, type: 3}
+    dialogueLine: 'Why do you refer to everyone by their height??  '
+    triggerFight: 0
+  - characterName: 'Chahde Chaedwihk   '
+    avatar: {fileID: 21300000, guid: b6086164cd261d94d900ba957fd961bb, type: 3}
+    dialogueLine: 'I says what i sees. '
+    triggerFight: 0
+  - characterName: 'Angela Lure '
+    avatar: {fileID: 21300000, guid: 242b42fd94d4ad84398500f612f86ddd, type: 3}
+    dialogueLine: "Alright Chahde. Let\u2019s go back to the surface.  "
+    triggerFight: 0
+  C6hardPostBattleConversation: []
