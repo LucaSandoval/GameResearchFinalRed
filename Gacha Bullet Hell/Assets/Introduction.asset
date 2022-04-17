@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731960073839e7a4caae1b8259424dc4, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  playerUnlockID: 0
+  C1preBattleConversation:
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: It's a sunny summer day when Sirena Cari takes her boyfriend, Chahde
+      Chaedwihk, out to the beach.
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: "Chahde is hot and is a good boyfriend\u2026"
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: "but he\u2019s a little dumb."
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 'Sirena is a professional scuba diver and Chahde can barely swim
+      - definitely not a recipe for disaster. '
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: So, when they get into the water,
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 'disaster strikes. '
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: 'Chahde has been stolen away by the short, green, and powerful
+      Queen of the Abyss! '
+    triggerFight: 0
+  - characterName: 
+    avatar: {fileID: 0}
+    dialogueLine: "So great\u2026 now Sirena has to clean up another one of his messes\u2026 "
+    triggerFight: 0
+  C1easyPostBattleConversation: []
+  C1hardPostBattleConversation: []
+  C2preBattleConversation: []
+  C2easyPostBattleConversation: []
+  C2hardPostBattleConversation: []
+  C3preBattleConversation: []
+  C3easyPostBattleConversation: []
+  C3hardPostBattleConversation: []
+  C4preBattleConversation: []
+  C4easyPostBattleConversation: []
+  C4hardPostBattleConversation: []
+  C5preBattleConversation: []
+  C5easyPostBattleConversation: []
+  C5hardPostBattleConversation: []
+  C6preBattleConversation: []
+  C6easyPostBattleConversation: []
+  C6hardPostBattleConversation: []

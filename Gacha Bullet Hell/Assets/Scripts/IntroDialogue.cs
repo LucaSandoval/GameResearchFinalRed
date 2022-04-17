@@ -4,51 +4,43 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Dialogue : MonoBehaviour
+public class IntroDialogue : MonoBehaviour
 {
-    public GameObject dialogueSystem;
-    public GameObject textBox;
     public Text writtenText;
-    public Text writtenName;
-    public GameObject shownAvatar;
+    public BossProfile introduction;
 
     public GameObject fadeToWhite;
 
     private string message;
-    private Sprite avatar;
-    private string charName;
-
+    private DialogueLine[] lines;
     private float typeTime;
     private bool typing = false;
     private int lineIndex;
-    private DialogueLine[] lines;
 
-
-    [HideInInspector]
-    public GameObject waveObject;
-
-    public void TypeThis(DialogueLine[] targetLines)
+    public void Start()
     {
-        lines = targetLines;
+        lines = introduction.C1preBattleConversation;
+        TypeThis();
+    }
+
+    public void TypeThis()
+    {
         message = lines[lineIndex].dialogueLine;
-        avatar = lines[lineIndex].avatar;
-        charName = lines[lineIndex].characterName;
         typeTime = 0.05f;
 
-        for (int i = 44; i < message.Length; i--)
+        /*for (int i = 18; i < message.Length; i--)
         {
             if (message[i] == ' ')
             {
                 message = message.Remove(i, 1);
                 message = message.Insert(i, "\n");
-                i += 44;
+                i += 18;
             }
-        }
+        }*/
 
         if (typing == false)
         {
             writtenText.text = "";
-            textBox.SetActive(true);
 
             StartCoroutine(TypeText());
         }
@@ -56,27 +48,20 @@ public class Dialogue : MonoBehaviour
 
     private void Update()
     {
-        if (dialogueSystem.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Z) && typing)
         {
-            if (Input.GetKeyDown(KeyCode.Z) && typing)
+            StopAllCoroutines();
+            writtenText.text = message;
+            typing = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Z) && !typing)
+        {
+            if (lineIndex < lines.Length - 1) // types next line
             {
-                StopAllCoroutines();
-                writtenText.text = message;
-                typing = false;
+                lineIndex++;
+                TypeThis();
             }
-            else if (Input.GetKeyDown(KeyCode.Z) && !typing)
-            {
-                if(lineIndex < lines.Length - 1) // types next line
-                {
-                    lineIndex++;
-                    TypeThis(lines);
-                }
-                else // quits dialogue
-                {
-                    QuitDialogue();
-                }
-            }
-            else if (Input.GetKeyDown(KeyCode.X))
+            else // quits dialogue
             {
                 QuitDialogue();
             }
@@ -85,27 +70,7 @@ public class Dialogue : MonoBehaviour
 
     void QuitDialogue()
     {
-        writtenText.text = "";
-
-        // spawns boss if first line is tagged to do so
-        if (lines[0].triggerFight)
-        {
-            waveObject.SendMessage("SpawnBoss");
-        }
-        else // ends level because its not the text before the battle
-        {
-            if (SceneManage.level == 6)
-            {
-                StartCoroutine(WinGame());
-            }
-            else
-            {
-                this.SendMessage("EndLevel");
-            }
-        }
-
-        lineIndex = 0;
-        dialogueSystem.SetActive(false);
+        StartCoroutine(StartGame());
     }
 
     //CREDIT TO http://wiki.unity3d.com/index.php/AutoType?_ga=2.28672252.1760231856.1570400781-1881874195.1512603304
@@ -115,12 +80,6 @@ public class Dialogue : MonoBehaviour
 
         int lineCounter = 0;
         float RealTypeTime;
-
-        // change avatar
-        shownAvatar.GetComponent<Image>().sprite = avatar;
-
-        // change name
-        writtenName.text = charName;
 
         // type message
         foreach (char c in message.ToCharArray())
@@ -159,7 +118,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    IEnumerator WinGame()
+    IEnumerator StartGame()
     {
         fadeToWhite.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
         fadeToWhite.SetActive(true);
@@ -168,6 +127,6 @@ public class Dialogue : MonoBehaviour
             fadeToWhite.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, (i / 30f));
             yield return new WaitForSeconds(0.05f);
         }
-        SceneManager.LoadScene("HappyEnding");
+        SceneManager.LoadScene("DifficultySelect");
     }
 }

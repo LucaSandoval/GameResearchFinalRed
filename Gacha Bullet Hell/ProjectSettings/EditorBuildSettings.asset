@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/DifficultySelect.unity
+    path: Assets/Resources/Scenes/Introduction.unity
+    guid: 35d13cc2015a53741844b02166b41524
+  - enabled: 1
+    path: Assets/Resources/Scenes/DifficultySelect.unity
     guid: 85357fc9e326a6848916373d65e6f31f
   - enabled: 1
-    path: Assets/Scenes/Level.unity
+    path: Assets/Resources/Scenes/Level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
+    path: Assets/Resources/Scenes/Game Over.unity
     guid: 09dfa90f3d3688245b41c8f0aff741ef
   - enabled: 1
-    path: Assets/Scenes/HappyEnding.unity
+    path: Assets/Resources/Scenes/HappyEnding.unity
     guid: c136f59efe05fc842b2d20b8e7c5911c
   m_configObjects: {}
