@@ -69,6 +69,10 @@ public class IntroDialogue : MonoBehaviour
 
     void QuitDialogue()
     {
+        if (fadeToWhite.activeSelf)
+        {
+            return;
+        }
         StartCoroutine(StartGame());
     }
 
