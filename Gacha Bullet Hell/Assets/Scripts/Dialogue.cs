@@ -76,10 +76,10 @@ public class Dialogue : MonoBehaviour
                     QuitDialogue();
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.X))
-            {
-                QuitDialogue();
-            }
+            //else if (Input.GetKeyDown(KeyCode.X))
+            //{
+            //    QuitDialogue();
+            //}
         }
     }
 
